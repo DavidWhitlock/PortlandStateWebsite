@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This JNLP file contains a JNLP "component" that consists of the 
+     additional jars needed by the grade book application.  We separate them 
+     out into their own file because all jar files in a given <resources>
+     must be signed with the same key.  I don't want to have to resign
+     these jars every time I build grader.jar -->
+<jnlp
+  spec="1.0+"
+  codebase="http://www.cs.pdx.edu/~whitlock/jars"
+  href="extraJars.jnlp"
+>
+  <information>
+    <title>Extra Jars</title>
+    <vendor>Various</vendor>
+    <description>Third-party resources for applications.</description>
+    <offline-allowed/>
+  </information>
+  <!-- Should inherit security information from referrent -->
+  <resources>
+    <jar href="mail.jar"/> <!-- part="mail" download="lazy"/> -->
+    <jar href="activation.jar"/> <!-- part="activation" download="lazy/> -->
+    <jar href="jlfgr-1_0.jar"/> <!-- part="icons" download="eager"/> -->
+  </resources>
+  <!-- This JNLP file does not describe an application, rather it describes 
+       a "component" of resources that are used by an application -->
+  <component-desc/>
+</jnlp>

@@ -1,0 +1,107 @@
+/*** http://www.alistapart.com/articles/holygrail ***/
+
+body {
+  min-width: 620px;         /* 2 x (LC fullwidth + CC padding) + RC fullwidth */
+}
+
+#container {
+  padding-left: 180px;      /* LC fullwidth */
+  padding-right: 220px;     /* RC fullwidth + CC padding */
+}
+
+#container .column {
+  position: relative;
+  float: left;
+}
+
+#center {
+  padding: 0px 20px;       /* CC padding */
+  width: 100%;
+}
+
+#center > p {
+  margin-top: 0px;
+  text-align: justify;
+}
+
+#left {
+  width: 160px;             /* LC width */
+  padding: 0 10px;          /* LC padding */
+  right: 220px;             /* LC fullwidth + CC padding */
+  margin-left: -100%;
+  font-size: smaller;
+}
+
+#right {
+  width: 160px;             /* RC width */
+  padding: 0 10px;          /* RC padding */
+  margin-right: -100%;
+  font-size: smaller;
+}
+
+#header, #footer {
+  text-align: center;
+}
+
+#footer {
+  clear: both;
+}
+
+/*** IE Fix ***/
+* html #left {
+  left: 180px;              /* RC fullwidth */
+}
+
+/*** Equal-height Columns ***/
+
+#container {
+  overflow: hidden;
+}
+
+#container .column {
+  padding-bottom: 1001em;     /* X + padding-bottom */
+  margin-bottom: -1000em;     /* X */
+}
+
+/*** Footer Fix ***/
+
+* html body {
+  overflow: hidden;
+}
+
+* html #footer-wrapper {
+  float: left;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10010px;
+  margin-bottom: -10000px;
+  background: #FFF;         /*** Same as body background ***/
+}
+
+/*** Just for Looks ***/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+#container .column {
+  padding-top: 1em;
+  text-align: justify;
+}
+*/
+
+#left ul { 
+  padding-left: 1em;
+/*  margin-left: 1em; */
+}
+
+h1, h2, h3 { 
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 3px;
+}

@@ -1,0 +1,78 @@
+{
+  "meetings" : [
+    "June 25, 2008",
+    "July 2, 2008",
+    "July 9, 2008",
+    "July 16, 2008",
+    "July 23, 2008",
+    "July 30, 2008",
+    "August 6, 2008",
+    "August 13, 2008"
+  ],
+  "lectures" : [
+    {
+      "comment" : "I expect most of this material to be a review, but we're going to be covering a lot on the first day. Make sure to eat a good dinner beforehand.",
+      "content" : [
+        "Course <a href='pdf/syllabus.pdf'>syllabus</a>",
+        "Lecture: <a href='pdf/javaLanguage-2x2.pdf'>The Java Programming Language</a>",
+        "Lecture: <a href='pdf/oopInJava-2x2.pdf'>Object Oriented Programming</a> in Java",
+        "Assign <a href='pdf/Student.pdf'>Project 0</a>: Implementing a simple class",
+        "Assign <a href='pdf/AppClasses.pdf'>Project 1</a>: Beginning a Java application",
+        "How to <a href='pdf/submit.pdf'>submit</a> your projects",
+        "The CAT's <a href='http://www.cat.pdx.edu/unix.html'>UNIX</a> page",
+        "<a href='docs/edu/pdx/cs399J/lang/package-summary.html#package_description'>More Information</a>"
+      ]
+    },
+    {
+      "content" : [
+        "Project 0 Due",
+        "Lecture: The Core Java <a href='pdf/coreAPI-2x2.pdf'>API</a>",
+        "Assign <a href='pdf/TextFile.pdf'>Project 2</a>: Working with files",
+        "Required reading: <a href='http://java.sun.com/docs/codeconv/'>Java coding conventions</a>",
+        "<a href='docs/edu/pdx/cs399J/core/package-summary.html#package_description'>More Information</a>"
+      ]
+    },
+    {
+      "content" : [
+        "Project 1 Due",
+        "Lecture: The Core Java API (Part 2)",
+        "Assign <a href='pdf/PrettyPrint.pdf'>Project 3</a>: Sorting and working with Dates"
+      ]
+    },
+    {
+      "content" : [
+        "Project 2 Due",
+        "Lecture: Reflection",
+        "Lecture: Building Java Projects with Ant",
+        "Lecture: Unit Testing with JUnit",
+        "Assign Project 4: An LRU Map"
+      ]
+    },
+    {
+      "content" : [
+        "Project 3 Due",
+        "Lecture: Foundations of the Web",
+        "Assign Project 5: Client/Server"
+      ]
+    },
+    {
+      "content" : [
+        "Project 4 Due",
+        "Lecture: Google Web Toolkit, Part 1 ",
+        "Assign Project 6: A fully-featured web application"
+      ]
+    },
+    {
+      "content" : [
+        "Project 5 Due",
+        "Lecture: Google Web Toolkit, Part 2"
+      ]
+    },
+    {
+      "content" : [
+        "Project 6 Due",
+        "Final Exam"
+      ]
+    }
+  ]
+}

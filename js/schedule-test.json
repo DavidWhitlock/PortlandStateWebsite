@@ -1,0 +1,78 @@
+{
+  "meetings" : [
+    "February 1, 2008",
+    "February 8, 2008",
+    "February 15, 2008",
+    "February 22, 2008",
+    "February 29, 2008",
+    "August 1, 2008",
+    "August 8, 2008",
+    "August 15, 2008"
+  ],
+  "lectures" : [
+    {
+      "comment" : "I expect most of this material to be a review, but we're going to be covering a lot on the first day. Make sure to eat a good dinner beforehand.",
+      "content" : [
+        "Course <a href='pdf/syllabus.pdf'>syllabus</a>",
+        "Lecture: <a href='pdf/javaLanguage-2x2.pdf'>The Java Programming Language</a>",
+        "Lecture: <a href='pdf/oopInJava-2x2.pdf'>Object Oriented Programming</a> in Java",
+        "Assign <a href='pdf/Student.pdf'>Project 0</a>: Implementing a simple class",
+        "Assign <a href='pdf/AppClasses.pdf'>Project 1</a>: Beginning a Java application",
+        "How to <a href='pdf/submit.pdf'>submit</a> your projects",
+        "The CAT's <a href='http://www.cat.pdx.edu/unix.html'>UNIX</a> page",
+        "<a href='docs/edu/pdx/cs399J/lang/package-summary.html#package_description'>More Information</a>"
+      ]
+    },
+    {
+      "comment" : "Man, it's like Independence Day.  No class.",
+      "content" : [
+        "Project 0 Due",
+        "How to <a href='pdf/documentation.pdf'>document</a> your projects"
+      ]
+    },
+    {
+      "content" : [
+        "Project 1 Due",
+        "Lecture: The Core Java <a href='pdf/coreAPI-2x2.pdf'>API</a>",
+        "Assign <a href='pdf/TextFile.pdf'>Project 2</a>: Working with files",
+        "Required reading: <a href='http://java.sun.com/docs/codeconv/'>Java coding conventions</a>",
+        "<a href='docs/edu/pdx/cs399J/core/package-summary.html#package_description'>More Information</a>"
+      ]
+    },
+    {
+      "content" : [
+        "Project 2 Due",
+        "Lecture: The Core Java API (Part 2)",
+        "Assign <a href='pdf/PrettyPrint.pdf'>Project 3</a>: Sorting and working with Dates"
+      ]
+    },
+    {
+      "content" : [
+        "Lecture: Graphical User Interface (<a href='pdf/gui-2x2.pdf'>GUI</a>) programming in Java",
+        "Assign <a href='pdf/FileViewer.pdf'>Project 4</a>: A simple GUI"
+      ]
+    },
+    {
+      "content" : [
+        "Project 3 Due",
+        "Lecture: GUI programming with <a href='pdf/swing-2x2.pdf'> Swing</a>",
+        "Lecture: <a href='pdf/mvc-2x2.pdf'>Model/View/Controller</a> Widgets",
+        "Assign <a href='pdf/GUI.pdf'>Project 5</a>: A fully-featured GUI application"
+      ]
+    },
+    {
+      "content" : [
+        "Project 4 Due",
+        "Lecture: Java <a href='pdf/tipsAndTricks-2x2.pdf'>Tips and Tricks</a>",
+        "Lecture: <a href='pdf/graphics-2x2.pdf'>Graphics</a> programming in Java",
+        "<a href='docs/edu/pdx/cs399J/net/package-summary.html#package_description'>More Information</a>"
+      ]
+    },
+    {
+      "content" : [
+        "Project 5 Due",
+        "Final Exam"
+      ]
+    }
+  ]
+}

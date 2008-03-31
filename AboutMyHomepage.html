@@ -1,0 +1,116 @@
+<html>
+<head>
+  <style type="text/css">
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+  </style>
+</head>
+<body>
+
+<h1>All About My Homepage</h1>
+
+<p>Coming from a compilers background, web design was never really my
+thing.  Sure, I learned HTML in 1996 back when we thought it was going
+to make us all millionaires, so I knew enough to put together a
+reasonable looking homepage for my class at PSU.  I tried to make it
+useful and my students seemed to appreciate having access to course
+material online.  Lately, though, my career has taken me through web
+land and I've come to appreciate things like <a
+href="http://www.w3.org/TR/html401/">HTML</a>, <a
+href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference">JavaScript</a>,
+and <a href="http://www.w3.org/TR/REC-CSS2/">CSS</a>.  So, I decided
+it was time to spiff up my PSU homepage and show off some of the more
+interesting things I've learned.</p>
+
+<p>The first thing I tackled was the overall design of the page.  I
+wanted to replace the single column of flowing data with three
+columns: links on the left, the course information in the center, and
+some fun stuff on the right.  I went looking on the web for some
+examples of doing three column layout with CSS.  At first, I
+experimented with the <a
+href="http://www.alistapart.com/articles/negativemargins">"negative
+margins"</a> layout from A List Apart, but I decided to go with the <a
+href="http://www.alistapart.com/articles/holygrail">"holy grail"</a>
+layout because it was newer and used fewer divs.  Not surprisingly, it
+took some fiddling to get the column widths to be appropriate for my
+content, but overall I think it looks pretty good.  You can see the
+final CSS <a href="css/3col.css">here</a>.</p>
+
+<p>One of things that I've wanted to add to my homepage for years is a
+list of books that I've read and recommend for my students.  While I
+do not believe that you can learn to be a good software engineer just
+by reading a book, there are a lot of good books out there that can
+help you develop your skills and expand your technical horizons.  A
+friend of mine had a link to <a
+href="http://www.librarything.com/">LibraryThing</a> on his blog and I
+thought it would be a cool way to list my books.  (Yes, LibraryThing
+links you to amazon.com.  Buy your books from <a href="">Powell's</a>
+instead.)  I also added a link to my <a
+href="http://www.linkedin.com">LinkedIn</a> profile so that former
+students can keep in touch with me.</p>
+
+<p>The main content of my homepage is the course description and
+schedule for CS399J.  Even though this information is doesn't change
+much, I always found it to be kind of a pain to edit the HTML when
+preparing for the term.  Adjusting all those list items and hyperlinks
+was sometimes error prone.  I wanted to separate out the data being
+displayed (what lectures and assignments were given on each night)
+from the display itself (all those list items).  Unfortunately, HTML
+doesn't allow content to be split up across multiple files easily and
+my pages are not generated programmitcally.</p>
+
+<p>I've always had some JavaScript> on my homepage, but it was limited
+to the cutesy quote at the top.  I realized that I could use
+JavaScript to add some snazzy, and hopefully useful, functionality to
+the page.  To solve the problem of separating the content from how it
+is rendered, I used AJAX to asynchronously fetch the course data from
+the server.  The &lt;body&gt; of my homepage has an onload function
+that requests a static file containing <a
+href="http://www.json.org/">JSON</a> code.  JSON, the JavaScript
+Object Notation, is a textual representation of JavaScript objects in
+which I represented the <a
+href="js/schedule-summer2007.json">content</a> of a term of CS399J.  I
+wrote some JavaScript code that traversed the object read from JSON
+and inserted <a
+href="http://developer.mozilla.org/en/docs/Gecko_DOM_Reference">DOM</a>
+elements into the page.  You can see all of the code <a
+href="js/schedule.js">here</a>.  I also added the ability to expand
+and collapse a given week's content.  Most people will probably just
+scroll down the page, but a week will automatically collapse if the
+term is current underway and the week has already passed.  That way
+students won't have to scroll past information we have already
+covered.</p>
+
+<p>To help me out in all of this, I used the <a
+href="http://www.prototypejs.org">prototype</a> JavaScript library to
+perform the AJAX call and convert the JSON data into JavaScript
+objects.  prototype adds a whole bunch of useful functionality to
+JavaScript's core classes (like String and Element) which is easy to
+do in JavaScript (unlike Java in which you can't add methods to
+classes without changing the source code).  I also used a third-party
+library for <a
+href=http://www.javascripttoolbox.com/lib/date/index.php">date
+formatting and parsing</a>.</p>
+
+<p>Along the way, I developed and tested my homepage using the <a
+href="http://www.mozilla.com/en-US/firefox/">Firefox</a> web browser
+with the <a href="http://www.getfirebug.com/">FireBug</a> and <a
+href="http://www.kevinfreitas.net/extensions/measureit/">MeasureIt</a>
+plugins.  Don't leave home without them.  Of course, I also had to
+spent some time accounting for the differences between Firefox and
+Internet Explorer.  All of the files were edited in emacs (old habits
+die hard) on my MacBook Pro.</p>
+
+<p>Enjoy,</p>
+
+<p>Dave</p>
+
+<a href="index.html">Back to my homepage</a>
+
+</body>
+</html>

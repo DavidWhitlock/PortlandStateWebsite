@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+"
+      codebase="http://www.cs.pdx.edu/~whitlock/jars"
+>
+  <information>
+    <title>Grade Book Program</title>
+    <vendor>David Whitlock at Portland State University</vendor>
+    <homepage href="http://www.cs.pdx.edu/~whitlock" />
+    <description>Edit a grade book for a class.</description>
+    <offline-allowed/>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.5"/>
+    <jar href="grader.jar"/>
+    <!-- jar href="cs399J.jar"/ -->
+
+    <!-- Get the "extra jars" extension -->
+    <extension name="Extra" href="../extraJars.jnlp"/>
+<!--
+      <ext-download ext-part="mail" download="lazy"/>
+      <ext-download ext-part="activation" download="lazy"/>
+      <ext-download ext-part="icons" download="eager"/>
+    </extension>
+-->
+  </resources>
+  <application-desc main-class="edu.pdx.cs399J.grader.GradeBookGUI"/>
+</jnlp>
