@@ -42,9 +42,9 @@
     {
       "content" : [
         "Project 2 Due",
-        "Lecture: Reflection",
-        "Lecture: Building Java Projects with Ant",
         "Lecture: Unit Testing with JUnit",
+        "Lecture: Building Java Projects with Maven",
+        "Lecture: Reflection",
         "Assign Project 4: An LRU Map"
       ]
     },
@@ -59,7 +59,7 @@
       "content" : [
         "Project 4 Due",
         "Lecture: Google Web Toolkit, Part 1 ",
-        "Assign Project 6: A fully-featured web application"
+        "Assign Project 6: A fully-featured Rich Internet Application"
       ]
     },
     {
