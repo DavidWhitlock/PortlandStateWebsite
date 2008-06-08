@@ -43,7 +43,7 @@
     {
       "content" : [
         "Project 2 Due",
-        "Lecture: <a href='pdf/junit-2x2.pdf'>Reflection</a>",
+        "Lecture: <a href='pdf/reflect-2x2.pdf'>Reflection</a>",
         "Lecture: Unit Testing with <a href='pdf/junit-2x2.pdf'>JUnit</a>",
         "Lecture: Building Java Projects with <a href='pdf/maven-2x2.pdf'>Maven",
         "Assign <a href='pdf/lruMap.pdf'>Project 4</a>: An LRU Map"
