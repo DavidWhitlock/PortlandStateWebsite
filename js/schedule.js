@@ -39,7 +39,7 @@ var now = new Date().getTime();
  */
 function hasDatePassed(date) {
   if (now > startDate && now < endDate) {
-    return now > date.getTime();
+    return now > date.getTime() + (24 * 60 * 60 * 1000);
 
   } else {
     return false;
