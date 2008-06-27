@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>CS399J at Portland State University</title>
+    <link>http://web.cecs.pdx.edu/~whitlock</link>
+    <language>en-us</language>
+    <copyright>&#x2117; &amp; &#xA9; 2008 David Whitlock</copyright>
+    <itunes:subtitle>Advanced Java Programming</itunes:subtitle>
+    <itunes:author>David Whitlock</itunes:author>
+    <description>The weekly podcast of CS399J lectures.
+    </description>
+    <itunes:owner>
+      <itunes:name>David Whitlock</itunes:name>
+      <itunes:email>whitlock@cs.pdx.edu</itunes:email>
+    </itunes:owner>
+
+    <item>
+      <title>The Java Programming Language</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>We get an introduction to the Java Programming Language and concepts like garbage collection.
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20080625.m4a" length="31287570"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20080625.m4a</guid>
+      <pubDate>Thu, 26  Jun 2008 21:07:10 PDT</pubDate>
+      <itunes:duration>1:06:36</itunes:duration>
+      <itunes:keywords>Java, programming, garbage collection</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Object-Oriented Programming</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>We learn how to do object-oriented programming in Java.
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/200806252.m4a" length="31181378"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/200806252.m4a</guid>
+      <pubDate>Thu, 26  Jun 2008 21:07:10 PDT</pubDate>
+      <itunes:duration>1:06:36</itunes:duration>
+      <itunes:keywords>Java, programming, garbage collection</itunes:keywords>
+    </item>
+
+  </channel>
+</rss>
