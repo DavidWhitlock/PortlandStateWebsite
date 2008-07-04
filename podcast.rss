@@ -41,5 +41,31 @@
       <itunes:keywords>Java, programming, garbage collection</itunes:keywords>
     </item>
 
+    <item>
+      <title>Core Java Libraries: java.lang</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>We learn about classes and exceptions that are fundamental to the Java programming language.
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20080702.m4a" length="27829017"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20080702.m4a</guid>
+      <pubDate>Thum 3  Jul 2008 20:25:03 PDT</pubDate>
+      <itunes:duration>1:01:28</itunes:duration>
+      <itunes:keywords>Java, programming, API</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Core Java Libraries: java.io</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>We learn about reading and writing data in Java.
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/200807022.m4a" length="18110883"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/200807022.m4a</guid>
+      <pubDate>Thum 3  Jul 2008 20:25:03 PDT</pubDate>
+      <itunes:duration>40:02</itunes:duration>
+      <itunes:keywords>Java, programming, API</itunes:keywords>
+    </item>
+
   </channel>
 </rss>
