@@ -31,14 +31,14 @@
     <item>
       <title>Object-Oriented Programming</title>
       <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>We learn how to do object-oriented programming in Java.
+      <itunes:summary>We learn all about object-oriented programming in Java.
       </itunes:summary>
       <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/200806252.m4a" length="31181378"
                  type="audio/x-m4a"/>
       <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/200806252.m4a</guid>
-      <pubDate>Thu, 26  Jun 2008 21:07:10 PDT</pubDate>
+      <pubDate>Thu, 26  Jun 2008 21:08:15 PDT</pubDate>
       <itunes:duration>1:06:36</itunes:duration>
-      <itunes:keywords>Java, programming, garbage collection</itunes:keywords>
+      <itunes:keywords>Java, object oriented programming</itunes:keywords>
     </item>
 
     <item>
@@ -49,7 +49,7 @@
       <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20080702.m4a" length="27829017"
                  type="audio/x-m4a"/>
       <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20080702.m4a</guid>
-      <pubDate>Thum 3  Jul 2008 20:25:03 PDT</pubDate>
+      <pubDate>Thu 3  Jul 2008 20:25:03 PDT</pubDate>
       <itunes:duration>1:01:28</itunes:duration>
       <itunes:keywords>Java, programming, API</itunes:keywords>
     </item>
@@ -62,9 +62,74 @@
       <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/200807022.m4a" length="18110883"
                  type="audio/x-m4a"/>
       <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/200807022.m4a</guid>
-      <pubDate>Thum 3  Jul 2008 20:25:03 PDT</pubDate>
+      <pubDate>Thu 3  Jul 2008 20:26:03 PDT</pubDate>
       <itunes:duration>40:02</itunes:duration>
       <itunes:keywords>Java, programming, API</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Core Java Libraries: java.util</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Collection classes group objects together.
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20080709.m4a" length="30365688"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20080709.m4a</guid>
+      <pubDate>Thu 10 Jul 2008 22:26:03 PDT</pubDate>
+      <itunes:duration>1:06:36</itunes:duration>
+      <itunes:keywords>Java, programming, API</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Core Java Libraries: Working with Dates</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Java provides several APIs for working with Dates
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/200807092.m4a" length="14687058"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/200807092.m4a</guid>
+      <pubDate>Thu 10 Jul 2008 22:28:03 PDT</pubDate>
+      <itunes:duration>32:11</itunes:duration>
+      <itunes:keywords>Java, programming, API</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Java Reflection and JUnit</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Examining objects at runtime with the Reflection API and unit testing Java programming with JUnit
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20080716.m4a" length="30425687"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20080716.m4a</guid>
+      <pubDate>Sat Jul 19 2008 15:01:52 PDT</pubDate>
+      <itunes:duration>1:06:36</itunes:duration>
+      <itunes:keywords>Java, Reflection, JUnit</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Building Java Projects with Maven</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Apache Maven provides a rich environment for building Java projects
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/200807162.m4a" length="29286250"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/200807162.m4a</guid>
+      <pubDate>Sat Jul 19 2008 15:05:52 PDT</pubDate>
+      <itunes:duration>1:04:30</itunes:duration>
+      <itunes:keywords>Java, Maven</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Foundations of the Web</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>We learn about web programming using HTTP, Java Servlets, and REST
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20080723.m4a" length="31232569"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/200807.m4a</guid>
+      <pubDate>Thu Jul 24 2008 21:26:46 PDT</pubDate>
+      <itunes:duration>1:05:53</itunes:duration>
+      <itunes:keywords>Java, HTTP, Servlets, REST</itunes:keywords>
     </item>
 
   </channel>
