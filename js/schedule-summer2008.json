@@ -52,21 +52,21 @@
     {
       "content" : [
         "Project 3 Due",
-        "Lecture: Foundations of the Web",
-        "Assign Project 5: Client/Server"
+        "Lecture: Foundations of the <a href='pdf/web-2x2.pdf'>Web</a>",
+        "Assign Project 5: <a href='pdf/REST.pdf'>Client/Server</a>"
       ]
     },
     {
       "content" : [
         "Project 4 Due",
-        "Lecture: Google Web Toolkit, Part 1 ",
-        "Assign Project 6: A fully-featured Rich Internet Application"
+        "Lecture: <a href='pdf/gwt-2x2.pdf'>Google Web Toolkit</a>, Part 1 ",
+        "Assign Project 6: A fully-featured <a href='pdf/GWT.pdf'>Rich Internet Application</a>"
       ]
     },
     {
       "content" : [
         "Project 5 Due",
-        "Lecture: Google Web Toolkit, Part 2"
+        "Lecture: Java <a href='pdf/tipsAndTricks-2x2.pdf'>Tips and Tricks</a>"
       ]
     },
     {
