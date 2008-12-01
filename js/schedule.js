@@ -59,6 +59,9 @@ function populateSchedule(schedule) {
   startDate = Date.parseString(schedule.meetings.first()).getTime();
   endDate = Date.parseString(schedule.meetings.last()).getTime();
 
+  // Don't show dates 30 days after the course has ended
+  var showDate = now < endDate + (30 * 24 * 60 * 60 * 1000);
+
   for (var i = 0; i < schedule.meetings.length; i++) {
     var meeting = Date.parseString(schedule.meetings[i]);
     var hasPassed = hasDatePassed(meeting);
@@ -89,7 +92,7 @@ function populateSchedule(schedule) {
 
     dt.appendChild(img);
 
-    appendTextChild(dt, " Week " + (i+1) + ": " + meeting.format("MMM d, yyyy"));
+    appendTextChild(dt, " Week " + (i+1) + (showDate ? ": " + meeting.format("MMM d, yyyy") : ""));
 
     var lecture = schedule.lectures[i];
     if (lecture.comment) {
