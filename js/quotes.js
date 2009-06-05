@@ -98,6 +98,7 @@ var titles = new Array(
   "Hollaback Boy",
   "Young apprentice caught between the Scylla and Charybidis",
   "World's #1 Dad",
+  "Silicone sister with a manager mister"
   ""
 );
 
