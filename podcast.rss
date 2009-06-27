@@ -15,33 +15,59 @@
       <itunes:email>whitlock@cs.pdx.edu</itunes:email>
     </itunes:owner>
 
-<!--
     <item>
-      <title>The Java Programming Language</title>
+      <title>The Java Programming Language, Part 1</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>We get an introduction to the Java Programming Language and concepts like garbage collection.
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20080625.m4a" length="31287570"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090624a.m4a" length="23182478"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20080625.m4a</guid>
-      <pubDate>Thu, 26  Jun 2008 21:07:10 PDT</pubDate>
-      <itunes:duration>1:06:36</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090624.m4a</guid>
+      <pubDate>Fri, 26  Jun 2009 21:55:10 PDT</pubDate>
+      <itunes:duration>54:16</itunes:duration>
       <itunes:keywords>Java, programming, garbage collection</itunes:keywords>
     </item>
 
     <item>
-      <title>Object-Oriented Programming</title>
+      <title>The Java Programming Language, Part 2</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>We get an introduction to the Java Programming Language and concepts like garbage collection.
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090624b.m4a" length="21002975"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090624b.m4a</guid>
+      <pubDate>Fri, 26  Jun 2009 22:30:10 PDT</pubDate>
+      <itunes:duration>49:08</itunes:duration>
+      <itunes:keywords>Java, programming, garbage collection</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Object-Oriented Programming, Part 1</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>We learn all about object-oriented programming in Java.
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/200806252.m4a" length="31181378"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090624c.m4a" length="31181378"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/200806252.m4a</guid>
-      <pubDate>Thu, 26  Jun 2008 21:08:15 PDT</pubDate>
-      <itunes:duration>1:06:36</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090624c.m4a</guid>
+      <pubDate>Fri, 26  Jun 2009 22:30:10 PDT</pubDate>
+      <itunes:duration>57:36</itunes:duration>
       <itunes:keywords>Java, object oriented programming</itunes:keywords>
     </item>
 
+    <item>
+      <title>Object-Oriented Programming, Part 2</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>We learn all about object-oriented programming in Java.
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090624d.m4a" length="19814392"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090624d.m4a</guid>
+      <pubDate>Fri, 26  Jun 2009 22:30:10 PDT</pubDate>
+      <itunes:duration>46:27</itunes:duration>
+      <itunes:keywords>Java, object oriented programming</itunes:keywords>
+    </item>
+
+<!--
     <item>
       <title>Core Java Libraries: java.lang</title>
       <itunes:author>David Whitlock</itunes:author>
