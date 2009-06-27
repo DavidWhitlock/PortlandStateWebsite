@@ -15,6 +15,7 @@
       <itunes:email>whitlock@cs.pdx.edu</itunes:email>
     </itunes:owner>
 
+<!--
     <item>
       <title>The Java Programming Language</title>
       <itunes:author>David Whitlock</itunes:author>
@@ -170,6 +171,7 @@
       <itunes:duration>01:06:36</itunes:duration>
       <itunes:keywords>Java</itunes:keywords>
     </item>
+-->
 
   </channel>
 </rss>
