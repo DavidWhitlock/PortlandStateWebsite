@@ -92,16 +92,16 @@
       <itunes:duration>40:02</itunes:duration>
       <itunes:keywords>Java, programming, API</itunes:keywords>
     </item>
-<!--
+
     <item>
       <title>Core Java Libraries: java.util</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>Collection classes group objects together.
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20080709.m4a" length="30365688"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090708a.m4a" length="29705192"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20080709.m4a</guid>
-      <pubDate>Thu 10 Jul 2008 22:26:03 PDT</pubDate>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090708a.m4a</guid>
+      <pubDate>Wed 08 Jul 2009 22:26:03 PDT</pubDate>
       <itunes:duration>1:06:36</itunes:duration>
       <itunes:keywords>Java, programming, API</itunes:keywords>
     </item>
@@ -111,14 +111,15 @@
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>Java provides several APIs for working with Dates
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/200807092.m4a" length="14687058"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090708b.m4a" length="21364703"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/200807092.m4a</guid>
-      <pubDate>Thu 10 Jul 2008 22:28:03 PDT</pubDate>
-      <itunes:duration>32:11</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090708b.m4a</guid>
+      <pubDate>Wed 08 Jul 2009 22:28:03 PDT</pubDate>
+      <itunes:duration>47:53</itunes:duration>
       <itunes:keywords>Java, programming, API</itunes:keywords>
     </item>
 
+<!--
     <item>
       <title>Java Reflection and JUnit</title>
       <itunes:author>David Whitlock</itunes:author>
