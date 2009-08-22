@@ -234,20 +234,57 @@
       <itunes:keywords>Java, GWT</itunes:keywords>
     </item>
 
-<!--
     <item>
-      <title>Java Tips and Tricks</title>
+      <title>Networking and Concurrent Programming, Part 1</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Fundamental networking APIs
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090805a.m4a" length="27260389"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090805a.m4a</guid>
+      <pubDate>Wed Aug  12 2009 04:49:48 PDT</pubDate>
+      <itunes:duration>58:53</itunes:duration>
+      <itunes:keywords>Java, networking</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Networking and Concurrent Programming, Part 2</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Fundamental networking APIs
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090805b.m4a" length="14896161"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090805b.m4a</guid>
+      <pubDate>Wed Aug  12 2009 04:49:48 PDT</pubDate>
+      <itunes:duration>31:50</itunes:duration>
+      <itunes:keywords>Java</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Java Tips and Tricks, Part 1</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>Some of the darker corners of the Java Programming Language and standard APIs
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20080806.m4a" length="30707029"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090805c.m4a" length="17839776"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20080806.m4a</guid>
-      <pubDate>Sun Aug  10 2008 22:25:48 PDT</pubDate>
-      <itunes:duration>01:06:36</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090805c.m4a</guid>
+      <pubDate>Wed Aug  12 2009 04:49:48 PDT</pubDate>
+      <itunes:duration>39:25</itunes:duration>
       <itunes:keywords>Java</itunes:keywords>
     </item>
--->
+
+    <item>
+      <title>Java Tips and Tricks, Part 2</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Some of the darker corners of the Java Programming Language and standard APIs
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090805d.m4a" length="14371636"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090805d.m4a</guid>
+      <pubDate>Wed Aug  12 2009 04:49:48 PDT</pubDate>
+      <itunes:duration>30:59</itunes:duration>
+      <itunes:keywords>Java</itunes:keywords>
+    </item>
 
   </channel>
 </rss>
