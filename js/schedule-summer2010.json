@@ -1,0 +1,81 @@
+{
+  "meetings" : [
+    "June 23, 2010",
+    "June 30, 2010",
+    "July 7, 2010",
+    "July 14, 2010",
+    "July 21, 2010",
+    "July 28, 2010",
+    "August 4, 2010",
+    "August 11, 2010"
+  ],
+  "lectures" : [
+    {
+      "comment" : "I expect most of this material to be a review, but we're going to be covering a lot on the first day. Make sure to eat a good dinner beforehand.",
+      "content" : [
+        "Course <a href='pdf/syllabus.pdf'>syllabus</a>",
+        "Lecture: <a href='pdf/javaLanguage-2x2.pdf'>The Java Programming Language</a>",
+        "Lecture: <a href='pdf/oopInJava-2x2.pdf'>Object Oriented Programming</a> in Java",
+        "Assign <a href='pdf/Student.pdf'>Project 0</a>: Implementing a simple class",
+        "Assign <a href='pdf/AppClasses.pdf'>Project 1</a>: Beginning a Java application",
+        "How to <a href='pdf/submit.pdf'>submit</a> your projects",
+        "The CAT's <a href='http://www.cat.pdx.edu/unix.html'>UNIX</a> page",
+        "Subscribe to the CS399J <a href='https://mailhost.cecs.pdx.edu/mailman/listinfo/cs399j'>mailing list</a>",
+        "<a href='docs/edu/pdx/cs399J/lang/package-summary.html#package_description'>More Information</a>",
+        "<a href='http://www.ibm.com/developerworks/java/library/j-javaresources.html'>Essential Java Resources</a>"
+      ]
+    },
+    {
+      "content" : [
+        "Project 0 Due",
+        "Lecture: The Core Java <a href='pdf/coreAPI-2x2.pdf'>API</a>",
+        "How to <a href='pdf/documentation.pdf'>document</a> your projects",
+        "Assign <a href='pdf/TextFile.pdf'>Project 2</a>: Working with files",
+        "Required reading: <a href='http://java.sun.com/docs/codeconv/'>Java coding conventions</a>",
+        "<a href='docs/edu/pdx/cs399J/core/package-summary.html#package_description'>More Information</a>"
+      ]
+    },
+    {
+      "content" : [
+        "Project 1 Due",
+        "Lecture: The Core Java API (Part 2)",
+        "Assign <a href='pdf/PrettyPrint.pdf'>Project 3</a>: Sorting and working with Dates"
+      ]
+    },
+    {
+      "content" : [
+        "Project 2 Due",
+        "Lecture: <a href='pdf/reflect-2x2.pdf'>Reflection</a>",
+        "Lecture: Unit Testing with <a href='pdf/junit-2x2.pdf'>JUnit</a>",
+        "Lecture: Building Java Projects with <a href='pdf/maven-2x2.pdf'>Maven",
+        "Assign <a href='pdf/lruMap.pdf'>Project 4</a>: An LRU Map"
+      ]
+    },
+    {
+      "content" : [
+        "Project 3 Due",
+        "Lecture: Foundations of the <a href='pdf/web-2x2.pdf'>Web</a>",
+        "Assign Project 5: <a href='pdf/REST.pdf'>Client/Server</a>"
+      ]
+    },
+    {
+      "content" : [
+        "Project 4 Due",
+        "Lecture: <a href='pdf/gwt-2x2.pdf'>Google Web Toolkit</a>, Part 1 ",
+        "Assign Project 6: A fully-featured <a href='pdf/GWT.pdf'>Rich Internet Application</a>"
+      ]
+    },
+    {
+      "content" : [
+        "Project 5 Due",
+        "Lecture: To Be Announced"
+      ]
+    },
+    {
+      "content" : [
+        "Project 6 Due",
+        "Final Exam"
+      ]
+    }
+  ]
+}
