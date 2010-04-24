@@ -184,7 +184,7 @@
     </item>
 
     <item>
-      <title>Foundations of the Web, Part 2</title>
+      <title>Foundations of the Web, Part 3</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>REST: Representational State Transfer
       </itunes:summary>
@@ -201,7 +201,7 @@
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>An introduction to creating Rich Internet Application with GWT, the Google Web Toolkit
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090729.m4a" length="31198974"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090729a.m4a" length="31198974"
                  type="audio/x-m4a"/>
       <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090729.m4a</guid>
       <pubDate>Sat Aug  1 2009 19:24:48 PDT</pubDate>
@@ -217,7 +217,7 @@
       <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090729b.m4a" length="26330632"
                  type="audio/x-m4a"/>
       <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090729b.m4a</guid>
-      <pubDate>Sun Aug  3 2008 19:26:48 PDT</pubDate>
+      <pubDate>Sat Aug  1 2009 19:26:48 PDT</pubDate>
       <itunes:duration>0:56:34</itunes:duration>
       <itunes:keywords>Java, GWT</itunes:keywords>
     </item>
