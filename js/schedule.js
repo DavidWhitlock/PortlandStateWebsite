@@ -61,7 +61,7 @@ function populateSchedule(schedule) {
 
   // Add the information about the review of Java
   if (schedule.review) {
-    reviewInformation(div, hasDatePassed(startDate), schedule.review);
+    reviewInformation(div, hasDatePassed(new Date(startDate)), schedule.review);
   }
   
   
