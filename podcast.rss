@@ -16,42 +16,94 @@
     </itunes:owner>
 
     <item>
-      <title>Java Review:The Java Programming Language</title>
+      <title>In-Depth Java Review: The Java Programming Language</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>We get an introduction to the Java Programming Language and concepts like garbage collection.
       </itunes:summary>
       <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/JavaReview1.m4a" length="23182478"
                  type="audio/x-m4a"/>
       <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/JavaReview1.m4a</guid>
-      <pubDate>Sun, 6  Jun 2010 01:23:10 PDT</pubDate>
+      <pubDate>Sun 6  Jun 2010 01:23:10 PDT</pubDate>
       <itunes:duration>30:10</itunes:duration>
       <itunes:keywords>Java, programming, garbage collection</itunes:keywords>
     </item>
 
     <item>
-      <title>Java Review: Object-Oriented Programming, Part 1</title>
+      <title>In-Depth Java Review: Object-Oriented Programming, Part 1</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>We learn all about object-oriented programming in Java.
       </itunes:summary>
       <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/JavaReview2.m4a" length="31181378"
                  type="audio/x-m4a"/>
       <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/JavaReview2.m4a</guid>
-      <pubDate>Sun, 6  Jun 2010 01:25:10 PDT</pubDate>
+      <pubDate>Sun 6  Jun 2010 01:25:10 PDT</pubDate>
       <itunes:duration>57:23</itunes:duration>
       <itunes:keywords>Java, object oriented programming</itunes:keywords>
     </item>
 
     <item>
-      <title>Java Review: Object-Oriented Programming, Part 2</title>
+      <title>In-Depth Java Review: Object-Oriented Programming, Part 2</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>We learn all about object-oriented programming in Java.
       </itunes:summary>
       <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/JavaReview3.m4a" length="19814392"
                  type="audio/x-m4a"/>
       <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/JavaReview3.m4a</guid>
-      <pubDate>Sun, 6  Jun 2010 01:27:10 PDT</pubDate>
+      <pubDate>Sun 6  Jun 2010 01:27:10 PDT</pubDate>
       <itunes:duration>29:55</itunes:duration>
       <itunes:keywords>Java, object oriented programming</itunes:keywords>
+    </item>
+
+    <item>
+      <title>The Java Programming Language</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>An introduction to CS399J and a brief overview of the Java Programming Language.
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100623a.m4a" length="25684884"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100623a.m4a</guid>
+      <pubDate>Sat Jun 26 2010 22:54:05 PDT</pubDate>
+      <itunes:duration>57:38</itunes:duration>
+      <itunes:keywords>Java, programming, garbage collection</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Object Oriented Programming</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>A brief overview of Object Oriented Programming using Java
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100623b.m4a" 
+                 length="24662698" type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100623b.m4a</guid>
+      <pubDate>Sat Jun 26 2010 22:56:30 PDT</pubDate>
+      <itunes:duration>55:15</itunes:duration>
+      <itunes:keywords>Java, programming, garbage collection</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Unit Testing with JUnit</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Unit testing Java programs with JUnit
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100623c.m4a"
+                 length="16121826" type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100623c.m4a</guid>
+      <pubDate>Sat Jun 26 2010 22:39:26 PDT</pubDate>
+      <itunes:duration>37:24</itunes:duration>
+      <itunes:keywords>JUnit, unit testing</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Building Java Projects with Maven</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Apache Maven provides a rich environment for building Java projects
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100623d.m4a"
+                 length="24458548" type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100623d.m4a</guid>
+      <pubDate>Sat Jun 26 23:00:51 PDT 2010</pubDate>
+      <itunes:duration>56:42</itunes:duration>
+      <itunes:keywords>Java, Maven</itunes:keywords>
     </item>
 
 <!--
