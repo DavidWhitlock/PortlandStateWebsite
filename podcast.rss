@@ -184,43 +184,16 @@
       <itunes:keywords>Java, programming, API</itunes:keywords>
     </item>
 
-<!--
     <item>
       <title>Java Reflection</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>Examining objects at runtime with the Reflection API</itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090715a.m4a" length="29138597"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100714a.m4a" length="29138597"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090715a.m4a</guid>
-      <pubDate>Sun Jul 19 2009 15:06:52 PDT</pubDate>
-      <itunes:duration>1:05:24</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100714a.m4a</guid>
+      <pubDate>Tue Jul 27 2010 22:51:41 PDT</pubDate>
+      <itunes:duration>1:05:54</itunes:duration>
       <itunes:keywords>Java, Reflection</itunes:keywords>
-    </item>
-
-    <item>
-      <title>Java Reflection and JUnit</title>
-      <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>Unit testing Java programming with JUnit
-      </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090715b.m4a" length="16127205"
-                 type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090715b.m4a</guid>
-      <pubDate>Sun Jul 19 2009 15:08:52 PDT</pubDate>
-      <itunes:duration>36:24</itunes:duration>
-      <itunes:keywords>JUnit, unit testing</itunes:keywords>
-    </item>
-
-    <item>
-      <title>Building Java Projects with Maven</title>
-      <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>Apache Maven provides a rich environment for building Java projects
-      </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090715c.m4a" length="26385635"
-                 type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090715c.m4a</guid>
-      <pubDate>Sun Jul 19 2009 15:011:52 PDT</pubDate>
-      <itunes:duration>59:16</itunes:duration>
-      <itunes:keywords>Java, Maven</itunes:keywords>
     </item>
 
     <item>
@@ -228,11 +201,11 @@
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>We learn about web programming using HTTP and Java Servlets
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090722a.m4a" length="22906448"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100714b.m4a" length="22906448"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090722a.m4a</guid>
-      <pubDate>Fri Jul 24 2009 10:02:08 PDT</pubDate>
-      <itunes:duration>51:37</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100714b.m4a</guid>
+      <pubDate>Tue Jul 27 2010 22:52:58 PDT</pubDate>
+      <itunes:duration>55:17</itunes:duration>
       <itunes:keywords>Java, HTTP, Servlets</itunes:keywords>
     </item>
 
@@ -241,27 +214,15 @@
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>16 minutes of Maven goodness
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090722b.m4a" length="7682513"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100714c.m4a" length="7682513"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090722b.m4a</guid>
-      <pubDate>Fri Jul 24 2009 10:02:08 PDT</pubDate>
-      <itunes:duration>17:15</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100714c.m4a</guid>
+      <pubDate>Tue Jul 27 2010 22:59:53 PDT</pubDate>
+      <itunes:duration>39:03</itunes:duration>
       <itunes:keywords>Java, HTTP, Servlets</itunes:keywords>
     </item>
 
-    <item>
-      <title>Foundations of the Web, Part 3</title>
-      <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>REST: Representational State Transfer
-      </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090722c.m4a" length="24260126"
-                 type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090722c.m4a</guid>
-      <pubDate>Fri Jul 24 2009 10:02:08 PDT</pubDate>
-      <itunes:duration>54:57</itunes:duration>
-      <itunes:keywords>Java, HTTP, Servlets, REST</itunes:keywords>
-    </item>
-
+<!--
     <item>
       <title>Google Web Toolkit, Part 1</title>
       <itunes:author>David Whitlock</itunes:author>
