@@ -222,17 +222,16 @@
       <itunes:keywords>Java, HTTP, Servlets</itunes:keywords>
     </item>
 
-<!--
     <item>
       <title>Google Web Toolkit, Part 1</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>An introduction to creating Rich Internet Application with GWT, the Google Web Toolkit
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090729a.m4a" length="31198974"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100721a.m4a" length="22889422"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090729.m4a</guid>
-      <pubDate>Sat Aug  1 2009 19:24:48 PDT</pubDate>
-      <itunes:duration>1:06:27</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100721a.m4a</guid>
+      <pubDate>Sat Aug  7 2010 16:27:11 PDT</pubDate>
+      <itunes:duration>51:21</itunes:duration>
       <itunes:keywords>Java, GWT</itunes:keywords>
     </item>
 
@@ -241,26 +240,15 @@
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>Laying out components and handling events in GWT
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090729b.m4a" length="26330632"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100721b.m4a" length="25149335"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090729b.m4a</guid>
-      <pubDate>Sat Aug  1 2009 19:26:48 PDT</pubDate>
-      <itunes:duration>0:56:34</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100721b.m4a</guid>
+      <pubDate>Sat Aug  7 2010 16:29:03 PDT</pubDate>
+      <itunes:duration>56:27</itunes:duration>
       <itunes:keywords>Java, GWT</itunes:keywords>
     </item>
 
-    <item>
-      <title>Google Web Toolkit, Part 3</title>
-      <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>Remote procedure calls in GWT</itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090729c.m4a" length="13196820"
-                 type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090729c.m4a</guid>
-      <pubDate>Sat Aug  1 2009 19:26:48 PDT</pubDate>
-      <itunes:duration>0:28:29</itunes:duration>
-      <itunes:keywords>Java, GWT</itunes:keywords>
-    </item>
-
+<!--
     <item>
       <title>Networking and Concurrent Programming, Part 1</title>
       <itunes:author>David Whitlock</itunes:author>
