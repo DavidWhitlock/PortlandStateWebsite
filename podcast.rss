@@ -212,7 +212,7 @@
     <item>
       <title>Foundations of the Web, Part 2</title>
       <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>16 minutes of Maven goodness
+      <itunes:summary>REST: Representational State Transfer
       </itunes:summary>
       <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100714c.m4a" length="7682513"
                  type="audio/x-m4a"/>
@@ -248,33 +248,33 @@
       <itunes:keywords>Java, GWT</itunes:keywords>
     </item>
 
+    <item>
+      <title>Dependency Injection, Part 1</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Introduction to the Dependency Injection design pattern
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100728a.m4a" length="27260389"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100728a.m4a</guid>
+      <pubDate>Sun Sep 19 2010 10:43:46 PDT</pubDate>
+      <itunes:duration>01:02:42</itunes:duration>
+      <itunes:keywords>Dependency Injection, Mockito</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Dependency Injection, Part 2</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Dependency Injection with Google Guice
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100728b.m4a" length="27260389"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100728b.m4a</guid>
+      <pubDate>Sun Sep 19 2010 11:14:46 PDT</pubDate>
+      <itunes:duration>59:44</itunes:duration>
+      <itunes:keywords>Dependency Injection, Guice</itunes:keywords>
+    </item>
+
 <!--
-    <item>
-      <title>Networking and Concurrent Programming, Part 1</title>
-      <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>Fundamental networking APIs
-      </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090805a.m4a" length="27260389"
-                 type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090805a.m4a</guid>
-      <pubDate>Wed Aug  12 2009 04:49:48 PDT</pubDate>
-      <itunes:duration>58:53</itunes:duration>
-      <itunes:keywords>Java, networking</itunes:keywords>
-    </item>
-
-    <item>
-      <title>Networking and Concurrent Programming, Part 2</title>
-      <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>Fundamental networking APIs
-      </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20090805b.m4a" length="14896161"
-                 type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20090805b.m4a</guid>
-      <pubDate>Wed Aug  12 2009 04:49:48 PDT</pubDate>
-      <itunes:duration>31:50</itunes:duration>
-      <itunes:keywords>Java</itunes:keywords>
-    </item>
-
     <item>
       <title>Java Tips and Tricks, Part 1</title>
       <itunes:author>David Whitlock</itunes:author>
