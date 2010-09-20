@@ -274,6 +274,45 @@
       <itunes:keywords>Dependency Injection, Guice</itunes:keywords>
     </item>
 
+    <item>
+      <title>Agile Software Engineering, Part 1</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Extreme Programming and Scrum
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100804a.m4a" length="27260389"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100804a.m4a</guid>
+      <pubDate>Sun Sep 19 2010 20:14:16 PDT</pubDate>
+      <itunes:duration>01:03:16</itunes:duration>
+      <itunes:keywords>Agile, Extreme Programming, XP, Scrum</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Agile Software Engineering, Part 2</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Extreme Programming and Scrum
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100804b.m4a" length="27260389"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100804b.m4a</guid>
+      <pubDate>Sun Sep 19 2010 20:14:16 PDT</pubDate>
+      <itunes:duration>22:05</itunes:duration>
+      <itunes:keywords>Agile, Extreme Programming, XP, Scrum</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Agile Software Engineering, Part 3</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Extreme Programming and Scrum
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20100804c.m4a" length="27260389"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20100804c.m4a</guid>
+      <pubDate>Sun Sep 19 2010 20:14:16 PDT</pubDate>
+      <itunes:duration>58:20</itunes:duration>
+      <itunes:keywords>Agile, Extreme Programming, XP, Scrum</itunes:keywords>
+    </item>
+
 <!--
     <item>
       <title>Java Tips and Tricks, Part 1</title>
