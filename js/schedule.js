@@ -80,7 +80,7 @@ function populateSchedule(schedule) {
     }
 
     if (lecture.content) {
-      lectureContent(dl, hasPassed, lecture.content);
+      lectureContent(dl, hasPassed, lecture.content, lecture.tdd);
     }
   }
 }
@@ -144,7 +144,7 @@ function lectureComment(parent, hasPassed, comment) {
 /**
  * Outputs HTML for the content of a lecture
  */
-function lectureContent(parent, hasPassed, content) {
+function lectureContent(parent, hasPassed, content, tdd) {
   var ul = $(document.createElement("ul"));
   if (hasPassed) {
     ul.hide();
@@ -155,6 +155,42 @@ function lectureContent(parent, hasPassed, content) {
     var li = $(document.createElement("li"));
     ul.appendChild(li);
     li.innerHTML = content[j];
+  }
+
+  if (tdd) {
+    var li = $(document.createElement("li"));
+    ul.appendChild(li);
+    li.innerHTML = testDrivenDevelopmentHtml(tdd);
+    
+  }
+}
+
+function testDrivenDevelopmentHtml(tdd) {
+  var html = "Watch James Shore's <a href='http://jamesshore.com/Agile-Book/test_driven_development.html'>Test Driven Development</a> Screencast Episodes "
+
+  for (var j = 0; j < tdd.length; j++) {
+    var episode = tdd[j];
+
+    html += "<a href='http://jamesshore.com/Blog/Lets-Play/";
+    html += tddEpisodeName(episode);
+    html += ".html'>";
+    html += episode;
+    html += "</a>";
+
+    if (j < tdd.length -1 ) {
+      html += ", ";
+    }
+  }
+
+  return html;
+}
+
+function tddEpisodeName(episode) {
+  if (episode == 1) {
+    return "Lets-Play-Test-Driven-Development";
+  
+  } else {
+    return "Episode-" + episode;
   }
 }
 
