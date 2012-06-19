@@ -204,7 +204,7 @@
       <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110720b.m4a" length="20594832"
                  type="audio/x-m4a"/>
       <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110720b.m4a</guid>
-      <pubDate>Sun Jul 31 2011 1:07:03 PDT</pubDate>
+      <pubDate>Sun Jul 31 2011 13:07:03 PDT</pubDate>
       <itunes:duration>44:40</itunes:duration>
       <itunes:keywords>Java, GWT</itunes:keywords>
     </item>
@@ -223,7 +223,7 @@
     </item>
 
     <item>
-      <title>Dependency Injection, Part 1</title>
+      <title>Dependency Injection</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>Introduction to the Dependency Injection design pattern
       </itunes:summary>
@@ -247,6 +247,33 @@
       <itunes:duration>27:08</itunes:duration>
       <itunes:keywords>Google Web Toolkit </itunes:keywords>
     </item>
+
+    <item>
+      <title>Advanced GWT, Part 1</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>More advanced features of Google Web Toolkit such as the Model/View/Controller design pattern and the UI Binder
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110803a.m4a" length="26322519"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110803a.m4a</guid>
+      <pubDate>Mon Aug 08 2011 21:41:46 PDT</pubDate>
+      <itunes:duration>55:35</itunes:duration>
+      <itunes:keywords>Google Web Toolkit </itunes:keywords>
+    </item>
+
+    <item>
+      <title>Advanced GWT, Part 2</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Using custom GWT events to communicate between UI components
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110803b.m4a" length="20687736"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110803b.m4a</guid>
+      <pubDate>Mon Aug 08 2011 21:42:46 PDT</pubDate>
+      <itunes:duration>44:32</itunes:duration>
+      <itunes:keywords>Google Web Toolkit </itunes:keywords>
+    </item>
+
 <!--
     <item>
       <title>Agile Software Engineering, Part 1</title>
