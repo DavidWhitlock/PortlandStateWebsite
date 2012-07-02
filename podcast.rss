@@ -5,7 +5,7 @@
     <title>CS410J at Portland State University</title>
     <link>http://web.cecs.pdx.edu/~whitlock</link>
     <language>en-us</language>
-    <copyright>&#x2117; &amp; &#xA9; 2008 David Whitlock</copyright>
+    <copyright>&#x2117; &amp; &#xA9; 2008-2012 David Whitlock</copyright>
     <itunes:subtitle>Advanced Java Programming</itunes:subtitle>
     <itunes:author>David Whitlock</itunes:author>
     <description>The weekly podcast of CS410J lectures.
@@ -59,40 +59,40 @@
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>An introduction to CS410J and a brief overview of the Java Programming Language.
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110622a.m4a" length="23624825"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120627a.m4a" length="29329561"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110622ap.m4a</guid>
-      <pubDate>Tue Jun 28 2011 22:58:05 PDT</pubDate>
-      <itunes:duration>52:42</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120627a.m4a</guid>
+      <pubDate>Sun Jul 1 2012 22:23:54 PDT</pubDate>
+      <itunes:duration>1:04:40</itunes:duration>
       <itunes:keywords>Java, programming, garbage collection</itunes:keywords>
     </item>
 
     <item>
-      <title>Object-Oriented Programming and Unit Testing with JUnit</title>
+      <title>JUnit and Maven</title>
       <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>Unit testing Java programs with JUnit
+      <itunes:summary>Unit Testing with JUnit and Building Java Projects with Maven
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110622b.m4a"
-                 length="27231716" type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110622b.m4a</guid>
-      <pubDate>Tue Jun 28 2011 23:01:26 PDT</pubDate>
-      <itunes:duration>01:01:55</itunes:duration>
-      <itunes:keywords>Object-Oriented Programming, JUnit, unit testing</itunes:keywords>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120627b.m4a"
+                 length="26425993" type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120627b.m4a</guid>
+      <pubDate>Sun Jul 1 2012 22:25:26 PDT</pubDate>
+      <itunes:duration>58:45</itunes:duration>
+      <itunes:keywords>JUnit, unit testing, Maven</itunes:keywords>
     </item>
 
     <item>
-      <title>Building Java Projects with Maven</title>
+      <title>Class project and Koans</title>
       <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>Apache Maven provides a rich environment for building Java projects
+      <itunes:summary>The first project and the Java Koans
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110622c.m4a"
-                 length="24318042" type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/2010622c.m4a</guid>
-      <pubDate>Tue Jun 28  2011 23:02:51 PDT</pubDate>
-      <itunes:duration>56:42</itunes:duration>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120627c.m4a"
+                 length="9754307" type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/2012627c.m4a</guid>
+      <pubDate>Sun Jul 1 2012 22:28:51 PDT</pubDate>
+      <itunes:duration>21:30</itunes:duration>
       <itunes:keywords>Java, Maven</itunes:keywords>
     </item>
-
+<!--
     <item>
       <title>Core Java Libraries: java.lang</title>
       <itunes:author>David Whitlock</itunes:author>
@@ -273,6 +273,7 @@
       <itunes:duration>44:32</itunes:duration>
       <itunes:keywords>Google Web Toolkit </itunes:keywords>
     </item>
+-->
 
 <!--
     <item>
