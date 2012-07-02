@@ -92,7 +92,7 @@
       <itunes:duration>21:30</itunes:duration>
       <itunes:keywords>Java, Maven</itunes:keywords>
     </item>
-<!--
+
     <item>
       <title>Core Java Libraries: java.lang</title>
       <itunes:author>David Whitlock</itunes:author>
@@ -114,11 +114,12 @@
       <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110629b.m4a" length="24258027"
                  type="audio/x-m4a"/>
       <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110629b.m4a</guid>
-      <pubDate>Thus Jun 30 2011 22:49:24 PDT</pubDate>
+      <pubDate>Thu Jun 30 2011 22:49:24 PDT</pubDate>
       <itunes:duration>55:15</itunes:duration>
       <itunes:keywords>Java, programming, API</itunes:keywords>
     </item>
 
+<!--
     <item>
       <title>Core Java Libraries: java.util</title>
       <itunes:author>David Whitlock</itunes:author>
