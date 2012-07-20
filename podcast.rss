@@ -119,17 +119,29 @@
       <itunes:keywords>Java, programming, API</itunes:keywords>
     </item>
 
-<!--
+    <item>
+      <title>Week 2 Review: java.lang and java.io</title>
+      <itunes:author>David Whitlock</itunes:author>
+      <itunes:summary>Questions and answers about the topics covered in week 2
+      </itunes:summary>
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120711a.m4a" length="24651831"
+                 type="audio/x-m4a"/>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120711a.m4a</guid>
+      <pubDate>Thu Jul 19 2012 22:17:37 PDT</pubDate>
+      <itunes:duration>54:22</itunes:duration>
+      <itunes:keywords>Java, programming, API</itunes:keywords>
+    </item>
+
     <item>
       <title>Core Java Libraries: java.util</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>Collection classes group objects together.
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110706a.m4a" length="24031689"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120711c.m4a" length="10714104"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110706a.m4a</guid>
-      <pubDate>Sun Jul 10 2011 22:20:37 PDT</pubDate>
-      <itunes:duration>52:25</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120711c.m4a</guid>
+      <pubDate>Thu Jul 19 2012 22:18:37 PDT</pubDate>
+      <itunes:duration>23:24</itunes:duration>
       <itunes:keywords>Java, programming, API</itunes:keywords>
     </item>
 
@@ -138,11 +150,11 @@
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>Java provides several APIs for working with Dates
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110706b.m4a" length="25534866"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120711d.m4a" length="15217270"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110706b.m4a</guid>
-      <pubDate>Sun Jul 10 2011 22:22:09 PDT</pubDate>
-      <itunes:duration>55:20</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120711d.m4a</guid>
+      <pubDate>Thu Jul 19 2012 22:19:09 PDT</pubDate>
+      <itunes:duration>33:00</itunes:duration>
       <itunes:keywords>Java, programming, API</itunes:keywords>
     </item>
 
@@ -150,11 +162,11 @@
       <title>Java Reflection</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>Examining objects at runtime with the Reflection API</itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110713a.m4a" length="20303580"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120718a.m4a" length="27220008"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110713a.m4a</guid>
-      <pubDate>Sun Jul 31 2011 12:56:41 PDT</pubDate>
-      <itunes:duration>48:00</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120718a.m4a</guid>
+      <pubDate>Thu Jul 18 2012 22:21:41 PDT</pubDate>
+      <itunes:duration>59:48</itunes:duration>
       <itunes:keywords>Java, Reflection</itunes:keywords>
     </item>
 
@@ -163,11 +175,11 @@
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>We learn about web programming using HTTP and Java Servlets
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110713b.m4a" length="24137136"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120718b.m4a" length="20426659"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110712b.m4a</guid>
-      <pubDate>Sun Jul 31 2011 12:57:58 PDT</pubDate>
-      <itunes:duration>57:06</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120718b.m4a</guid>
+      <pubDate>Thu Jul 18 2012 22:22:58 PDT</pubDate>
+      <itunes:duration>44:27</itunes:duration>
       <itunes:keywords>Java, HTTP, Servlets</itunes:keywords>
     </item>
 
@@ -176,14 +188,15 @@
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>REST: Representational State Transfer
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110713c.m4a" length="8809993"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120718c.m4a" length="14715667"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110714c.m4a</guid>
-      <pubDate>Sun Jul 31 2011 13:00:53 PDT</pubDate>
-      <itunes:duration>20:39</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120718c.m4a</guid>
+      <pubDate>Thu Jul 18 2012 22:23:53 PDT</pubDate>
+      <itunes:duration>32:00</itunes:duration>
       <itunes:keywords>Java, HTTP, Servlets</itunes:keywords>
     </item>
 
+<!--
     <item>
       <title>Google Web Toolkit, Part 1</title>
       <itunes:author>David Whitlock</itunes:author>
