@@ -196,46 +196,46 @@
       <itunes:keywords>Java, HTTP, Servlets</itunes:keywords>
     </item>
 
-<!--
     <item>
       <title>Google Web Toolkit, Part 1</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>An introduction to creating Rich Internet Application with GWT, the Google Web Toolkit
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110720a.m4a" length="27805765"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120725a.m4a" length="23745655"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110720a.m4a</guid>
-      <pubDate>Sun Jul 31 2011 13:02:11 PDT</pubDate>
-      <itunes:duration>01:00:32</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120725a.m4a</guid>
+      <pubDate>Wed Aug 01 2012 21:25:11 PDT</pubDate>
+      <itunes:duration>52:00</itunes:duration>
       <itunes:keywords>Java, GWT</itunes:keywords>
     </item>
 
     <item>
       <title>Google Web Toolkit, Part 2</title>
       <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>Handling events and localization in GWT
+      <itunes:summary>Handling events in GWT
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110720b.m4a" length="20594832"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120725b.m4a" length="20594832"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110720b.m4a</guid>
-      <pubDate>Sun Jul 31 2011 13:07:03 PDT</pubDate>
-      <itunes:duration>44:40</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120725b.m4a</guid>
+      <pubDate>Wed Aug 01 2012 21:35:03 PDT</pubDate>
+      <itunes:duration>40:44</itunes:duration>
       <itunes:keywords>Java, GWT</itunes:keywords>
     </item>
 
     <item>
-      <title>REST Project Review</title>
+      <title>Google Web Toolkit, Part 3</title>
       <itunes:author>David Whitlock</itunes:author>
-      <itunes:summary>Quick catch-up on the REST project
+      <itunes:summary>Putting it all together or something
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110727a.m4a" length="5930445"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120725c.m4a" length="19740167"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110727a.m4a</guid>
-      <pubDate>Sun Jul 31 2011 13:11:46 PDT</pubDate>
-      <itunes:duration>13:24</itunes:duration>
-      <itunes:keywords>REST</itunes:keywords>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120725c.m4a</guid>
+      <pubDate>Wed Aug 01 2012 22:02:03 PDT</pubDate>
+      <itunes:duration>42:21</itunes:duration>
+      <itunes:keywords>Java, GWT</itunes:keywords>
     </item>
 
+<!--
     <item>
       <title>Dependency Injection</title>
       <itunes:author>David Whitlock</itunes:author>
