@@ -261,17 +261,16 @@
       <itunes:keywords>Dependency Injection, Mockito, Guice</itunes:keywords>
     </item>
 
-<!--
     <item>
       <title>Advanced GWT, Part 1</title>
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>More advanced features of Google Web Toolkit such as the Model/View/Controller design pattern and the UI Binder
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110803a.m4a" length="26322519"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120808a.m4a" length="25590397"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110803a.m4a</guid>
-      <pubDate>Mon Aug 08 2011 21:41:46 PDT</pubDate>
-      <itunes:duration>55:35</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120808a.m4a</guid>
+      <pubDate>Wed Aug 08 2012 22:02:46 PDT</pubDate>
+      <itunes:duration>56:08</itunes:duration>
       <itunes:keywords>Google Web Toolkit </itunes:keywords>
     </item>
 
@@ -280,14 +279,13 @@
       <itunes:author>David Whitlock</itunes:author>
       <itunes:summary>Using custom GWT events to communicate between UI components
       </itunes:summary>
-      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20110803b.m4a" length="20687736"
+      <enclosure url="http://web.cecs.pdx.edu/~whitlock/podcasts/20120808b.m4a" length="6893992"
                  type="audio/x-m4a"/>
-      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20110803b.m4a</guid>
-      <pubDate>Mon Aug 08 2011 21:42:46 PDT</pubDate>
-      <itunes:duration>44:32</itunes:duration>
+      <guid>http://web.cecs.pdx.edu/~whitlock/podcasts/20120808b.m4a</guid>
+      <pubDate>Wed Aug 08 2012 22:03:46 PDT</pubDate>
+      <itunes:duration>15:00</itunes:duration>
       <itunes:keywords>Google Web Toolkit </itunes:keywords>
     </item>
--->
 
 <!--
     <item>
