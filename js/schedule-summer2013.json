@@ -1,0 +1,95 @@
+{
+  "review" : {
+    "comment" : "In years past, we've begun the class with an in-depth review of the Java Programming Language and Object-Oriented Programming.  This term, however, we're going to start out with a condensed review of Java.  If you are new to Java or haven't worked with the language for a while, I invite you review the lecture notes and listen to the podcast for the first class from Summer 2009.",
+    "content" : [
+      "<a href='pdf/javaLanguage-2x2.pdf'>The Java Programming Language</a> (<a href='podcasts/JavaReview1.m4a'>podcast</a>)",
+      "<a href='pdf/oopInJava-2x2.pdf'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a'>part 1</a> and <a href='podcasts/JavaReview3.m4a'>part 2</a>)",
+      "Try out <a href='pdf/Student.pdf'>Project 0</a>: Implementing a simple class",
+      "Download and install <A href='http://www.jetbrains.com/idea/'>IntelliJ Idea</a>, the recommended IDE for this course.  Use the trial license until the first day of class when I'll give you the classroom license."
+    ]
+  },
+  "meetings" : [
+    "June 26, 2013",
+    "July 3, 2013",
+    "July 10, 2013",
+    "July 17, 2013",
+    "July 24, 2013",
+    "July 31, 2013",
+    "August 7, 2013",
+    "August 14, 2013"
+  ],
+  "lectures" : [
+    {
+      "comment" : "We're going cover a lot on the first day. Make sure to eat a good dinner beforehand.",
+      "content" : [
+        "Course <a href='pdf/syllabus.pdf'>syllabus</a>",
+        "Lecture: <a href='pdf/javaReview-2x2.pdf'>Java Programming Language Review</a>",
+        "Lecture: Unit Testing with <a href='pdf/junit-2x2.pdf'>JUnit</a>",
+        "Lecture: Building Java Projects with <a href='pdf/maven-2x2.pdf'>Maven",
+        "Assign <a href='pdf/AppClasses.pdf'>Project 1</a>: Beginning a Java application",
+        "Begin working on <a href='pdf/koans.pdf'>Java Koans</a>",
+        "The CAT's <a href='http://www.cat.pdx.edu/unix.html'>UNIX</a> page",
+        "<a href='docs/edu/pdx/cs410J/lang/package-summary.html#package_description'>More Information</a>",
+        "<a href='http://www.ibm.com/developerworks/java/library/j-javaresources.html'>Essential Java Resources</a>",
+      ],
+      "tdd" : [1, 2, 3, 4]
+    },
+    {
+      "comment" : "Man, it's like Independence Day. <b>No class.</b>  Let's see if we can cover the material offline to make up the time.",
+      "content" : [
+        "Lecture: The Core Java <a href='pdf/coreAPI-2x2.pdf'>API</a> (Last year's podcast <a href='podcasts/JavaLang2011.m4a'>part 1</a> and <a href='podcasts/JavaIO2011.m4a'>part 2</a>)",
+        "How to <a href='pdf/documentation.pdf'>document</a> your projects",
+        "How to <a href='pdf/submit.pdf'>submit</a> your projects",
+        "Assign <a href='pdf/TextFile.pdf'>Project 2</a>: Working with files",
+        "Required reading: <a href='http://www.oracle.com/technetwork/java/codeconv-138413.html'>Java coding conventions</a>",
+        "<a href='docs/edu/pdx/cs410J/core/package-summary.html#package_description'>More Information</a>",
+      ],
+      "tdd" : [5, 6, 7, 8]
+    },
+    {
+      "content" : [
+        "Project 1 Due",
+        "Lecture: The Core Java API (Part 2)",
+        "Assign <a href='pdf/PrettyPrint.pdf'>Project 3</a>: Sorting and working with Dates",
+      ],
+      "tdd" : [9, 10, 11, 12]
+    },
+    {
+      "content" : [
+        "Project 2 Due",
+        "Lecture: <a href='pdf/reflect-2x2.pdf'>Reflection</a>",
+        "Lecture: Foundations of the <a href='pdf/web-2x2.pdf'>Web</a>",
+        "Assign Project 4: <a href='pdf/REST.pdf'>Client/Server</a>",
+      ],
+      "tdd" : [13, 14, 15, 16]
+    },
+    {
+      "content" : [
+        "Project 3 Due",
+        "Java Koans Due",
+        "Lecture: <a href='pdf/gwt-2x2.pdf'>Google Web Toolkit</a>",
+        "Assign Project 5: A fully-featured <a href='pdf/RIA.pdf'>Rich Internet Application</a>",
+      ],
+      "tdd" : [17, 18, 19, 20]
+    },
+    {
+      "content" : [
+        "Project 4 Due",
+        "Lecture: <a href='pdf/di-2x2.pdf'>Dependency Injection</a>",
+      ],
+      "tdd" : [21, 22, 23, 24]
+    },
+    {
+      "content" : [
+        "Lecture: <a href='pdf/gwt2-2x2.pdf'>Advanced GWT</a>"
+      ],
+      "tdd" : [25, 26, 27, 28]
+    },
+    {
+      "content" : [
+        "Project 5 Due",
+        "Final Exam"
+      ]
+    }
+  ]
+}
