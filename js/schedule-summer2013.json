@@ -35,7 +35,6 @@
       "tdd" : [1, 2, 3, 4]
     },
     {
-      "comment" : "Man, it's like Independence Day. <b>No class.</b>  Let's see if we can cover the material offline to make up the time.",
       "content" : [
         "Lecture: The Core Java <a href='pdf/coreAPI-2x2.pdf'>API</a> (Last year's podcast <a href='podcasts/JavaLang2011.m4a'>part 1</a> and <a href='podcasts/JavaIO2011.m4a'>part 2</a>)",
         "How to <a href='pdf/documentation.pdf'>document</a> your projects",
