@@ -36,7 +36,7 @@
     },
     {
       "content" : [
-        "Lecture: The Core Java <a href='pdf/coreAPI-2x2.pdf'>API</a> (Last year's podcast <a href='podcasts/JavaLang2011.m4a'>part 1</a> and <a href='podcasts/JavaIO2011.m4a'>part 2</a>)",
+        "Lecture: The Core Java <a href='pdf/coreAPI-2x2.pdf'>API</a>",
         "How to <a href='pdf/documentation.pdf'>document</a> your projects",
         "How to <a href='pdf/submit.pdf'>submit</a> your projects",
         "Assign <a href='pdf/TextFile.pdf'>Project 2</a>: Working with files",
