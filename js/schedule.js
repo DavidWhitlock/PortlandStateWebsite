@@ -79,9 +79,13 @@ function populateSchedule(schedule) {
       lectureComment(dl, hasPassed, lecture.comment)
     }
 
-    if (lecture.content) {
+    if (lecture.topics) {
+      lectureTopics(dl, hasPassed, lecture.topics, lecture.tdd);
+
+    } else if (lecture.content) {
       lectureContent(dl, hasPassed, lecture.content, lecture.tdd);
     }
+
   }
 }
 
@@ -163,6 +167,72 @@ function lectureContent(parent, hasPassed, content, tdd) {
     li.innerHTML = testDrivenDevelopmentHtml(tdd);
     
   }
+}
+
+/**
+ * Outputs HTML for the topics of a lecture
+ */
+function lectureTopics(parent, hasPassed, topics, tdd) {
+  var ul = $(document.createElement("ul"));
+  if (hasPassed) {
+    ul.hide();
+  }
+  parent.appendChild(ul);
+
+  if (topics.slides) {
+    for (var j = 0; j < topics.slides.length; j++) {
+      var slide = topics.slides[j];
+      slideHtml(ul, slide.title, slide.pdf, slide.screencast);
+    }
+  }
+
+  if (topics.handouts) {
+    for (var j = 0; j < topics.handouts.length; j++) {
+      var handout = topics.handouts[j];
+      pdf(ul, handout.title, handout.pdf);
+    }
+  }
+
+  if (topics.projects) {
+    for (var j = 0; j < topics.projects.length; j++) {
+      var project = topics.projects[j];
+      pdf(ul, project.title, project.pdf);
+    }
+  }
+
+  if (topics.references) {
+    for (var j = 0; j < topics.references.length; j++) {
+      var reference = topics.references[j];
+      url(ul, reference.title, reference.pdf);
+    }
+  }
+
+  if (tdd) {
+    li(ul, testDrivenDevelopmentHtml(tdd));
+  }
+}
+
+function slideHtml(ul, title, pdf, screencast) {
+  var description = "<a href='pdf/" + pdf +".pdf'>" + title + "</a>";
+  if (screencast) {
+    description += " (<a href='https://www.youtube.com/watch?v=" + screencast + "&list=SPyM7S4CZk9WPrtC8AclCNxOBA8buEJdib'>screencast</a>)";
+  }
+
+  li(ul, description);
+}
+
+function pdf(ul, title, pdf) {
+  url(ul, title, "pdf/" + pdf +".pdf");
+}
+
+function url(ul, title, url) {
+  li(ul, "<a href='" + url +"'>" + title + "</a>");
+}
+
+function li(ul, description) {
+  var li = $(document.createElement("li"));
+  ul.appendChild(li);
+  li.innerHTML = description;
 }
 
 function testDrivenDevelopmentHtml(tdd) {
