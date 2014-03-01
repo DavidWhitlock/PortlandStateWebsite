@@ -30,12 +30,12 @@
           {
             "title" : "Unit testing with JUnit",
             "pdf" : "junit-2x2",
-            "screencast" : "k1DE9H8EGNA"
+            "screencasts" : "k1DE9H8EGNA"
           },
           {
             "title" : "Building Java Projects with Maven",
             "pdf" : "maven-2x2",
-            "screencast" : "oLlOv8Ln0VE"
+            "screencasts" : "oLlOv8Ln0VE"
           }
         ],
         "handouts" : [
@@ -56,27 +56,16 @@
             "url" : "http://www.cat.pdx.edu/unix.html"
           },
           {
-            "title" : "More Information",
-            "url" : "docs/edu/pdx/cs410J/lang/package-summary.html#package_description"
-          },
-          {
             "title" : "Essential Java Resources",
             "url" : "http://www.ibm.com/developerworks/java/library/j-javaresources.html"
+          },
+          {
+            "title" : "More Information",
+            "url" : "docs/edu/pdx/cs410J/lang/package-summary.html#package_description"
           }
         ]
       },
 
-      "content" : [
-        "Course <a href='pdf/syllabus.pdf'>syllabus</a>",
-        "Lecture: <a href='pdf/javaReview-2x2.pdf'>Java Programming Language Review</a>",
-        "Lecture: Unit Testing with <a href='pdf/junit-2x2.pdf'>JUnit</a>",
-        "Lecture: Building Java Projects with <a href='pdf/maven-2x2.pdf'>Maven",
-        "Assign <a href='pdf/AppClasses.pdf'>Project 1</a>: Beginning a Java application",
-        "Begin working on <a href='pdf/koans.pdf'>Java Koans</a>",
-        "The CAT's <a href='http://www.cat.pdx.edu/unix.html'>UNIX</a> page",
-        "<a href='docs/edu/pdx/cs410J/lang/package-summary.html#package_description'>More Information</a>",
-        "<a href='http://www.ibm.com/developerworks/java/library/j-javaresources.html'>Essential Java Resources</a>",
-      ],
       "tdd" : [1, 2, 3, 4]
     },
     {
@@ -85,8 +74,8 @@
           { 
             "title" : "Core Language APIs",
             "pdf" : "coreAPI-2x2",
-            "screencast" : "pOaj6yrGs4Y"
-          },
+            "screencasts" : [ "pOaj6yrGs4Y", "qbq21vjz4vc" ]
+          }
         ],
         "handouts" : [
           {
@@ -108,25 +97,32 @@
           {
             "title" : "Java coding conventions",
             "url" : "http://www.oracle.com/technetwork/java/codeconv-138413.html"
+          },
+          {
+            "title" : "More information",
+            "url" : "docs/edu/pdx/cs410J/core/package-summary.html#package_description"
           }
         ]
       },
-      "content" : [
-        "Lecture: The Core Java <a href='pdf/coreAPI-2x2.pdf'>API</a>",
-        "How to <a href='pdf/documentation.pdf'>document</a> your projects",
-        "How to <a href='pdf/submit.pdf'>submit</a> your projects",
-        "Assign <a href='pdf/TextFile.pdf'>Project 2</a>: Working with files",
-        "Required reading: <a href='http://www.oracle.com/technetwork/java/codeconv-138413.html'>Java coding conventions</a>",
-        "<a href='docs/edu/pdx/cs410J/core/package-summary.html#package_description'>More Information</a>",
-      ],
       "tdd" : [5, 6, 7, 8]
     },
     {
-      "content" : [
-        "Project 1 Due",
-        "Lecture: The Core Java API (Part 2)",
-        "Assign <a href='pdf/PrettyPrint.pdf'>Project 3</a>: Sorting and working with Dates",
-      ],
+      "topics" : {
+        "due" : "Project 1",
+        "slides" : [
+          {
+            "title" : "The Core Java API (Part 2)",
+            "pdf" : "coreAPI-2x2",
+            "screencasts" : [ "InytCSemEJM", "fyYJA8FeU74" ]
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 3: Sorting and working with Dates",
+            "pdf" : "PrettyPrint"
+          }
+        ]
+      },
       "tdd" : [9, 10, 11, 12]
     },
     {

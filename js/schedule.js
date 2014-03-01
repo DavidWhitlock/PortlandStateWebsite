@@ -179,6 +179,18 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
   }
   parent.appendChild(ul);
 
+  if (topics.due) {
+    if (topics.due instanceof Array) {
+      for (var j = 0; j < topics.due.length; j++) {
+        var project = topics.due[j];
+        li(ul, project + " Due");
+      }
+
+    } else {
+      li(ul, topics.due + " Due");
+    }
+  }
+
   if (topics.slides) {
     li(ul, "Before class, review the following slides and screencasts:");
 
@@ -187,7 +199,7 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
 
     for (var j = 0; j < topics.slides.length; j++) {
       var slide = topics.slides[j];
-      slideHtml(slidesUl, slide.title, slide.pdf, slide.screencast);
+      slideHtml(slidesUl, slide.title, slide.pdf, slide.screencasts);
     }
   }
 
@@ -210,7 +222,7 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
   }
 
   if (topics.references) {
-    li(ul, "References to reinforce what we've learned");
+    li(ul, "References to reinforce what we've learned:");
 
     var referencesUl = $(document.createElement("ul"));
     ul.appendChild(referencesUl);
@@ -225,13 +237,32 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
   }
 }
 
-function slideHtml(ul, title, pdf, screencast) {
+function slideHtml(ul, title, pdf, screencasts) {
   var description = "<a href='pdf/" + pdf +".pdf'>" + title + "</a>";
-  if (screencast) {
-    description += " (<a href='https://www.youtube.com/watch?v=" + screencast + "&list=SPyM7S4CZk9WPrtC8AclCNxOBA8buEJdib'>screencast</a>)";
+  if (screencasts instanceof Array) {
+    description += " (screencast ";
+
+    for (var j = 0; j < screencasts.length; j++) {
+      var youTubeId = screencasts[j];
+      description += screencastLink(youTubeId, "Part " + (j+1)); 
+      if (j < screencasts.length - 1) {
+        description += ", ";
+      }
+    }
+
+    description += ")";
+
+  } else if (screencasts) {
+    description += " (" + screencastLink(screencasts, "screencast") + "</a>)";
   }
 
   li(ul, description);
+}
+
+function screencastLink(youTubeId, description) {
+  return "<a href='https://www.youtube.com/watch?v=" + 
+    youTubeId + "&list=SPyM7S4CZk9WPrtC8AclCNxOBA8buEJdib'>" + 
+    description + "</a>";
 }
 
 function pdf(ul, title, pdf, prefix) {
