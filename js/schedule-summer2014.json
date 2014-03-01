@@ -126,6 +126,27 @@
       "tdd" : [9, 10, 11, 12]
     },
     {
+      "topics" : {
+        "due" : "Project 2",
+        "slides" : [
+          {
+            "title" : "Reflection",
+            "pdf" : "reflect-2x2",
+            "screencasts" : [ "bvFA8TbGe1w", "Gt5VbWk-QCs" ]
+          },
+          {
+            "title" : "Foundations of the Web",
+            "pdf" : "web-2x2",
+            "screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 4: Client/Server",
+            "pdf" : "REST"
+          }
+        ]
+      },
       "content" : [
         "Project 2 Due",
         "Lecture: <a href='pdf/reflect-2x2.pdf'>Reflection</a>",
