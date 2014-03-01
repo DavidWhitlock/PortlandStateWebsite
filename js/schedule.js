@@ -192,7 +192,7 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
   }
 
   if (topics.slides) {
-    li(ul, "Before class, review the following slides and screencasts:");
+    li(ul, "Before class, review the following materials:");
 
     var slidesUl = $(document.createElement("ul"));
     ul.appendChild(slidesUl);
