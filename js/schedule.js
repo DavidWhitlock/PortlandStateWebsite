@@ -180,30 +180,43 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
   parent.appendChild(ul);
 
   if (topics.slides) {
+    li(ul, "Before class, review the following slides and screencasts:");
+
+    var slidesUl = $(document.createElement("ul"));
+    ul.appendChild(slidesUl);
+
     for (var j = 0; j < topics.slides.length; j++) {
       var slide = topics.slides[j];
-      slideHtml(ul, slide.title, slide.pdf, slide.screencast);
+      slideHtml(slidesUl, slide.title, slide.pdf, slide.screencast);
     }
   }
 
   if (topics.handouts) {
+    li(ul, "In class, we'll discuss the following handouts:");
+
+    var handoutsUl = $(document.createElement("ul"));
+    ul.appendChild(handoutsUl);
     for (var j = 0; j < topics.handouts.length; j++) {
       var handout = topics.handouts[j];
-      pdf(ul, handout.title, handout.pdf);
+      pdf(handoutsUl, handout.title, handout.pdf);
     }
   }
 
   if (topics.projects) {
     for (var j = 0; j < topics.projects.length; j++) {
       var project = topics.projects[j];
-      pdf(ul, project.title, project.pdf);
+      pdf(ul, project.title, project.pdf, "Assign ");
     }
   }
 
   if (topics.references) {
+    li(ul, "References to reinforce what we've learned");
+
+    var referencesUl = $(document.createElement("ul"));
+    ul.appendChild(referencesUl);
     for (var j = 0; j < topics.references.length; j++) {
       var reference = topics.references[j];
-      url(ul, reference.title, reference.pdf);
+      url(referencesUl, reference.title, reference.pdf);
     }
   }
 
@@ -221,12 +234,16 @@ function slideHtml(ul, title, pdf, screencast) {
   li(ul, description);
 }
 
-function pdf(ul, title, pdf) {
-  url(ul, title, "pdf/" + pdf +".pdf");
+function pdf(ul, title, pdf, prefix) {
+  url(ul, title, "pdf/" + pdf +".pdf", prefix);
 }
 
-function url(ul, title, url) {
-  li(ul, "<a href='" + url +"'>" + title + "</a>");
+function url(ul, title, url, prefix) {
+  if (prefix == null) {
+    prefix = "";
+  }
+
+  li(ul, prefix + "<a href='" + url +"'>" + title + "</a>");
 }
 
 function li(ul, description) {
@@ -236,7 +253,7 @@ function li(ul, description) {
 }
 
 function testDrivenDevelopmentHtml(tdd) {
-  var html = "Watch James Shore's <a href='http://jamesshore.com/Agile-Book/test_driven_development.html'>Test Driven Development</a> Screencast Episodes "
+  var html = "After class, watch James Shore's <a href='http://jamesshore.com/Agile-Book/test_driven_development.html'>Test Driven Development</a> Screencast Episodes "
 
   for (var j = 0; j < tdd.length; j++) {
     var episode = tdd[j];
