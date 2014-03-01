@@ -1,12 +1,12 @@
 /*** http://www.alistapart.com/articles/holygrail ***/
 
 body {
-  min-width: 620px;         /* 2 x (LC fullwidth + CC padding) + RC fullwidth */
+  min-width: 640px;         /* 2 x (LC fullwidth + CC padding) + RC fullwidth */
 }
 
 #container {
   padding-left: 180px;      /* LC fullwidth */
-  padding-right: 220px;     /* RC fullwidth + CC padding */
+  padding-right: 240px;     /* RC fullwidth + CC padding */
 }
 
 #container .column {
@@ -33,7 +33,7 @@ body {
 }
 
 #right {
-  width: 160px;             /* RC width */
+  width: 180px;             /* RC width */
   padding: 0 10px;          /* RC padding */
   margin-right: -100%;
   font-size: smaller;
@@ -49,7 +49,7 @@ body {
 
 /*** IE Fix ***/
 * html #left {
-  left: 180px;              /* RC fullwidth */
+  left: 200px;              /* RC fullwidth */
 }
 
 /*** Equal-height Columns ***/
