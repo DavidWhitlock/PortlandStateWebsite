@@ -228,7 +228,7 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
     ul.appendChild(referencesUl);
     for (var j = 0; j < topics.references.length; j++) {
       var reference = topics.references[j];
-      url(referencesUl, reference.title, reference.pdf);
+      url(referencesUl, reference.title, reference.url);
     }
   }
 
