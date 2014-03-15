@@ -48,6 +48,10 @@
           {
             "title" : "Project 1: Beginning a Java application",
             "pdf" : "AppClasses"
+          },
+          {
+            "title" : "Java Koans",
+            "pdf" : "koans"
           }
         ],
         "references" : [
