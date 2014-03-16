@@ -56,6 +56,10 @@
         ],
         "references" : [
           {
+            "title" : "Uncle Bob Martin on Test Driven Development",
+            "url" : "http://vimeo.com/43734265"
+          },
+          {
             "title" : "The CAT's UNIX page",
             "url" : "http://www.cat.pdx.edu/unix.html"
           },
@@ -124,6 +128,12 @@
           {
             "title" : "Project 3: Sorting and working with Dates",
             "pdf" : "PrettyPrint"
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Coding Dojo",
+            "url" : "http://codingdojo.org/"
           }
         ]
       },
