@@ -132,8 +132,24 @@
         ],
         "references" : [
           {
+            "title" : "Code Katas",
+            "url" : "http://codekata.com/kata/codekata-how-it-started/"
+          },
+          {
             "title" : "Coding Dojo",
             "url" : "http://codingdojo.org/"
+          },
+          {
+            "title" : "Video: How do you put on a coding dojo event?",
+            "url" : "http://www.youtube.com/watch?v=gav9fLVkZQc"
+          },
+          {
+            "title" : "Video: Introduction to Pair Programming",
+            "url" : "http://www.youtube.com/watch?v=rG_U12uqRhE"
+          },
+          {
+            "title" : "Our first Kata: FizzBuzz",
+            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz"
           }
         ]
       },
