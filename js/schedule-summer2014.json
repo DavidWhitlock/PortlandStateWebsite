@@ -108,6 +108,10 @@
         ],
         "references" : [
           {
+            "title" : "Video: Introduction to Pair Programming",
+            "url" : "http://www.youtube.com/watch?v=rG_U12uqRhE"
+          },
+          {
             "title" : "Java coding conventions",
             "url" : "http://google-styleguide.googlecode.com/svn/trunk/javaguide.html"
           },
@@ -147,10 +151,6 @@
           {
             "title" : "Video: How do you put on a coding dojo event?",
             "url" : "http://www.youtube.com/watch?v=gav9fLVkZQc"
-          },
-          {
-            "title" : "Video: Introduction to Pair Programming",
-            "url" : "http://www.youtube.com/watch?v=rG_U12uqRhE"
           },
           {
             "title" : "Our first Kata: FizzBuzz",
