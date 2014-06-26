@@ -71,10 +71,10 @@ function populateSchedule(schedule) {
   for (var i = 0; i < schedule.meetings.length; i++) {
     var meeting = Date.parseString(schedule.meetings[i]);
     var hasPassed = hasDatePassed(meeting);
-
-    var dl = lectureHeading(div, hasPassed, " Week " + (i+1) + (showDate ? ": " + meeting.format("MMM d, yyyy") : ""));
-
     var lecture = schedule.lectures[i];
+
+    var dl = lectureHeading(div, hasPassed, " Week " + (i+1) + (showDate ? ": " + meeting.format("MMM d, yyyy") : ""), lecture.screencasts);
+
     if (lecture.comment) {
       lectureComment(dl, hasPassed, lecture.comment)
     }
@@ -99,7 +99,7 @@ function appendTextChild(parent, text) {
 /**
  * Outputs HTML for the heading for a lecture
  */
-function lectureHeading(parent, hasPassed, heading) {
+function lectureHeading(parent, hasPassed, heading, screencasts) {
   var dl = $(document.createElement("dl"));
   parent.appendChild(dl);
 
@@ -127,6 +127,10 @@ function lectureHeading(parent, hasPassed, heading) {
   dt.appendChild(img);
 
   appendTextChild(dt, heading);
+
+  var span = $(document.createElement("span"));
+  span.innerHTML = screencastsLinks(screencasts);
+  dt.appendChild(span);
 
   return dl;
 }
@@ -237,8 +241,8 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
   }
 }
 
-function slideHtml(ul, title, pdf, screencasts) {
-  var description = "<a href='pdf/" + pdf +".pdf'>" + title + "</a>";
+function screencastsLinks(screencasts) {
+  var description = "";
   if (screencasts instanceof Array) {
     description += " (screencast ";
 
@@ -255,6 +259,14 @@ function slideHtml(ul, title, pdf, screencasts) {
   } else if (screencasts) {
     description += " (" + screencastLink(screencasts, "screencast") + "</a>)";
   }
+
+  return description;
+}
+
+function slideHtml(ul, title, pdf, screencasts) {
+  var description = "<a href='pdf/" + pdf +".pdf'>" + title + "</a>";
+
+  description += screencastsLinks(screencasts);
 
   li(ul, description);
 }
