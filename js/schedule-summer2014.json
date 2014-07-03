@@ -21,7 +21,7 @@
   "lectures" : [
     {
       "comment" : "We're going cover a lot on the first day. Make sure to eat a good dinner beforehand.",
-      "screencasts" : [ "JBDEfpPZJQM", "zUqhWt9ShJc" ],
+      "screencasts" : [ "JBDEfpPZJQM", "zUqhWt9ShJc", "Y8Fn-JryWi8" ],
       "topics" : {
         "slides" : [
           {
@@ -83,6 +83,7 @@
       "tdd" : [1, 2, 3, 4]
     },
     {
+      "screencasts" : [ "2k4ZgMA8Hdo", "ahGeUVuV5ug", "sNPuoq-ew3o" ],
       "topics" : {
         "slides" : [
           { 
