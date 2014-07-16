@@ -183,6 +183,12 @@
             "title" : "Project 4: Client/Server",
             "pdf" : "REST"
           }
+        ],
+        "references" : [
+          {
+            "title" : "Our next Kata: Roman Numerals",
+            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataRomanNumerals"
+          }
         ]
       },
       "tdd" : [13, 14, 15, 16]
@@ -201,6 +207,12 @@
           {
             "title" : "Project 5: A fully-featured Rich Internet Application",
             "pdf" : "RIA"
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Starting a larger Kata: Pac Man",
+            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataPacMan"
           }
         ]
       },
