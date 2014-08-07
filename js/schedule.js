@@ -73,7 +73,8 @@ function populateSchedule(schedule) {
     var hasPassed = hasDatePassed(meeting);
     var lecture = schedule.lectures[i];
 
-    var dl = lectureHeading(div, hasPassed, " Week " + (i+1) + (showDate ? ": " + meeting.format("MMM d, yyyy") : ""), lecture.screencasts);
+    var heading = " Week " + (i + 1) + (showDate ? ": " + meeting.format("MMM d, yyyy") : "");
+    var dl = lectureHeading(div, hasPassed, heading, lecture.screencasts, schedule.youTubeClassRecordingsListId);
 
     if (lecture.comment) {
       lectureComment(dl, hasPassed, lecture.comment)
@@ -99,7 +100,7 @@ function appendTextChild(parent, text) {
 /**
  * Outputs HTML for the heading for a lecture
  */
-function lectureHeading(parent, hasPassed, heading, screencasts) {
+function lectureHeading(parent, hasPassed, heading, screencasts, youTubeListId) {
   var dl = $(document.createElement("dl"));
   parent.appendChild(dl);
 
@@ -129,7 +130,7 @@ function lectureHeading(parent, hasPassed, heading, screencasts) {
   appendTextChild(dt, heading);
 
   var span = $(document.createElement("span"));
-  span.innerHTML = screencastsLinks(screencasts, "PLyM7S4CZk9WNV6dMz5GQ02k7ahTfv5vS0");
+  span.innerHTML = screencastsLinks(screencasts, youTubeListId);
   dt.appendChild(span);
 
   return dl;
@@ -266,7 +267,8 @@ function screencastsLinks(screencasts, youTubeListId) {
 function slideHtml(ul, title, pdf, screencasts) {
   var description = "<a href='pdf/" + pdf +".pdf'>" + title + "</a>";
 
-  description += screencastsLinks(screencasts, "SPyM7S4CZk9WPrtC8AclCNxOBA8buEJdib");
+  var youTubeLecturesListId = "SPyM7S4CZk9WPrtC8AclCNxOBA8buEJdib";
+  description += screencastsLinks(screencasts, youTubeLecturesListId);
 
   li(ul, description);
 }
