@@ -233,14 +233,11 @@
           }
         ]
       },
-      "content" : [
-        "Project 4 Due",
-        "Lecture: <a href='pdf/di-2x2.pdf'>Dependency Injection</a>",
-      ],
       "tdd" : [21, 22, 23, 24]
     },
     {
       "topics" : {
+        "screencasts" : [ "OSlBCSd-UAU" ],
         "slides" : [
           {
             "title" : "Advanced GWT",
