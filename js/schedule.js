@@ -129,7 +129,7 @@ function lectureHeading(parent, hasPassed, heading, screencasts) {
   appendTextChild(dt, heading);
 
   var span = $(document.createElement("span"));
-  span.innerHTML = screencastsLinks(screencasts);
+  span.innerHTML = screencastsLinks(screencasts, "PLyM7S4CZk9WNV6dMz5GQ02k7ahTfv5vS0");
   dt.appendChild(span);
 
   return dl;
@@ -241,14 +241,14 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
   }
 }
 
-function screencastsLinks(screencasts) {
+function screencastsLinks(screencasts, youTubeListId) {
   var description = "";
   if (screencasts instanceof Array) {
     description += " (screencast ";
 
     for (var j = 0; j < screencasts.length; j++) {
       var youTubeId = screencasts[j];
-      description += screencastLink(youTubeId, "Part " + (j+1)); 
+      description += screencastLink(youTubeId, youTubeListId, "Part " + (j + 1));
       if (j < screencasts.length - 1) {
         description += ", ";
       }
@@ -257,7 +257,7 @@ function screencastsLinks(screencasts) {
     description += ")";
 
   } else if (screencasts) {
-    description += " (" + screencastLink(screencasts, "screencast") + "</a>)";
+    description += " (" + screencastLink(screencasts, youTubeListId, "screencast") + "</a>)";
   }
 
   return description;
@@ -266,14 +266,14 @@ function screencastsLinks(screencasts) {
 function slideHtml(ul, title, pdf, screencasts) {
   var description = "<a href='pdf/" + pdf +".pdf'>" + title + "</a>";
 
-  description += screencastsLinks(screencasts);
+  description += screencastsLinks(screencasts, "SPyM7S4CZk9WPrtC8AclCNxOBA8buEJdib");
 
   li(ul, description);
 }
 
-function screencastLink(youTubeId, description) {
+function screencastLink(youTubeId, youTubeListId, description) {
   return "<a href='https://www.youtube.com/watch?v=" + 
-    youTubeId + "&list=SPyM7S4CZk9WPrtC8AclCNxOBA8buEJdib'>" + 
+    youTubeId + "&list=" + youTubeListId + "'>" +
     description + "</a>";
 }
 
