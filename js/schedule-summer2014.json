@@ -236,8 +236,8 @@
       "tdd" : [21, 22, 23, 24]
     },
     {
+      "screencasts" : [ "OSlBCSd-UAU", "iGWVJFNg2yk", "dfIpwHeE0gU" ],
       "topics" : {
-        "screencasts" : [ "OSlBCSd-UAU" ],
         "slides" : [
           {
             "title" : "Advanced GWT",
