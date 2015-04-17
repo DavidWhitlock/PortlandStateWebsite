@@ -267,7 +267,7 @@ function screencastsLinks(screencasts, youTubeListId) {
 }
 
 function slideHtml(ul, title, pdf, screencasts) {
-  var description = "<a href='pdf/" + pdf +".pdf'>" + title + "</a>";
+  var description = "<a href='pdf/" + pdf +".pdf' target='_blank'>" + title + "</a>";
 
   var youTubeLecturesListId = "SPyM7S4CZk9WPrtC8AclCNxOBA8buEJdib";
   description += screencastsLinks(screencasts, youTubeLecturesListId);
@@ -277,7 +277,7 @@ function slideHtml(ul, title, pdf, screencasts) {
 
 function screencastLink(youTubeId, youTubeListId, description) {
   return "<a href='https://www.youtube.com/watch?v=" + 
-    youTubeId + "&list=" + youTubeListId + "'>" +
+    youTubeId + "&list=" + youTubeListId + "' target='_blank'>" +
     description + "</a>";
 }
 
@@ -290,7 +290,7 @@ function url(ul, title, url, prefix) {
     prefix = "";
   }
 
-  li(ul, prefix + "<a href='" + url +"'>" + title + "</a>");
+  li(ul, prefix + "<a href='" + url +"' target='_blank'>" + title + "</a>");
 }
 
 function li(ul, description) {
@@ -300,14 +300,14 @@ function li(ul, description) {
 }
 
 function testDrivenDevelopmentHtml(tdd) {
-  var html = "After class, watch James Shore's <a href='http://jamesshore.com/Agile-Book/test_driven_development.html'>Test Driven Development</a> Screencast Episodes "
+  var html = "After class, watch James Shore's <a href='http://jamesshore.com/Agile-Book/test_driven_development.html' target='_blank'>Test Driven Development</a> Screencast Episodes "
 
   for (var j = 0; j < tdd.length; j++) {
     var episode = tdd[j];
 
     html += "<a href='http://jamesshore.com/Blog/Lets-Play/";
     html += tddEpisodeName(episode);
-    html += ".html'>";
+    html += ".html' target='_blank'>";
     html += episode;
     html += "</a>";
 
