@@ -157,6 +157,10 @@
             "url" : "http://www.youtube.com/watch?v=gav9fLVkZQc"
           },
           {
+            "title" : "Video: Mob Programming",
+            "url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
+          },
+          {
             "title" : "Our first Kata: FizzBuzz",
             "url" : "http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz"
           }
@@ -188,8 +192,8 @@
         ],
         "references" : [
           {
-            "title" : "Our next Kata: Roman Numerals",
-            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataRomanNumerals"
+            "title" : "Our next Kata: Converting numbers to words",
+            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataNumbersInWords"
           }
         ]
       },
@@ -214,8 +218,8 @@
         ],
         "references" : [
           {
-            "title" : "Starting a larger Kata: Pac Man",
-            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataPacMan"
+            "title" : "A larger Kata: Minesweeper",
+            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataMinesweeper"
           }
         ]
       },
