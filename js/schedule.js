@@ -245,17 +245,19 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
 function screencastsLinks(screencasts, youTubeListId) {
   var description = "";
   if (screencasts instanceof Array) {
-    description += " (screencast ";
+    if (screencasts.length > 0) {
+      description += " (screencast ";
 
-    for (var j = 0; j < screencasts.length; j++) {
-      var youTubeId = screencasts[j];
-      description += screencastLink(youTubeId, youTubeListId, "Part " + (j + 1));
-      if (j < screencasts.length - 1) {
-        description += ", ";
+      for (var j = 0; j < screencasts.length; j++) {
+        var youTubeId = screencasts[j];
+        description += screencastLink(youTubeId, youTubeListId, "Part " + (j + 1));
+         if (j < screencasts.length - 1) {
+          description += ", ";
+         }
       }
-    }
 
-    description += ")";
+      description += ")";
+    }
 
   } else if (screencasts) {
     description += " (" + screencastLink(screencasts, youTubeListId, "screencast") + "</a>)";

@@ -1,0 +1,258 @@
+{
+  "youTubeClassRecordingsListId" : "PLyM7S4CZk9WNV6dMz5GQ02k7ahTfv5vS0",
+  "review" : {
+    "comment" : "In years past, we've begun the class with an in-depth review of the Java Programming Language and Object-Oriented Programming.  This term, however, we're going to start out with a condensed review of Java.  If you are new to Java or haven't worked with the language for a while, I invite you review the lecture notes and listen to the podcast for the first class from Summer 2009.",
+    "content" : [
+      "<a href='pdf/javaLanguage-2x2.pdf'>The Java Programming Language</a> (<a href='podcasts/JavaReview1.m4a'>podcast</a>)",
+      "<a href='pdf/oopInJava-2x2.pdf'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a'>part 1</a> and <a href='podcasts/JavaReview3.m4a'>part 2</a>)",
+      "Try out <a href='pdf/Student.pdf'>Project 0</a>: Implementing a simple class",
+      "Download and install <A href='http://www.jetbrains.com/idea/'>IntelliJ Idea</a>, the recommended IDE for this course.  Use the trial license until the first day of class when I'll give you the classroom license."
+    ]
+  },
+  "meetings" : [
+    "June 24, 2015",
+    "July 1, 2015",
+    "July 8, 2015",
+    "July 15, 2015",
+    "July 22, 2015",
+    "July 29, 2015",
+    "August 5, 2015",
+    "August 12, 2015"
+  ],
+  "lectures" : [
+    {
+      "comment" : "We're going cover a lot on the first day. Make sure to eat a good dinner beforehand.",
+      "screencasts" : [ ],
+      "topics" : {
+        "slides" : [
+          {
+            "title" : "Getting Started with Java",
+            "pdf" : "Getting%20started%20with%20Java",
+            "screencasts" : "TC4EUC3c-Sc"
+          },
+          {
+            "title" : "Java Programming Language Review",
+            "pdf" : "javaReview-2x2"
+          },
+          {
+            "title" : "Unit testing with JUnit",
+            "pdf" : "junit-2x2",
+            "screencasts" : "k1DE9H8EGNA"
+          },
+          {
+            "title" : "Building Java Projects with Maven",
+            "pdf" : "maven-2x2",
+            "screencasts" : "oLlOv8Ln0VE"
+          }
+        ],
+        "handouts" : [
+          {
+            "title" : "Course syllabus",
+            "pdf" : "syllabus"
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 1: Beginning a Java application",
+            "pdf" : "AppClasses"
+          },
+          {
+            "title" : "Java Koans",
+            "pdf" : "koans"
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Uncle Bob Martin on Test Driven Development",
+            "url" : "http://vimeo.com/43734265"
+          },
+          {
+            "title" : "The CAT's UNIX page",
+            "url" : "http://www.cat.pdx.edu/unix.html"
+          },
+          {
+            "title" : "Essential Java Resources",
+            "url" : "http://www.ibm.com/developerworks/java/library/j-javaresources.html"
+          },
+          {
+            "title" : "More Information",
+            "url" : "docs/edu/pdx/cs410J/lang/package-summary.html#package_description"
+          }
+        ]
+      },
+
+      "tdd" : [1, 2, 3, 4]
+    },
+    {
+      "screencasts" : [ ],
+      "topics" : {
+        "slides" : [
+          { 
+            "title" : "Core Language APIs",
+            "pdf" : "coreAPI-2x2",
+            "screencasts" : [ "pOaj6yrGs4Y", "qbq21vjz4vc" ]
+          }
+        ],
+        "handouts" : [
+          {
+            "title" : "How to document your projects",
+            "pdf" : "documentation"
+          },
+          {
+            "title" : "How to submit your projects",
+            "pdf" : "submit"
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 2: Working with files",
+            "pdf" : "TextFile"
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Video: Introduction to Pair Programming",
+            "url" : "http://www.youtube.com/watch?v=rG_U12uqRhE"
+          },
+          {
+            "title" : "Java coding conventions",
+            "url" : "http://google-styleguide.googlecode.com/svn/trunk/javaguide.html"
+          },
+          {
+            "title" : "More information",
+            "url" : "docs/edu/pdx/cs410J/core/package-summary.html#package_description"
+          }
+        ]
+      },
+      "tdd" : [5, 6, 7, 8]
+    },
+    {
+      "screencasts" : [ ],
+      "topics" : {
+        "due" : "Project 1",
+        "slides" : [
+          {
+            "title" : "The Core Java API (Part 2)",
+            "pdf" : "coreAPI-2x2",
+            "screencasts" : [ "InytCSemEJM", "fyYJA8FeU74" ]
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 3: Sorting and working with Dates",
+            "pdf" : "PrettyPrint"
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Code Katas",
+            "url" : "http://codekata.com/kata/codekata-how-it-started/"
+          },
+          {
+            "title" : "Coding Dojo",
+            "url" : "http://codingdojo.org/"
+          },
+          {
+            "title" : "Video: How do you put on a coding dojo event?",
+            "url" : "http://www.youtube.com/watch?v=gav9fLVkZQc"
+          },
+          {
+            "title" : "Our first Kata: FizzBuzz",
+            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz"
+          }
+        ]
+      },
+      "tdd" : [9, 10, 11, 12]
+    },
+    {
+      "screencasts" : [ ],
+      "topics" : {
+        "due" : "Project 2",
+        "slides" : [
+          {
+            "title" : "Reflection",
+            "pdf" : "reflect-2x2",
+            "screencasts" : [ "bvFA8TbGe1w", "Gt5VbWk-QCs" ]
+          },
+          {
+            "title" : "Foundations of the Web",
+            "pdf" : "web-2x2",
+            "screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 4: Client/Server",
+            "pdf" : "REST"
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Our next Kata: Roman Numerals",
+            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataRomanNumerals"
+          }
+        ]
+      },
+      "tdd" : [13, 14, 15, 16]
+    },
+    {
+      "screencasts" : [ ],
+      "topics" : {
+        "due" : [ "Project 3", "Java Koans" ],
+        "slides" : [
+          {
+            "title" : "Google Web Toolkit",
+            "pdf" : "gwt-2x2",
+            "screencasts" : [ "1NlBk60hp0U", "VNygTC2SyFg", "QKQl0xSCgM4" ]
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 5: A fully-featured Rich Internet Application",
+            "pdf" : "RIA"
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Starting a larger Kata: Pac Man",
+            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataPacMan"
+          }
+        ]
+      },
+      "tdd" : [17, 18, 19, 20]
+    },
+    {
+      "screencasts" : [ ],
+      "topics" : {
+        "due" : "Project 4",
+        "slides" : [
+          {
+            "title" : "Dependency Injection",
+            "pdf" : "di-2x2",
+            "screencasts" : [ "GQD5UAUKGfc", "iRRFx0ehqoE" ]
+          }
+        ]
+      },
+      "tdd" : [21, 22, 23, 24]
+    },
+    {
+      "screencasts" : [ ],
+      "topics" : {
+        "slides" : [
+          {
+            "title" : "Advanced GWT",
+            "pdf" : "gwt2-2x2"
+          }
+        ]
+      },
+      "tdd" : [25, 26, 27, 28]
+    },
+    {
+      "screencasts" : [ ],
+      "content" : [
+        "Project 5 Due",
+        "Final Exam"
+      ]
+    }
+  ]
+}
