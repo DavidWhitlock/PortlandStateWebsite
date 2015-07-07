@@ -135,6 +135,11 @@
             "title" : "The Core Java API (Part 2)",
             "pdf" : "coreAPI-2x2",
             "screencasts" : [ "InytCSemEJM", "fyYJA8FeU74" ]
+          },
+          {
+            "title" : "Functional Programming in Java 8",
+            "pdf" : "java8Lambdas-2x2",
+            "screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
           }
         ],
         "projects" : [
