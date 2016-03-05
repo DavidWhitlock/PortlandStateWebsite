@@ -3,10 +3,10 @@
   "review" : {
     "comment" : "Long ago, we've began the class with an in-depth review of the Java Programming Language and Object-Oriented Programming.  More recenly, however, we start out with a condensed review of Java.  If you are new to Java or haven't worked with the language for a while, I invite you review the lecture notes and listen to the podcast for the first class from Summer 2009.",
     "content" : [
-      "<a href='pdf/javaLanguage-2x2.pdf'>The Java Programming Language</a> (<a href='podcasts/JavaReview1.m4a'>podcast</a>)",
-      "<a href='pdf/oopInJava-2x2.pdf'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a'>part 1</a> and <a href='podcasts/JavaReview3.m4a'>part 2</a>)",
-      "Try out <a href='pdf/Student.pdf'>Project 0</a>: Implementing a simple class",
-      "Download and install <A href='http://www.jetbrains.com/idea/'>IntelliJ Idea</a>, the recommended IDE for this course.  Use the trial license until the first day of class when I'll give you the classroom license."
+      "<a href='pdf/javaLanguage-2x2.pdf' target='_blank'>The Java Programming Language</a> (<a href='podcasts/JavaReview1.m4a' target='_blank'>podcast</a>)",
+      "<a href='pdf/oopInJava-2x2.pdf' target='_blank'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a' target='_blank'>part 1</a> and <a href='podcasts/JavaReview3.m4a' target='_blank'>part 2</a>)",
+      "Try out <a href='pdf/Student.pdf' target='_blank'>Project 0</a>: Implementing a simple class",
+      "Download and install <a href='http://www.jetbrains.com/idea/' target='_blank'>IntelliJ Idea</a>, the recommended IDE for this course.  Use the trial license until the first day of class when I'll give you the classroom license."
     ]
   },
   "meetings" : [
