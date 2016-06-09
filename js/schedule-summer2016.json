@@ -131,10 +131,10 @@
       "topics" : {
         "due" : "Project 1",
         "quiz" : {
-            "number" : 1
-            "qi" : 108514
+            "number" : 1,
+            "qi" : 108514,
             "ou" : 571199
-        }
+        },
         "slides" : [
           {
             "title" : "The Core Java API (Part 2)",

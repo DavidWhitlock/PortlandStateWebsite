@@ -196,6 +196,13 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
     }
   }
 
+  if (topics.quiz) {
+    var dueQuiz = topics.quiz;
+    var link = "https://d2l.pdx.edu/d2l/lms/quizzing/user/quiz_summary.d2l?qi=" + dueQuiz.qi + "&ou= " + dueQuiz.ou;
+
+    url(ul, "Quiz " + dueQuiz.number + " Due", link, null);
+  }
+
   if (topics.slides) {
     li(ul, "Before class, review the following materials:");
 
@@ -264,14 +271,6 @@ function screencastsLinks(screencasts, youTubeListId) {
   }
 
   return description;
-}
-
-function dueHtml(ul, qi, ou, title) {
-  url()
-  var due = "<a href='https://d2l.pdx.edu/d2l/lms/quizzing/user/quiz_summary.d2l?qi=" + qi + "&ou= " + ou  target='_blank'>"
-  
-  
-  li(ul, due)
 }
 
 function slideHtml(ul, title, pdf, screencasts) {
