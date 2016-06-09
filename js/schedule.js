@@ -266,6 +266,14 @@ function screencastsLinks(screencasts, youTubeListId) {
   return description;
 }
 
+function dueHtml(ul, qi, ou, title) {
+  url()
+  var due = "<a href='https://d2l.pdx.edu/d2l/lms/quizzing/user/quiz_summary.d2l?qi=" + qi + "&ou= " + ou  target='_blank'>"
+  
+  
+  li(ul, due)
+}
+
 function slideHtml(ul, title, pdf, screencasts) {
   var description = "<a href='pdf/" + pdf +".pdf' target='_blank'>" + title + "</a>";
 
