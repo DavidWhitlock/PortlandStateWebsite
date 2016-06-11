@@ -228,6 +228,11 @@
             "qi" : 114905,
             "ou" : 587638
         },
+        "survey" : {
+            "name" : "Midterm",
+            "si" : 114910,
+            "ou" : 587638
+        },
         "slides" : [
           {
             "title" : "Google Web Toolkit",
@@ -288,10 +293,15 @@
     },
     {
       "screencasts" : [  ],
-      "content" : [
-        "Project 5 Due",
-        "Final Exam"
-      ]
+      "comment" : "Final Exam during class time",
+      "topics" : {
+        "due" : "Project 4",
+        "survey" : {
+            "name" : "Midterm",
+            "si" : 114910,
+            "ou" : 587638
+        }
+      }
     }
   ]
 }
