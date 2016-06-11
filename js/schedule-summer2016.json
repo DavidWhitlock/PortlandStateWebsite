@@ -86,6 +86,11 @@
     {
       "screencasts" : [  ],
       "topics" : {
+        "quiz" : {
+            "number" : 1,
+            "qi" : 114902,
+            "ou" : 587638
+        },
         "slides" : [
           { 
             "title" : "Core Language APIs",
@@ -131,9 +136,9 @@
       "topics" : {
         "due" : "Project 1",
         "quiz" : {
-            "number" : 1,
-            "qi" : 108514,
-            "ou" : 571199
+            "number" : 2,
+            "qi" : 114903,
+            "ou" : 587638
         },
         "slides" : [
           {
@@ -182,6 +187,11 @@
       "screencasts" : [  ],
       "topics" : {
         "due" : "Project 2",
+        "quiz" : {
+            "number" : 3,
+            "qi" : 114904,
+            "ou" : 587638
+        },
         "slides" : [
           {
             "title" : "Reflection",
@@ -213,6 +223,11 @@
       "screencasts" : [  ],
       "topics" : {
         "due" : [ "Project 3", "Java Koans" ],
+        "quiz" : {
+            "number" : 4,
+            "qi" : 114905,
+            "ou" : 587638
+        },
         "slides" : [
           {
             "title" : "Google Web Toolkit",
@@ -239,6 +254,11 @@
       "screencasts" : [  ],
       "topics" : {
         "due" : "Project 4",
+        "quiz" : {
+            "number" : 5,
+            "qi" : 114906,
+            "ou" : 587638
+        },
         "slides" : [
           {
             "title" : "Dependency Injection",
@@ -252,6 +272,11 @@
     {
       "screencasts" : [  ],
       "topics" : {
+        "quiz" : {
+            "number" : 6,
+            "qi" : 114907,
+            "ou" : 587638
+        },
         "slides" : [
           {
             "title" : "Advanced GWT",
