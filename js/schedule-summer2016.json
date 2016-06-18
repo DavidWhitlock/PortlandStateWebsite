@@ -176,8 +176,8 @@
             "url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
           },
           {
-            "title" : "Our first Kata: FizzBuzz",
-            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz"
+            "title" : "Our first Kata: Stop gninnipS My sdroW!",
+            "url" : "https://www.codewars.com/kata/5264d2b162488dc400000001/discuss/java"
           }
         ]
       },
@@ -212,8 +212,8 @@
         ],
         "references" : [
           {
-            "title" : "Our next Kata: Converting numbers to words",
-            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataNumbersInWords"
+            "title" : "Our next Kata: Reverse polish notation calculator",
+            "url" : "https://www.codewars.com/kata/reverse-polish-notation-calculator/discuss/javascript"
           }
         ]
       },
@@ -248,8 +248,8 @@
         ],
         "references" : [
           {
-            "title" : "A larger Kata: Minesweeper",
-            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataMinesweeper"
+            "title" : "A larger Kata: Conway's Game of Life",
+            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataGameOfLife"
           }
         ]
       },
@@ -297,7 +297,7 @@
       "topics" : {
         "due" : "Project 4",
         "survey" : {
-            "name" : "Midterm",
+            "name" : "End of term",
             "si" : 114910,
             "ou" : 587638
         }
