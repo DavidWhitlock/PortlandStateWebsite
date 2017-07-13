@@ -132,7 +132,7 @@
       "tdd" : [5, 6, 7, 8]
     },
     {
-      "screencasts" : [  ],
+      "screencasts" : [ "ggyHFAiPoHA", "15EwjpyIoDo", "-Yh17-vhbc0", "qS4bVAT7iAQ" ],
       "topics" : {
         "due" : "Project 1",
         "quiz" : {
@@ -176,8 +176,8 @@
             "url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
           },
           {
-            "title" : "Our first Kata: Stop gninnipS My sdroW!",
-            "url" : "https://www.codewars.com/kata/5264d2b162488dc400000001/discuss/java"
+            "title" : "Our first Kata: Scoring a game of tennis",
+            "url" : "http://codingdojo.org/kata/Tennis"
           }
         ]
       },
@@ -212,8 +212,8 @@
         ],
         "references" : [
           {
-            "title" : "Our next Kata: Reverse polish notation calculator",
-            "url" : "https://www.codewars.com/kata/reverse-polish-notation-calculator/discuss/javascript"
+            "title" : "Our next Kata: Converting numbers to words",
+            "url" : "http://codingdojo.org/kata/NumbersInWords"
           }
         ]
       },
@@ -248,8 +248,8 @@
         ],
         "references" : [
           {
-            "title" : "A larger Kata: Conway's Game of Life",
-            "url" : "http://codingdojo.org/cgi-bin/index.pl?KataGameOfLife"
+            "title" : "A larger Kata: Minesweeper",
+            "url" : "http://codingdojo.org/kata/Minesweeper/"
           }
         ]
       },
