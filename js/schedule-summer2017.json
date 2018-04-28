@@ -256,7 +256,7 @@
       "tdd" : [17, 18, 19, 20]
     },
     {
-      "screencasts" : [  ],
+      "screencasts" : [ "XQLO-l6NTV4", "Gh2OEVYS400" ],
       "topics" : {
         "due" : "Project 4",
         "quiz" : {
@@ -275,7 +275,7 @@
       "tdd" : [21, 22, 23, 24]
     },
     {
-      "screencasts" : [  ],
+      "screencasts" : [ "YWz90AWcK9c", "B_2b35uMP8Q" ],
       "topics" : {
         "quiz" : {
             "number" : 6,
@@ -292,7 +292,7 @@
       "tdd" : [25, 26, 27, 28]
     },
     {
-      "screencasts" : [  ],
+      "screencasts" : [ "4PYE6sngcNo" ],
       "comment" : "Final Exam during class time",
       "topics" : {
         "due" : "Project 5",
