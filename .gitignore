@@ -1,4 +1,3 @@
-bloat/
 capstone/
 docs
 dtds/
@@ -6,12 +5,7 @@ gwtProjectTemplate.zip
 jars/
 javaws-docs/
 jnlp/
-pdf
-pdf-fall2004/
-pdf-spring2005/
-pdf-summer2008/
-pdf-summer2009/
-pdf-summer2012/
+pdf*
 podcasts/
 repository/
 resources.html
