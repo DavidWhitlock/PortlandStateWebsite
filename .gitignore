@@ -11,3 +11,6 @@ repository/
 resources.html
 site/
 src/
+
+# Emacs backup files
+*.~*~
