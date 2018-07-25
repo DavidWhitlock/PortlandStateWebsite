@@ -247,6 +247,10 @@
             "title" : "Google Web Toolkit",
             "pdf" : "gwt-2x2",
             "screencasts" : [ "1NlBk60hp0U", "VNygTC2SyFg", "QKQl0xSCgM4" ]
+          },
+          {
+            "title" : "Bonus: Gang of Four Design Patterns",
+            "pdf" : "designPatterns-2x2"
           }
         ],
         "projects" : [
