@@ -261,15 +261,15 @@
         ],
         "references" : [
           {
-            "title" : "A larger Kata: Minesweeper",
-            "url" : "http://codingdojo.org/kata/Minesweeper/"
+            "title" : "A larger Kata: Pac Man",
+            "url" : "http://codingdojo.org/kata/PacMan"
           }
         ]
       },
       "tdd" : [17, 18, 19, 20]
     },
     {
-      "screencasts" : [  ],
+      "screencasts" : [ "w6PJlEkFPrA", "Iu-aIm-JCJs", "IWuFqISKyPc" ],
       "topics" : {
         "due" : "Project 4",
         "quiz" : {
