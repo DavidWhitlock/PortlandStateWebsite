@@ -247,10 +247,6 @@
             "title" : "Android",
             "pdf" : "android-2x2",
             "screencasts" : [ ]
-          },
-          {
-            "title" : "Bonus: Gang of Four Design Patterns",
-            "pdf" : "designPatterns-2x2"
           }
         ],
         "projects" : [
