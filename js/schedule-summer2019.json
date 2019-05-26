@@ -251,8 +251,8 @@
         ],
         "projects" : [
           {
-            "title" : "Project 5: A fully-featured Rich Internet Application",
-            "pdf" : "RIA"
+            "title" : "Project 5: A fully-featured Small Device Application",
+            "pdf" : "SmallDeviceApp"
           }
         ],
         "references" : [
