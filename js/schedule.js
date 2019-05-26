@@ -247,7 +247,12 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
     ul.appendChild(referencesUl);
     for (var j = 0; j < topics.references.length; j++) {
       var reference = topics.references[j];
-      url(referencesUl, reference.title, reference.url);
+      if (reference.apiurl) {
+        apiurl(referencesUl, reference.title, reference.url);
+
+      } else {
+        url(referencesUl, reference.title, reference.url);
+      }
     }
   }
 
@@ -297,6 +302,12 @@ function screencastLink(youTubeId, youTubeListId, description) {
 
 function pdf(ul, title, pdf, prefix) {
   url(ul, title, "pdf/" + pdf +".pdf", prefix);
+}
+
+
+function apiurl(ul, title, apiurl, prefix) {
+  var url = "http://davidwhitlock.github.io/PortlandStateJava/api" + apiurl;
+  url(ul, title, url, prefix);
 }
 
 function url(ul, title, url, prefix) {
