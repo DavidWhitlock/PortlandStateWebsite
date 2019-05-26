@@ -133,7 +133,7 @@
           },
           {
             "title" : "More information",
-            "url" : "docs/edu/pdx/cs410J/core/package-summary.html#package_description"
+            "apiurl" : "docs/edu/pdx/cs410J/core/package-summary.html#package_description"
           }
         ]
       },
