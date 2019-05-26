@@ -248,7 +248,7 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
     for (var j = 0; j < topics.references.length; j++) {
       var reference = topics.references[j];
       if (reference.apiurl) {
-        apiurl(referencesUl, reference.title, reference.url);
+        apiurl(referencesUl, reference.title, reference.apiurl);
 
       } else {
         url(referencesUl, reference.title, reference.url);
@@ -306,8 +306,8 @@ function pdf(ul, title, pdf, prefix) {
 
 
 function apiurl(ul, title, apiurl, prefix) {
-  var url = "http://davidwhitlock.github.io/PortlandStateJava/api" + apiurl;
-  url(ul, title, url, prefix);
+  var thisurl = "http://davidwhitlock.github.io/PortlandStateJava/api" + apiurl;
+  url(ul, title, thisurl, prefix);
 }
 
 function url(ul, title, url, prefix) {
