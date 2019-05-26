@@ -92,8 +92,8 @@
       "topics" : {
         "quiz" : {
             "number" : 1,
-            "qi" : 164260,
-            "ou" : 708273
+            "qi" : 188230,
+            "ou" : 760720
         },
         "slides" : [
           { 
@@ -145,8 +145,8 @@
         "due" : "Project 1",
         "quiz" : {
             "number" : 2,
-            "qi" : 164261,
-            "ou" : 708273
+            "qi" : 188231,
+            "ou" : 760720
         },
         "slides" : [
           {
@@ -197,8 +197,8 @@
         "due" : "Project 2",
         "quiz" : {
             "number" : 3,
-            "qi" : 164262,
-            "ou" : 708273
+            "qi" : 188232,
+            "ou" : 760720
         },
         "slides" : [
           {
@@ -234,13 +234,13 @@
         "due" : [ "Project 3", "Java Koans" ],
         "quiz" : {
             "number" : 4,
-            "qi" : 164263,
-            "ou" : 708273
+            "qi" : 188233,
+            "ou" : 760720
         },
         "survey" : {
             "name" : "Midterm",
-            "si" : 164268,
-            "ou" : 708273
+            "si" : 188238,
+            "ou" : 760720
         },
         "slides" : [
           {
@@ -270,8 +270,8 @@
         "due" : "Project 4",
         "quiz" : {
             "number" : 5,
-            "qi" : 164264,
-            "ou" : 708273
+            "qi" : 188234,
+            "ou" : 760720
         },
         "slides" : [
           {
@@ -289,7 +289,7 @@
         "quiz" : {
             "number" : 6,
             "qi" : 164265,
-            "ou" : 708273
+            "ou" : 760720
         },
         "slides" : [
           {
@@ -307,8 +307,8 @@
         "due" : "Project 5",
         "survey" : {
             "name" : "End of term",
-            "si" : 164267,
-            "ou" : 708273
+            "si" : 188237,
+            "ou" : 760720
         }
       }
     }
