@@ -288,13 +288,13 @@
       "topics" : {
         "quiz" : {
             "number" : 6,
-            "qi" : 164265,
+            "qi" : 188239,
             "ou" : 760720
         },
         "slides" : [
           {
-            "title" : "Advanced GWT",
-            "pdf" : "gwt2-2x2"
+            "title" : "More Android",
+            "pdf" : "android-2x2"
           }
         ]
       },
