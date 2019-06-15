@@ -257,7 +257,7 @@
         ],
         "references" : [
           {
-            "title" : "A larger Kata: RPM Calculator",
+            "title" : "A larger Kata: RPN Calculator",
             "url" : "http://codingdojo.org/kata/RPN"
           }
         ]
