@@ -184,8 +184,8 @@
             "url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
           },
           {
-            "title" : "Our first Kata: Scoring a game of tennis",
-            "url" : "http://codingdojo.org/kata/Tennis"
+            "title" : "Our first Kata: Leap Years",
+            "url" : "http://codingdojo.org/kata/LeapYears"
           }
         ]
       },
@@ -220,8 +220,8 @@
         ],
         "references" : [
           {
-            "title" : "Our next Kata: Converting numbers to words",
-            "url" : "http://codingdojo.org/kata/NumbersInWords"
+            "title" : "Our next Kata: Diamond",
+            "url" : "http://codingdojo.org/kata/Diamond"
           }
         ]
       },
@@ -257,8 +257,8 @@
         ],
         "references" : [
           {
-            "title" : "A larger Kata: Pac Man",
-            "url" : "http://codingdojo.org/kata/PacMan"
+            "title" : "A larger Kata: RPM Calculator",
+            "url" : "http://codingdojo.org/kata/RPN"
           }
         ]
       },
