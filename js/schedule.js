@@ -198,7 +198,7 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
 
   if (topics.quiz) {
     var dueQuiz = topics.quiz;
-    var link = "https://d2l.pdx.edu/d2l/lms/quizzing/user/quiz_summary.d2l?qi=" + dueQuiz.qi + "&ou= " + dueQuiz.ou;
+    var link = "https://d2l.pdx.edu/d2l/lms/quizzing/user/quiz_summary.d2l?qi=" + dueQuiz.qi + "&ou=" + dueQuiz.ou;
 
     url(ul, "Quiz " + dueQuiz.number + " Due", link, null);
   }
