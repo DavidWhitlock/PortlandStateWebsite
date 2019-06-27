@@ -63,6 +63,10 @@
         ],
         "references" : [
           {
+            "title" : "Getting Started GitHub Repository",
+            "url" : "https://github.com/DavidWhitlock/PortlandStateJavaGettingStarted"
+          },
+          {
             "title" : "Uncle Bob Martin on Test Driven Development",
             "url" : "http://vimeo.com/43734265"
           },
@@ -257,7 +261,7 @@
         ],
         "references" : [
           {
-            "title" : "A larger Kata: RPN Calculator",
+            "title" : "A larger Kata: RPM Calculator",
             "url" : "http://codingdojo.org/kata/RPN"
           }
         ]
