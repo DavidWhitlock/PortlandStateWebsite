@@ -205,7 +205,7 @@ function lectureTopics(parent, hasPassed, topics, tdd) {
 
   if (topics.survey) {
     var dueSurvey = topics.survey;
-    var link = "https://d2l.pdx.edu/d2l/lms/survey/user/attempt/survey_start_frame.d2l?isprv=1&si=" + dueSurvey.si + "&ou=" + dueSurvey.ou;
+    var link = "https://d2l.pdx.edu/d2l/lms/survey/user/attempt/survey_start_frame.d2l?si=" + dueSurvey.si + "&ou=" + dueSurvey.ou;
 
     url(ul, dueSurvey.name + " Survey Due", link, null);
   }
