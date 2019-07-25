@@ -233,7 +233,7 @@
     },
     {
       "comment" : "We're going to try our hand at Android development.  Dave is still working on the slides, though!",
-      "screencasts" : [  ],
+      "screencasts" : [ "m4BDbCq5nv8", "6JL_lJKg4LQ", "5OG4TDSmWLg"  ],
       "topics" : {
         "due" : [ "Project 3", "Java Koans" ],
         "quiz" : {
