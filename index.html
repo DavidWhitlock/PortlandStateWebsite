@@ -1,7 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 <title>Advanced Programming with Java at Portland State University</title>
 <script type="text/javascript" src="js/prototype.js"></script>
 <script type="text/javascript" src="js/date.js"></script>
@@ -9,9 +12,10 @@
 <script type="text/javascript" src="js/schedule.js"></script>
 <script src="https://apis.google.com/js/platform.js"></script>
 <link href="css/3col.css" rel="stylesheet" type="text/css"></link>
+
 </head>
 
-<body onload="loadSchedule('summer2019')">
+<body>
 
 <div id="header">
 <h1>CS410/CS510: Advanced Programming with Java</h1>
@@ -37,38 +41,8 @@ document.write("\"" + getQuote() + "\"");
 
 </div>
 
-<div id="container">
-
-<div id="center" class="column">
-
-<p>CS410J provides students with a solid introduction and overview of
-the fundamentals of the Java programming language and class libraries.
-Students are expected to have a firm grasp programming concepts such
-as loops, functions, and data structures.  Additionally, students are
-expected to have a cursory knowledge of the Java programming language
-and object-oriented programming gleaned from lower division courses.
-It is recommended that students who have not been exposed to Java read
-the first couple of chapters of the text book and work with some of
-the below tutorials before attending class.</p>
-
-<p>The textbook for the course is <i>Thinking in Java</i> by <a
-href="http://www.mindview.net/Books/TIJ4" target="_blank">Bruce Eckel</a>.  The
-book can be downloaded for free as HTML or pdf.  A printed edition is
-available from finer book sellers.  While the textbook covers many of
-the topics that are discussed in CS410J, I do not "follow the book"
-per se.</p>
-
-<hr>
-
-<h2>Course Schedule</h2>
-
-<div id="schedule">
-<div style="text-align: center;">Loading...</div>
-</div>
-
-</div><!-- center -->
-
-<div id="left" class="column">
+<div class="row">
+  <div class="column left">
 <h3>Links</h3>
 
 <ul>
@@ -177,9 +151,36 @@ href="http://www.oracle.com/technetwork/java/javase/documentation/javadoc-137458
 
 <p><a href="AboutMyHomepage.html" target="_blank">My Dork-taculous homepage</a></p>
 
-</div><!-- left -->
-	    
-<div id="right" class="column">
+  </div>
+  <div class="column middle">
+
+<p>CS410J provides students with a solid introduction and overview of
+the fundamentals of the Java programming language and class libraries.
+Students are expected to have a firm grasp programming concepts such
+as loops, functions, and data structures.  Additionally, students are
+expected to have a cursory knowledge of the Java programming language
+and object-oriented programming gleaned from lower division courses.
+It is recommended that students who have not been exposed to Java read
+the first couple of chapters of the text book and work with some of
+the below tutorials before attending class.</p>
+
+<p>The textbook for the course is <i>Thinking in Java</i> by <a
+href="http://www.mindview.net/Books/TIJ4" target="_blank">Bruce Eckel</a>.  The
+book can be downloaded for free as HTML or pdf.  A printed edition is
+available from finer book sellers.  While the textbook covers many of
+the topics that are discussed in CS410J, I do not "follow the book"
+per se.</p>
+
+<hr>
+
+<h2>Course Schedule</h2>
+
+<div id="schedule">
+<div style="text-align: center;">Loading...</div>
+</div>
+
+  </div>
+  <div class="column right">
 
 <h3><a href="https://www.youtube.com/channel/UCqkBOKrijozrcYTm4woe9lQ" target="_blank">CS410J Screencasts</a></h3>
 
@@ -215,17 +216,14 @@ href="http://www.oracle.com/technetwork/java/javase/documentation/javadoc-137458
 <div><a href="http://www.pjug.org" target="_blank"><img src="img/pjug.gif" border="0" width="150" alt="Portland Java Users Group"></a></div>
 </div>
 
-</div><!-- right -->
+  </div>
+</div>
 
-</div><!-- container -->
-
-<div id="footer-wrapper">
 <div id="footer">
 
 <p>Got any questions?  Email Dave at <a
 href="mailto:whitlock@cs.pdx.edu">whitlock@cs.pdx.edu</a></p>
 
-</div>
 </div>
 
 <script type="text/javascript">
@@ -238,5 +236,4 @@ pageTracker._trackPageview();
 </script>
 
 </body>
-
 </html>

@@ -1,4 +1,34 @@
-/*** http://www.alistapart.com/articles/holygrail ***/
+/*** https://www.w3schools.com/howto/howto_css_three_columns.asp  ***/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left, .right {
+  width: 15%;
+  padding: 0 10px;
+  font-size: smaller;
+}
+
+.middle {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Original */
+
 
 body {
   min-width: 640px;         /* 2 x (LC fullwidth + CC padding) + RC fullwidth */
@@ -24,58 +54,12 @@ body {
   text-align: justify;
 }
 
-#left {
-  width: 160px;             /* LC width */
-  padding: 0 10px;          /* LC padding */
-  right: 220px;             /* LC fullwidth + CC padding */
-  margin-left: -100%;
-  font-size: smaller;
-}
-
-#right {
-  width: 180px;             /* RC width */
-  padding: 0 10px;          /* RC padding */
-  margin-right: -100%;
-  font-size: smaller;
-}
-
 #header, #footer {
   text-align: center;
 }
 
 #footer {
   clear: both;
-}
-
-/*** IE Fix ***/
-* html #left {
-  left: 200px;              /* RC fullwidth */
-}
-
-/*** Equal-height Columns ***/
-
-#container {
-  overflow: hidden;
-}
-
-#container .column {
-  padding-bottom: 1001em;     /* X + padding-bottom */
-  margin-bottom: -1000em;     /* X */
-}
-
-/*** Footer Fix ***/
-
-* html body {
-  overflow: hidden;
-}
-
-* html #footer-wrapper {
-  float: left;
-  position: relative;
-  width: 100%;
-  padding-bottom: 10010px;
-  margin-bottom: -10000px;
-  background: #FFF;         /*** Same as body background ***/
 }
 
 /*** Just for Looks ***/
@@ -85,14 +69,7 @@ body {
   padding: 0;
 }
 
-/*
-#container .column {
-  padding-top: 1em;
-  text-align: justify;
-}
-*/
-
-#left ul { 
+.left ul { 
   padding-left: 1em;
 /*  margin-left: 1em; */
 }
@@ -108,4 +85,11 @@ h3 {
 
 .warning {
   color: red;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
