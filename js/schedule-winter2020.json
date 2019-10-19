@@ -26,7 +26,7 @@
     {
       "week" : 1,
       "comment" : "We're going cover a lot on the first day. Make sure to eat a good dinner beforehand.",
-      "screencasts" : [ "lA0D58cj8Fc", "O59wLH3vesI", "L5j-ryKs5HA" ],
+      "screencasts" : [ ],
       "topics" : {
         "slides" : [
           {
@@ -97,7 +97,7 @@
     },
     {
       "week" : 2,
-      "screencasts" : [ "w2ldTOLHvpk", "QqPQFz-1Cow", "7LZbmdSi39M" ],
+      "screencasts" : [ ],
       "topics" : {
         "quiz" : {
             "number" : 1,
@@ -150,7 +150,7 @@
     },
     {
       "week" : 3,
-      "screencasts" : [ "raHX_RHNNeY", "7vZcNO44LqA" ],
+      "screencasts" : [ ],
       "topics" : {
         "due" : "Project 1",
         "quiz" : {
@@ -203,7 +203,7 @@
     },
     {
       "week" : 4,
-      "screencasts" : [ "rEcgsXjRrzI", "-2Gg95gHk2I", "QAeCykHnJ-o" ],
+      "screencasts" : [  ],
       "topics" : {
         "due" : "Project 2",
         "quiz" : {
@@ -241,7 +241,7 @@
     {
       "week" : 5,
       "comment" : "We're going to try our hand at Android development.  Dave is still working on the slides, though!",
-      "screencasts" : [ "m4BDbCq5nv8", "6JL_lJKg4LQ", "5OG4TDSmWLg"  ],
+      "screencasts" : [  ],
       "topics" : {
         "due" : [ "Project 3", "Java Koans" ],
         "quiz" : {
@@ -278,7 +278,7 @@
     },
     {
       "week" : 6,
-      "screencasts" : [ "Pie7bRHYLDQ", "_XWDyktfWCk"  ],
+      "screencasts" : [  ],
       "topics" : {
         "due" : "Project 4",
         "quiz" : {
@@ -298,7 +298,7 @@
     },
     {
       "week" : 7,
-      "screencasts" : [ "zcPlnukwqy8", "fpvlYkZq668"  ],
+      "screencasts" : [  ],
       "topics" : {
         "quiz" : {
             "number" : 6,
