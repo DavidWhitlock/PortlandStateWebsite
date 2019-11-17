@@ -191,10 +191,7 @@ function lectureTopics(parent, hasPassed, topics) {
   }
 
   if (topics.quiz) {
-    var dueQuiz = topics.quiz;
-    var link = "https://d2l.pdx.edu/d2l/lms/quizzing/user/quiz_summary.d2l?qi=" + dueQuiz.qi + "&ou=" + dueQuiz.ou;
-
-    url(ul, "Quiz " + dueQuiz.number + " Due", link, null);
+    dueQuiz(ul, topics.quiz, "Quiz " + topics.quiz.number + " Due");
   }
 
   if (topics.survey) {
@@ -202,6 +199,10 @@ function lectureTopics(parent, hasPassed, topics) {
     var link = "https://d2l.pdx.edu/d2l/lms/survey/user/attempt/survey_start_frame.d2l?si=" + dueSurvey.si + "&ou=" + dueSurvey.ou;
 
     url(ul, dueSurvey.name + " Survey Due", link, null);
+  }
+
+  if (topics.reflection) {
+    dueQuiz(ul, topics.quiz, "Reflections on " + topics.reflection.title + " Due");
   }
 
   if (topics.slides) {
@@ -252,6 +253,12 @@ function lectureTopics(parent, hasPassed, topics) {
       }
     }
   }
+}
+
+function dueQuiz(ul, dueQuiz, quizTitle) {
+    var link = "https://d2l.pdx.edu/d2l/lms/quizzing/user/quiz_summary.d2l?qi=" + dueQuiz.qi + "&ou=" + dueQuiz.ou;
+
+    url(ul, quizTitle, link, null);
 }
 
 function kata(ul, kataType, kata) {

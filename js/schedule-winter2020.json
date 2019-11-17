@@ -291,7 +291,7 @@
             "ou" : 760720
         },
         "reflection" : {
-          "title" : "Your experiences pair programming",
+          "title" : "your experiences pair programming",
           "qi" : "????",
           "ou" : 760720
         },
@@ -368,7 +368,12 @@
             "number" : 7,
             "qi" : 188239,
             "ou" : 760720
-         }
+        },
+        "reflection" : {
+          "title" : "your experiences pair programming",
+          "qi" : "????",
+          "ou" : 760720
+        }
       }
     },
     {
