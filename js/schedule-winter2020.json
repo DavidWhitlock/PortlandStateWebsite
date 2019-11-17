@@ -111,6 +111,10 @@
         ],
         "handouts" : [
           {
+            "title" : "How to test your projects",
+            "pdf" : "testing"
+          },
+          {
             "title" : "How to document your projects",
             "pdf" : "documentation"
           },
@@ -163,6 +167,12 @@
             "screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
           }
         ],
+        "handouts" : [
+          {
+            "title" : "Pair and Mob Programming in this course",
+            "pdf" : "pairing"
+          }
+         ],
         "projects" : [
           {
             "title" : "Project 3: Sorting and working with Dates",
@@ -179,7 +189,7 @@
             "url" : "http://codekata.com/kata/codekata-how-it-started/"
           },
           {
-            "title" : "Our first Kata: Leap Years",
+            "title" : "Pair Programming our first Kata: Leap Years",
             "url" : "http://codingdojo.org/kata/LeapYears"
           }
         ]
@@ -215,7 +225,7 @@
         ],
         "references" : [
           {
-            "title" : "Our next Kata: Diamond",
+            "title" : "Pair Progreamming Kata: Diamond",
             "url" : "http://codingdojo.org/kata/Diamond"
           }
         ]
@@ -223,7 +233,7 @@
     },
     {
       "week" : 5,
-      "comment" : "Dave is at a conference this week.  We'll figure out what to do.",
+      "comment" : "Dave is at a conference this week.  We'll catch our breath this week.",
       "screencasts" : [  ],
       "topics" : {
         "due" : [ "Project 3", "Java Koans" ],
@@ -312,24 +322,45 @@
     {
       "week" : 8,
       "screencasts" : [  ],
-      "comment" : "Some more stuff",
+      "comment" : "Some more stuff"
     },
     {
       "week" : 9,
       "screencasts" : [  ],
-      "comment" : "Some more stuff",
+      "topics" : {
+        "due" : "Project 5",
+        "slides" : [
+          {
+            "title" : "Android Testing",
+            "pdf" : "android-2x2"
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Mob Programming Kata: RPN Calculator",
+            "url" : "http://codingdojo.org/kata/RPN"
+          }
+        ]
+      }
     },
     {
       "week" : 10,
       "screencasts" : [  ],
-      "comment" : "Some more stuff",
+      "comment" : "Advanced Topics in Android Development",
+      "topics" : {
+        "quiz" : {
+            "number" : 7,
+            "qi" : 188239,
+            "ou" : 760720
+         }
+      }
     },
     {
       "week" : 11,
       "screencasts" : [  ],
       "comment" : "Final Exam during class time",
       "topics" : {
-        "due" : "Project 5",
+        "due" : "Project 6",
         "survey" : {
             "name" : "End of term",
             "si" : 188237,
