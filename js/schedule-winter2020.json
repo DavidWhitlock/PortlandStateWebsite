@@ -292,10 +292,16 @@
       "week" : 7,
       "screencasts" : [  ],
       "topics" : {
+        "due" : "Project 4",
         "quiz" : {
-            "number" : 6,
+            "number" : 5,
             "qi" : 188239,
             "ou" : 760720
+        },
+        "reflection" : {
+          "title" : "Your experiences pair programming",
+          "qi" : "????",
+          "ou" : 760720
         },
         "slides" : [
           {
@@ -303,15 +309,11 @@
             "pdf" : "android-2x2"
           }
         ],
+        "mobbing" : {
+          "title" : "Mob Programming 1",
+          "url" : "URL"
+        },
         "references" : [
-          {
-            "title" : "Coding Dojo",
-            "url" : "http://codingdojo.org/"
-          },
-          {
-            "title" : "Video: How do you put on a coding dojo event?",
-            "url" : "http://www.youtube.com/watch?v=gav9fLVkZQc"
-          },
           {
             "title" : "Video: Mob Programming",
             "url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
@@ -322,7 +324,23 @@
     {
       "week" : 8,
       "screencasts" : [  ],
-      "comment" : "Some more stuff"
+      "topics" : {
+        "quiz" : {
+            "number" : 6,
+            "qi" : 188239,
+            "ou" : 760720
+        },
+        "projects" : [
+          {
+            "title" : "Project 5: A fully-featured Small Device Application",
+            "pdf" : "SmallDeviceApp"
+          }
+        ],
+        "mobbing" : {
+          "title" : "Mob Programming 2",
+          "url" : "URL"
+        }
+      }
     },
     {
       "week" : 9,
@@ -335,12 +353,10 @@
             "pdf" : "android-2x2"
           }
         ],
-        "references" : [
-          {
-            "title" : "Mob Programming Kata: RPN Calculator",
-            "url" : "http://codingdojo.org/kata/RPN"
-          }
-        ]
+        "mobbing" : {
+          "title" : "RPN Calculator",
+          "url" : "http://codingdojo.org/kata/RPN"
+        }
       }
     },
     {
