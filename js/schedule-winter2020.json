@@ -173,6 +173,10 @@
             "pdf" : "pairing"
           }
          ],
+        "pairing" : {
+          "title" : "Leap Years",
+          "url" : "http://codingdojo.org/kata/LeapYear"
+         },
         "projects" : [
           {
             "title" : "Project 3: Sorting and working with Dates",
@@ -187,10 +191,6 @@
           {
             "title" : "Code Katas",
             "url" : "http://codekata.com/kata/codekata-how-it-started/"
-          },
-          {
-            "title" : "Pair Programming our first Kata: Leap Years",
-            "url" : "http://codingdojo.org/kata/LeapYears"
           }
         ]
       }
@@ -207,28 +207,21 @@
         },
         "slides" : [
           {
-            "title" : "Reflection",
-            "pdf" : "reflect-2x2",
-            "screencasts" : [ "bvFA8TbGe1w", "Gt5VbWk-QCs" ]
+            "title" : "XML",
+            "pdf" : "xml-2x2",
+            "screencasts" : [  ]
           },
-          {
-            "title" : "Foundations of the Web",
-            "pdf" : "web-2x2",
-            "screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
-          }
         ],
         "projects" : [
           {
-            "title" : "Project 4: Client/Server",
-            "pdf" : "REST"
+            "title" : "Project 4: Working with XML",
+            "pdf" : "XML"
           }
         ],
-        "references" : [
-          {
-            "title" : "Pair Progreamming Kata: Diamond",
-            "url" : "http://codingdojo.org/kata/Diamond"
-          }
-        ]
+        "pairing" : {
+          "title" : "Diamond",
+          "url" : "http://codingdojo.org/kata/Diamond"
+         }
       }
     },
     {
@@ -242,11 +235,13 @@
             "qi" : 188233,
             "ou" : 760720
         },
-        "survey" : {
-            "name" : "Midterm",
-            "si" : 188238,
-            "ou" : 760720
-        },
+        "slides" : [
+          {
+            "title" : "Reflection",
+            "pdf" : "reflect-2x2",
+            "screencasts" : [ "bvFA8TbGe1w", "Gt5VbWk-QCs" ]
+          },
+        ],
         "references" : [
           {
             "title" : "A larger Kata: RPN Calculator",
@@ -260,30 +255,27 @@
       "comment" : "We're going to try our hand at Android development.  Dave is still working on the slides, though!",
       "screencasts" : [  ],
       "topics" : {
-        "due" : "Project 4",
-        "quiz" : {
-            "number" : 5,
-            "qi" : 188234,
+        "due" : "Java Koans",
+        "survey" : {
+            "name" : "Midterm",
+            "si" : 188238,
             "ou" : 760720
         },
         "slides" : [
           {
-            "title" : "Android",
-            "pdf" : "android-2x2",
-            "screencasts" : [ ]
+            "title" : "Foundations of the Web",
+            "pdf" : "web-2x2",
+            "screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
           }
         ],
+        "pairing" : {
+          "title" : "Pair Programming 3",
+          "url" : "URL"
+         },
         "projects" : [
           {
-            "title" : "Project 5: A fully-featured Small Device Application",
-            "pdf" : "SmallDeviceApp"
-          }
-        ],
-        "slides" : [
-          {
-            "title" : "Dependency Injection",
-            "pdf" : "di-2x2",
-            "screencasts" : [ "GQD5UAUKGfc", "iRRFx0ehqoE" ]
+            "title" : "Project 4: Client/Server",
+            "pdf" : "REST"
           }
         ]
       }
@@ -305,8 +297,9 @@
         },
         "slides" : [
           {
-            "title" : "More Android",
-            "pdf" : "android-2x2"
+            "title" : "Dependency Injection",
+            "pdf" : "di-2x2",
+            "screencasts" : [ "GQD5UAUKGfc", "iRRFx0ehqoE" ]
           }
         ],
         "mobbing" : {
@@ -330,6 +323,13 @@
             "qi" : 188239,
             "ou" : 760720
         },
+        "slides" : [
+          {
+            "title" : "Android",
+            "pdf" : "android-2x2",
+            "screencasts" : [ ]
+          }
+        ],
         "projects" : [
           {
             "title" : "Project 5: A fully-featured Small Device Application",
