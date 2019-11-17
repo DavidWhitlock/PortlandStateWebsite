@@ -227,6 +227,9 @@ function lectureTopics(parent, hasPassed, topics) {
     }
   }
 
+  kata(ul, "Pair", topics.pairing);
+  kata(ul, "Mob", topics.mobbing);
+
   if (topics.projects) {
     for (var j = 0; j < topics.projects.length; j++) {
       var project = topics.projects[j];
@@ -248,6 +251,13 @@ function lectureTopics(parent, hasPassed, topics) {
         url(referencesUl, reference.title, reference.url);
       }
     }
+  }
+}
+
+function kata(ul, kataType, kata) {
+  if (kata) {
+    var prefix = "In-class " + kataType + " Programming Kata: ";
+    url(ul, kata.title, kata.url, prefix);
   }
 }
 
