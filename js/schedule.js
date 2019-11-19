@@ -168,6 +168,43 @@ function lectureContent(parent, hasPassed, content) {
 
 }
 
+function workThatIsDue(parentUl, topics) {
+  var ul = $(document.createElement("ul"));
+  li(parentUl, "Due before this week's class:").appendChild(ul);
+
+  if (topics.due) {
+    if (topics.due instanceof Array) {
+      for (var j = 0; j < topics.due.length; j++) {
+        var project = topics.due[j];
+        li(ul, project);
+      }
+
+    } else {
+      li(ul, topics.due);
+    }
+  }
+
+  if (topics.quiz) {
+    dueQuiz(ul, topics.quiz, "Quiz " + topics.quiz.number);
+  }
+
+  if (topics.survey) {
+    var dueSurvey = topics.survey;
+    var link = "https://d2l.pdx.edu/d2l/lms/survey/user/attempt/survey_start_frame.d2l?si=" + dueSurvey.si + "&ou=" + dueSurvey.ou;
+
+    url(ul, dueSurvey.name + " Survey", link, null);
+  }
+
+  if (topics.reflection) {
+    dueQuiz(ul, topics.quiz, "Reflections on " + topics.reflection.title);
+  }
+
+}
+
+function hasWorkThatIsDue(topics) {
+  return topics.due || topics.quiz || topics.survey || topics.reflection;
+}	
+
 /**
  * Outputs HTML for the topics of a lecture
  */
@@ -178,31 +215,8 @@ function lectureTopics(parent, hasPassed, topics) {
   }
   parent.appendChild(ul);
 
-  if (topics.due) {
-    if (topics.due instanceof Array) {
-      for (var j = 0; j < topics.due.length; j++) {
-        var project = topics.due[j];
-        li(ul, project + " Due");
-      }
-
-    } else {
-      li(ul, topics.due + " Due");
-    }
-  }
-
-  if (topics.quiz) {
-    dueQuiz(ul, topics.quiz, "Quiz " + topics.quiz.number + " Due");
-  }
-
-  if (topics.survey) {
-    var dueSurvey = topics.survey;
-    var link = "https://d2l.pdx.edu/d2l/lms/survey/user/attempt/survey_start_frame.d2l?si=" + dueSurvey.si + "&ou=" + dueSurvey.ou;
-
-    url(ul, dueSurvey.name + " Survey Due", link, null);
-  }
-
-  if (topics.reflection) {
-    dueQuiz(ul, topics.quiz, "Reflections on " + topics.reflection.title + " Due");
+  if (hasWorkThatIsDue(topics)) {
+    workThatIsDue(ul, topics);
   }
 
   if (topics.slides) {
@@ -329,6 +343,7 @@ function li(ul, description) {
   var li = $(document.createElement("li"));
   ul.appendChild(li);
   li.innerHTML = description;
+  return li;
 }
 
 /**
