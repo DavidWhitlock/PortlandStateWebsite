@@ -1,7 +1,7 @@
 {
   "youTubeClassRecordingsListId" : "PLyM7S4CZk9WNBla2gmqocz7FklMsBc5ZA",
   "review" : {
-    "comment" : "Long ago, we've began the class with an in-depth review of the Java Programming Language and Object-Oriented Programming.  More recenly, however, we start out with a condensed review of Java.  If you are new to Java or haven't worked with the language for a while, I invite you review the lecture notes and listen to the podcast from a while back.",
+    "comment" : "Long ago, we began the class with an in-depth review of the Java Programming Language and Object-Oriented Programming.  More recenly, however, we start out with a condensed review of Java.  If you are new to Java or haven't worked with the language for a while, I invite you review the lecture notes and listen to the podcast from a while back.",
     "content" : [
       "<a href='pdf/javaLanguage-2x2.pdf' target='_blank'>The Java Programming Language</a> (<a href='podcasts/JavaReview1.m4a' target='_blank'>podcast</a>)",
       "<a href='pdf/oopInJava-2x2.pdf' target='_blank'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a' target='_blank'>part 1</a> and <a href='podcasts/JavaReview3.m4a' target='_blank'>part 2</a>)",
@@ -226,10 +226,10 @@
     },
     {
       "week" : 5,
-      "comment" : "Dave is at a conference this week.  We'll catch our breath this week.",
+      "comment" : "Dave is at a conference this week and there won't be class.  Let's take the time to get caught up and catch our breath before the second half of the course.",
       "screencasts" : [  ],
       "topics" : {
-        "due" : [ "Project 3", "Java Koans" ],
+        "due" : [ "Project 3" ],
         "quiz" : {
             "number" : 4,
             "qi" : 188233,
@@ -252,7 +252,6 @@
     },
     {
       "week" : 6,
-      "comment" : "We're going to try our hand at Android development.  Dave is still working on the slides, though!",
       "screencasts" : [  ],
       "topics" : {
         "due" : "Java Koans",
