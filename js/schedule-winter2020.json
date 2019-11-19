@@ -241,12 +241,6 @@
             "pdf" : "reflect-2x2",
             "screencasts" : [ "bvFA8TbGe1w", "Gt5VbWk-QCs" ]
           },
-        ],
-        "references" : [
-          {
-            "title" : "A larger Kata: RPN Calculator",
-            "url" : "http://codingdojo.org/kata/RPN"
-          }
         ]
       }
     },
