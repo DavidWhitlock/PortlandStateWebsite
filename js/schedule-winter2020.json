@@ -267,7 +267,7 @@
          },
         "projects" : [
           {
-            "title" : "Project 4: Client/Server",
+            "title" : "Project 5: Client/Server",
             "pdf" : "REST"
           }
         ]
@@ -325,7 +325,7 @@
         ],
         "projects" : [
           {
-            "title" : "Project 5: A fully-featured Small Device Application",
+            "title" : "Project 6: A fully-featured Small Device Application",
             "pdf" : "SmallDeviceApp"
           }
         ],
