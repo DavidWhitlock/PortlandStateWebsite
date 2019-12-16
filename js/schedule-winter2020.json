@@ -262,8 +262,8 @@
           }
         ],
         "pairing" : {
-          "title" : "Pair Programming 3",
-          "url" : "URL"
+          "title" : "Lags",
+          "url" : "http://codingdojo.org/kata/Lags/"
          },
         "projects" : [
           {
@@ -296,8 +296,8 @@
           }
         ],
         "mobbing" : {
-          "title" : "Mob Programming 1",
-          "url" : "URL"
+          "title" : "Bank OCR",
+          "url" : "http://codingdojo.org/kata/BankOCR/"
         },
         "references" : [
           {
@@ -330,8 +330,8 @@
           }
         ],
         "mobbing" : {
-          "title" : "Mob Programming 2",
-          "url" : "URL"
+          "title" : "RPN Calculator",
+          "url" : "http://codingdojo.org/kata/RPN/"
         }
       }
     },
