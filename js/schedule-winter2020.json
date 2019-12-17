@@ -175,7 +175,7 @@
          ],
         "pairing" : {
           "title" : "Leap Years",
-          "url" : "http://codingdojo.org/kata/LeapYear"
+          "url" : "http://codingdojo.org/kata/LeapYears"
          },
         "projects" : [
           {
@@ -347,8 +347,8 @@
           }
         ],
         "mobbing" : {
-          "title" : "RPN Calculator",
-          "url" : "http://codingdojo.org/kata/RPN"
+          "title" : "Minesweeper",
+          "url" : "http://codingdojo.org/kata/Minesweeper"
         }
       }
     },
