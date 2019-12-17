@@ -196,7 +196,7 @@ function workThatIsDue(parentUl, topics) {
   }
 
   if (topics.reflection) {
-    dueQuiz(ul, topics.quiz, "Reflections on " + topics.reflection.title);
+    dueQuiz(ul, topics.reflection, "Reflections on " + topics.reflection.title);
   }
 
 }
