@@ -1,5 +1,5 @@
 {
-  "youTubeClassRecordingsListId" : "PLyM7S4CZk9WNBla2gmqocz7FklMsBc5ZA",
+  "youTubeClassRecordingsListId" : "PLyM7S4CZk9WNT_XprFtd_cWZxrBjS6740",
   "review" : {
     "comment" : "Long ago, we began the class with an in-depth review of the Java Programming Language and Object-Oriented Programming.  More recenly, however, we start out with a condensed review of Java.  If you are new to Java or haven't worked with the language for a while, I invite you review the lecture notes and listen to the podcast from a while back.",
     "content" : [
@@ -26,7 +26,7 @@
     {
       "week" : 1,
       "comment" : "We're going cover a lot on the first day. Make sure to eat a good dinner beforehand.",
-      "screencasts" : [ ],
+      "screencasts" : [ "CKYOvGDNEEU", "BDT7JdYa43Y", "ImkM2l3qMqo" ],
       "topics" : {
         "slides" : [
           {
