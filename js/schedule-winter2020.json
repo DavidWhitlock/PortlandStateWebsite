@@ -147,7 +147,7 @@
     },
     {
       "week" : 3,
-      "screencasts" : [ ],
+      "screencasts" : [ "w_C3qPvI91s", "nWVMPPax_Os" ],
       "topics" : {
         "due" : "Project 1",
         "quiz" : {
@@ -197,7 +197,7 @@
     },
     {
       "week" : 4,
-      "screencasts" : [  ],
+      "screencasts" : [ "0BhzfrXjeQQ", "HFtBsyw54wk", "3E805-v63Sc"  ],
       "topics" : {
         "due" : "Project 2",
         "quiz" : {
@@ -251,7 +251,7 @@
         "due" : "Java Koans",
         "survey" : {
             "name" : "Midterm",
-            "si" : 188238,
+            "si" : 201364,
             "ou" : 784749
         },
         "slides" : [
@@ -372,7 +372,7 @@
         "due" : "Project 6",
         "survey" : {
             "name" : "End of term",
-            "si" : 188237,
+            "si" : 201363,
             "ou" : 784749
         }
       }
