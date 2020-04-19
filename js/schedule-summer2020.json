@@ -1,0 +1,331 @@
+{
+  "youTubeClassRecordingsListId" : "PLyM7S4CZk9WNN_Fo69zIobtEgWrcc98lF",
+  "review" : {
+    "comment" : "Long ago, we've began the class with an in-depth review of the Java Programming Language and Object-Oriented Programming.  More recenly, however, we start out with a condensed review of Java.  If you are new to Java or haven't worked with the language for a while, I invite you review the lecture notes and listen to the podcast from a while back.",
+    "content" : [
+      "<a href='pdf/javaLanguage-2x2.pdf' target='_blank'>The Java Programming Language</a> (<a href='podcasts/JavaReview1.m4a' target='_blank'>podcast</a>)",
+      "<a href='pdf/oopInJava-2x2.pdf' target='_blank'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a' target='_blank'>part 1</a> and <a href='podcasts/JavaReview3.m4a' target='_blank'>part 2</a>)",
+      "Try out <a href='pdf/Student.pdf' target='_blank'>Project 0</a>: Implementing a simple class",
+      "Download and install <a href='http://www.jetbrains.com/idea/' target='_blank'>IntelliJ Idea</a>, the recommended IDE for this course.  Use the trial license until your <a href='https://www.jetbrains.com/student'>academic license</a> is approved."
+    ]
+  },
+  "meetings" : [
+    "June 24, 2020",
+    "July 1, 2020",
+    "July 8, 2020",
+    "July 15, 2020",
+    "July 22, 2020",
+    "July 29, 2020",
+    "August 5, 2020",
+    "August 12, 2020"
+  ],
+  "lectures" : [
+    {
+      "week" : 1,
+      "comment" : "We're going cover a lot on the first day. Make sure to eat a good dinner beforehand.",
+      "screencasts" : [  ],
+      "topics" : {
+        "slides" : [
+          {
+            "title" : "Getting Started with Java",
+            "pdf" : "Getting%20started%20with%20Java",
+            "screencasts" : "VZXEwcgigaw"
+          },
+          {
+            "title" : "Java Programming Language Review",
+            "pdf" : "javaReview-2x2"
+          },
+          {
+            "title" : "Unit testing with JUnit",
+            "pdf" : "junit-2x2",
+            "screencasts" : "k1DE9H8EGNA"
+          },
+          {
+            "title" : "Building Java Projects with Maven",
+            "pdf" : "maven-2x2",
+            "screencasts" : "oLlOv8Ln0VE"
+          }
+        ],
+        "handouts" : [
+          {
+            "title" : "Course syllabus",
+            "pdf" : "syllabus"
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 1: Beginning a Java application",
+            "pdf" : "AppClasses"
+          },
+          {
+            "title" : "Java Koans",
+            "pdf" : "koans"
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Getting Started GitHub Repository",
+            "url" : "https://github.com/DavidWhitlock/PortlandStateJavaGettingStarted"
+          },
+          {
+            "title" : "Uncle Bob Martin on Test Driven Development",
+            "url" : "http://vimeo.com/43734265"
+          },
+          {
+            "title" : "GitHub student pack",
+            "url" : "https://education.github.com/pack"
+          },
+          {
+            "title" : "Jetbrains (IntelliJ) academic licenses",
+            "url" : "https://www.jetbrains.com/student"
+          },
+          {
+            "title" : "The CAT's Linux page",
+            "url" : "https://cat.pdx.edu/platforms/linux"
+          },
+          {
+            "title" : "More Information",
+            "apiurl" : "docs/edu/pdx/cs410J/lang/package-summary.html#package_description"
+          }
+        ]
+      }
+    },
+    {
+      "week" : 2,
+      "screencasts" : [  ],
+      "topics" : {
+        "quiz" : {
+            "number" : 1,
+            "qi" : 188230,
+            "ou" : 760720
+        },
+        "slides" : [
+          { 
+            "title" : "Core Language APIs",
+            "pdf" : "coreAPI-2x2",
+            "screencasts" : [ "pOaj6yrGs4Y", "qbq21vjz4vc" ]
+          }
+        ],
+        "handouts" : [
+          {
+            "title" : "How to test your projects",
+            "pdf" : "testing"
+          },
+          {
+            "title" : "How to document your projects",
+            "pdf" : "documentation"
+          },
+          {
+            "title" : "How to submit your projects",
+            "pdf" : "submit"
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 2: Working with files",
+            "pdf" : "TextFile"
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Java coding conventions",
+            "url" : "https://google.github.io/styleguide/javaguide.html"
+          },
+          {
+            "title" : "Continuous Integration with Travis CI",
+            "url" : "https://travis-ci.org"
+          },
+          {
+            "title" : "More information",
+            "apiurl" : "docs/edu/pdx/cs410J/core/package-summary.html#package_description"
+          }
+        ]
+      }
+    },
+    {
+      "week" : 3,
+      "screencasts" : [  ],
+      "topics" : {
+        "due" : "Project 1",
+        "quiz" : {
+            "number" : 2,
+            "qi" : 188231,
+            "ou" : 760720
+        },
+        "slides" : [
+          {
+            "title" : "The Core Java API (Part 2)",
+            "pdf" : "coreAPI-2x2",
+            "screencasts" : [ "InytCSemEJM", "fyYJA8FeU74" ]
+          },
+          {
+            "title" : "Functional Programming in Java 8",
+            "pdf" : "java8Lambdas-2x2",
+            "screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
+          }
+        ],
+        "handouts" : [
+          {
+            "title" : "Pair and Mob Programming in this course",
+            "pdf" : "pairing"
+          }
+         ],
+        "projects" : [
+          {
+            "title" : "Project 3: Sorting and working with Dates",
+            "pdf" : "PrettyPrint"
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Code Katas",
+            "url" : "http://codekata.com/kata/codekata-how-it-started/"
+          },
+          {
+            "title" : "Video: Introduction to Pair Programming",
+            "url" : "http://www.youtube.com/watch?v=rG_U12uqRhE"
+          },
+          {
+            "title" : "Our first Kata: Leap Years",
+            "url" : "http://codingdojo.org/kata/LeapYears"
+          }
+        ]
+      }
+    },
+    {
+      "week" : 4,
+      "screencasts" : [  ],
+      "topics" : {
+        "due" : "Project 2",
+        "quiz" : {
+            "number" : 3,
+            "qi" : 188232,
+            "ou" : 760720
+        },
+        "slides" : [
+          {
+            "title" : "Foundations of the Web",
+            "pdf" : "web-2x2",
+            "screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
+          },
+          {
+            "title" : "Reflection",
+            "pdf" : "reflect-2x2",
+            "screencasts" : [ "bvFA8TbGe1w", "Gt5VbWk-QCs" ]
+          },
+          {
+            "title" : "Dependency Injection",
+            "pdf" : "di-2x2",
+            "screencasts" : [ "GQD5UAUKGfc", "iRRFx0ehqoE" ]
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 4: Client/Server",
+            "pdf" : "REST"
+          }
+        ],
+        "pairing" : {
+          "title" : "Diamond",
+          "url" : "http://codingdojo.org/kata/Diamond"
+        }
+      }
+    },
+    {
+      "week" : 5,
+      "comment" : "We're going to try our hand at Android development.  Dave is still working on the slides, though!",
+      "screencasts" : [  ],
+      "topics" : {
+        "due" : [ "Project 3", "Java Koans" ],
+        "quiz" : {
+            "number" : 4,
+            "qi" : 188233,
+            "ou" : 760720
+        },
+        "reflection" : {
+          "title" : "your experiences pair programming",
+          "qi" : "????",
+          "ou" : 784749
+        },
+        "survey" : {
+            "name" : "Midterm",
+            "si" : 188238,
+            "ou" : 760720
+        },
+        "slides" : [
+          {
+            "title" : "Android",
+            "pdf" : "android-2x2",
+            "screencasts" : [ "K734VGX-6vk" ]
+          }
+        ],
+        "references" : [
+          {
+            "title" : "Video: Mob Programming",
+            "url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
+          }
+        ],
+        "mobbing" : {
+          "title" : "RPN Calculator",
+          "url" : "http://codingdojo.org/kata/RPN/"
+        }
+      }
+    },
+    {
+      "week" : 6,
+      "screencasts" : [   ],
+      "topics" : {
+        "due" : "Project 4",
+        "quiz" : {
+            "number" : 5,
+            "qi" : 188234,
+            "ou" : 760720
+        },
+        "projects" : [
+          {
+            "title" : "Project 5: A fully-featured Small Device Application",
+            "pdf" : "SmallDeviceApp"
+          }
+        ],
+        "slides" : [
+          {
+            "title" : "Android",
+            "pdf" : "android-2x2",
+            "screencasts" : [ "_bnqVoSyuj4" ]
+          }
+        ]
+      }
+    },
+    {
+      "week" : 7,
+      "screencasts" : [   ],
+      "topics" : {
+        "quiz" : {
+            "number" : 6,
+            "qi" : 188239,
+            "ou" : 760720
+        },
+        "slides" : [
+          {
+            "title" : "Android",
+            "pdf" : "android-2x2",
+            "screencasts" : [ "_bnqVoSyuj4" ]
+          }
+        ]
+      }
+    },
+    {
+      "week" : 8,
+      "screencasts" : [  ],
+      "comment" : "Final Exam during class time",
+      "topics" : {
+        "due" : "Project 5",
+        "survey" : {
+            "name" : "End of term",
+            "si" : 188237,
+            "ou" : 760720
+        }
+      }
+    }
+  ]
+}
