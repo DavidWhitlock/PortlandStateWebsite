@@ -176,6 +176,10 @@
             "pdf" : "PrettyPrint"
           }
         ],
+        "pairing" : {
+          "title" : "Leap Years",
+          "url" : "http://codingdojo.org/kata/LeapYears"
+         },
         "references" : [
           {
             "title" : "Code Katas",
@@ -184,10 +188,6 @@
           {
             "title" : "Video: Introduction to Pair Programming",
             "url" : "http://www.youtube.com/watch?v=rG_U12uqRhE"
-          },
-          {
-            "title" : "Our first Kata: Leap Years",
-            "url" : "http://codingdojo.org/kata/LeapYears"
           }
         ]
       }
@@ -233,7 +233,6 @@
     },
     {
       "week" : 5,
-      "comment" : "We're going to try our hand at Android development.  Dave is still working on the slides, though!",
       "screencasts" : [  ],
       "topics" : {
         "due" : [ "Project 3", "Java Koans" ],
