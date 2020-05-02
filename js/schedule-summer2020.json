@@ -253,7 +253,7 @@
         },
         "slides" : [
           {
-            "title" : "Android",
+            "title" : "Android Fundamentals",
             "pdf" : "android-2x2",
             "screencasts" : [ "K734VGX-6vk" ]
           }
@@ -288,9 +288,9 @@
         ],
         "slides" : [
           {
-            "title" : "Android",
+            "title" : "Android UI Development",
             "pdf" : "android-2x2",
-            "screencasts" : [ "_bnqVoSyuj4" ]
+            "screencasts" : [ "K734VGX-6vk" ]
           }
         ]
       }
@@ -306,9 +306,9 @@
         },
         "slides" : [
           {
-            "title" : "Android",
+            "title" : "Android Testing",
             "pdf" : "android-2x2",
-            "screencasts" : [ "_bnqVoSyuj4" ]
+            "screencasts" : [  ]
           }
         ]
       }
