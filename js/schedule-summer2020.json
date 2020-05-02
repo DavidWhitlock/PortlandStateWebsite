@@ -177,8 +177,8 @@
           }
         ],
         "pairing" : {
-          "title" : "Leap Years",
-          "url" : "http://codingdojo.org/kata/LeapYears"
+          "title" : "Lags",
+          "url" : "http://codingdojo.org/kata/Lags/"
          },
         "references" : [
           {
@@ -292,7 +292,11 @@
             "pdf" : "android-2x2",
             "screencasts" : [ "K734VGX-6vk" ]
           }
-        ]
+        ],
+        "mobbing" : {
+          "title" : "Minesweeper",
+          "url" : "http://codingdojo.org/kata/Minesweeper"
+        }
       }
     },
     {
