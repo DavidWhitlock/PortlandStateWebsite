@@ -96,7 +96,7 @@
       "topics" : {
         "quiz" : {
             "number" : 1,
-            "qi" : 188230,
+            "qi" : 218185,
             "ou" : 814792
         },
         "slides" : [
@@ -149,7 +149,7 @@
         "due" : "Project 1",
         "quiz" : {
             "number" : 2,
-            "qi" : 188231,
+            "qi" : 218186,
             "ou" : 814792
         },
         "slides" : [
@@ -199,7 +199,7 @@
         "due" : "Project 2",
         "quiz" : {
             "number" : 3,
-            "qi" : 188232,
+            "qi" : 218187,
             "ou" : 814792
         },
         "slides" : [
@@ -238,17 +238,17 @@
         "due" : [ "Project 3", "Java Koans" ],
         "quiz" : {
             "number" : 4,
-            "qi" : 188233,
+            "qi" : 218188,
             "ou" : 814792
         },
         "reflection" : {
           "title" : "your experiences pair programming",
-          "qi" : "????",
+          "qi" : 218193,
           "ou" : 814792
         },
         "survey" : {
             "name" : "Midterm",
-            "si" : 188238,
+            "si" : 218198,
             "ou" : 814792
         },
         "slides" : [
@@ -277,7 +277,7 @@
         "due" : "Project 4",
         "quiz" : {
             "number" : 5,
-            "qi" : 188234,
+            "qi" : 218189,
             "ou" : 814792
         },
         "projects" : [
@@ -305,12 +305,12 @@
       "topics" : {
         "quiz" : {
             "number" : 6,
-            "qi" : 188239,
+            "qi" : 218192,
             "ou" : 814792
         },
         "reflection" : {
           "title" : "your experiences mob programming",
-          "qi" : "????",
+          "qi" : 218194,
           "ou" : 814792
         },
         "slides" : [
@@ -330,7 +330,7 @@
         "due" : "Project 5",
         "survey" : {
             "name" : "End of term",
-            "si" : 188237,
+            "si" : 218197,
             "ou" : 814792
         }
       }
