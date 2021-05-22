@@ -96,8 +96,8 @@
       "topics" : {
         "quiz" : {
             "number" : 1,
-            "qi" : 218185,
-            "ou" : 814792
+            "qi" : 268823,
+            "ou" : 873027
         },
         "slides" : [
           { 
@@ -149,8 +149,8 @@
         "due" : "Project 1",
         "quiz" : {
             "number" : 2,
-            "qi" : 218186,
-            "ou" : 814792
+            "qi" : 268824,
+            "ou" : 873027
         },
         "slides" : [
           {
@@ -199,8 +199,8 @@
         "due" : "Project 2",
         "quiz" : {
             "number" : 3,
-            "qi" : 218187,
-            "ou" : 814792
+            "qi" : 268825,
+            "ou" : 873027
         },
         "slides" : [
           {
@@ -238,18 +238,18 @@
         "due" : [ "Project 3", "Java Koans" ],
         "quiz" : {
             "number" : 4,
-            "qi" : 218188,
-            "ou" : 814792
+            "qi" : 268826,
+            "ou" : 873027
         },
         "reflection" : {
           "title" : "your experiences pair programming",
-          "qi" : 218193,
-          "ou" : 814792
+          "qi" : 268831,
+          "ou" : 873027
         },
         "survey" : {
             "name" : "Midterm",
-            "si" : 218198,
-            "ou" : 814792
+            "si" : 268836,
+            "ou" : 873027
         },
         "slides" : [
           {
@@ -277,8 +277,8 @@
         "due" : "Project 4",
         "quiz" : {
             "number" : 5,
-            "qi" : 218189,
-            "ou" : 814792
+            "qi" : 268827,
+            "ou" : 873027
         },
         "projects" : [
           {
@@ -305,13 +305,13 @@
       "topics" : {
         "quiz" : {
             "number" : 6,
-            "qi" : 218192,
-            "ou" : 814792
+            "qi" : 268830,
+            "ou" : 873027
         },
         "reflection" : {
           "title" : "your experiences mob programming",
-          "qi" : 218194,
-          "ou" : 814792
+          "qi" : 268832,
+          "ou" : 873027
         },
         "slides" : [
           {
@@ -330,8 +330,8 @@
         "due" : "Project 5",
         "survey" : {
             "name" : "End of term",
-            "si" : 218197,
-            "ou" : 814792
+            "si" : 268835,
+            "ou" : 873027
         }
       }
     }
