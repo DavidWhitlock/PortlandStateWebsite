@@ -177,8 +177,8 @@
           }
         ],
         "pairing" : {
-          "title" : "Roman Numerals",
-          "url" : "https://codingdojo.org/kata/RomanNumerals"
+          "title" : "The game of Greed",
+          "url" : "https://codingdojo.org/kata/Greed"
          },
         "references" : [
           {
@@ -226,8 +226,8 @@
           }
         ],
         "pairing" : {
-          "title" : "Diamond",
-          "url" : "http://codingdojo.org/kata/Diamond"
+          "title" : "Number to LCD",
+          "url" : "https://codingdojo.org/kata/NumberToLCD"
         }
       }
     },
@@ -294,8 +294,8 @@
           }
         ],
         "mobbing" : {
-          "title" : "Minesweeper",
-          "url" : "http://codingdojo.org/kata/Minesweeper"
+          "title" : "Pac-Man",
+          "url" : "https://codingdojo.org/kata/PacMan"
         }
       }
     },
