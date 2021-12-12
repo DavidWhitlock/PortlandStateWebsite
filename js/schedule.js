@@ -189,10 +189,7 @@ function workThatIsDue(parentUl, topics) {
   }
 
   if (topics.survey) {
-    var dueSurvey = topics.survey;
-    var link = "https://d2l.pdx.edu/d2l/lms/survey/user/attempt/survey_start_frame.d2l?si=" + dueSurvey.si + "&ou=" + dueSurvey.ou;
-
-    url(ul, dueSurvey.name + " Survey", link, null);
+    dueQuiz(ul, topics.survey, topics.survey.name + " Survey");
   }
 
   if (topics.reflection) {
@@ -270,7 +267,7 @@ function lectureTopics(parent, hasPassed, topics) {
 }
 
 function dueQuiz(ul, dueQuiz, quizTitle) {
-    var link = "https://d2l.pdx.edu/d2l/lms/quizzing/user/quiz_summary.d2l?qi=" + dueQuiz.qi + "&ou=" + dueQuiz.ou;
+    var link = "https://canvas.pdx.edu/courses/" + dueQuiz.courseId + "/quizzes/" + dueQuiz.quizId
 
     url(ul, quizTitle, link, null);
 }
