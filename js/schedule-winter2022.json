@@ -250,7 +250,7 @@
         "due" : "Java Koans",
         "survey" : {
             "name" : "Midterm",
-            "quizId" : 201364,
+            "quizId" : 49536,
             "courseId" : 16405
         },
         "slides" : [
@@ -279,7 +279,7 @@
         "due" : "Project 4",
         "reflection" : {
           "title" : "your experiences pair programming",
-          "quizId" : 201358,
+          "quizId" : 49537,
           "courseId" : 16405
         },
         "slides" : [
@@ -372,7 +372,7 @@
         "due" : "Project 6",
         "survey" : {
             "name" : "End of term",
-            "quizId" : 201363,
+            "quizId" : 49534,
             "courseId" : 16405
         }
       }
