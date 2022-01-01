@@ -126,8 +126,8 @@
             "url" : "https://google.github.io/styleguide/javaguide.html"
           },
           {
-            "title" : "Continuous Integration with Travis CI",
-            "url" : "https://travis-ci.org"
+            "title" : "Continuous Integration with GitHub Actions",
+            "url" : "https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven"
           },
           {
             "title" : "More information",
