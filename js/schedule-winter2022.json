@@ -26,7 +26,7 @@
     {
       "week" : 1,
       "comment" : "We're going cover a lot on the first day. Make sure to eat a good dinner beforehand.",
-      "screencasts" : [  ],
+      "screencasts" : [ "P__egGrNtNs" ],
       "topics" : {
         "slides" : [
           {
@@ -90,7 +90,7 @@
     },
     {
       "week" : 2,
-      "screencasts" : [  ],
+      "screencasts" : [ "YlngJzBpYng" ],
       "topics" : {
         "quiz" : {
             "number" : 1,
@@ -138,7 +138,7 @@
     },
     {
       "week" : 3,
-      "screencasts" : [  ],
+      "screencasts" : [ "jISF3tcxyBg" ],
       "topics" : {
         "due" : "Project 1",
         "quiz" : {
