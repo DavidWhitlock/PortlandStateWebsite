@@ -231,7 +231,11 @@
             "pdf" : "reflect-2x2",
             "screencasts" : [ "bvFA8TbGe1w", "Gt5VbWk-QCs" ]
           },
-        ]
+        ],
+        "pairing" : {
+          "title" : "Lags",
+          "url" : "http://codingdojo.org/kata/Lags/"
+         }
       }
     },
     {
@@ -244,6 +248,11 @@
             "quizId" : 49536,
             "courseId" : 16405
         },
+        "reflection" : {
+          "title" : "your experiences pair programming",
+          "quizId" : 49537,
+          "courseId" : 16405
+        },
         "slides" : [
           {
             "title" : "Foundations of the Web",
@@ -251,10 +260,6 @@
             "screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
           }
         ],
-        "pairing" : {
-          "title" : "Lags",
-          "url" : "http://codingdojo.org/kata/Lags/"
-         },
         "projects" : [
           {
             "title" : "Project 5: Client/Server",
@@ -268,11 +273,6 @@
       "screencasts" : [  ],
       "topics" : {
         "due" : "Project 4",
-        "reflection" : {
-          "title" : "your experiences pair programming",
-          "quizId" : 49537,
-          "courseId" : 16405
-        },
         "slides" : [
           {
             "title" : "Dependency Injection",
