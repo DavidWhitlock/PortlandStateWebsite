@@ -96,8 +96,8 @@
       "topics" : {
         "quiz" : {
             "number" : 1,
-            "quizId" : 268823,
-            "courseId" : 873027
+            "quizId" : 159889,
+            "courseId" : 49178
         },
         "slides" : [
           { 
@@ -145,8 +145,8 @@
         "due" : "Project 1",
         "quiz" : {
             "number" : 2,
-            "quizId" : 268824,
-            "courseId" : 873027
+            "quizId" : 159895,
+            "courseId" : 49178
         },
         "slides" : [
           {
@@ -195,8 +195,8 @@
         "due" : "Project 2",
         "quiz" : {
             "number" : 3,
-            "quizId" : 268825,
-            "courseId" : 873027
+            "quizId" : 159891,
+            "courseId" : 49178
         },
         "slides" : [
           {
@@ -234,18 +234,18 @@
         "due" : [ "Project 3", "Java Koans" ],
         "quiz" : {
             "number" : 4,
-            "quizId" : 268826,
-            "courseId" : 873027
+            "quizId" : 159883,
+            "courseId" : 49178
         },
         "reflection" : {
           "title" : "your experiences pair programming",
-          "quizId" : 268831,
-          "courseId" : 873027
+          "quizId" : 159893,
+          "courseId" : 49178
         },
         "survey" : {
             "name" : "Midterm",
-            "quizId" : 268836,
-            "courseId" : 873027
+            "quizId" : 159879,
+            "courseId" : 49178
         },
         "slides" : [
           {
@@ -273,8 +273,8 @@
         "due" : "Project 4",
         "quiz" : {
             "number" : 5,
-            "quizId" : 268827,
-            "courseId" : 873027
+            "quizId" : 159899,
+            "courseId" : 49178
         },
         "projects" : [
           {
@@ -301,13 +301,13 @@
       "topics" : {
         "quiz" : {
             "number" : 6,
-            "quizId" : 268830,
-            "courseId" : 873027
+            "quizId" : 159885,
+            "courseId" : 49178
         },
         "reflection" : {
           "title" : "your experiences mob programming",
-          "quizId" : 268832,
-          "courseId" : 873027
+          "quizId" : 159897,
+          "courseId" : 49178
         },
         "slides" : [
           {
@@ -326,8 +326,8 @@
         "due" : "Project 5",
         "survey" : {
             "name" : "End of term",
-            "quizId" : 268835,
-            "courseId" : 873027
+            "quizId" : 159887,
+            "courseId" : 49178
         }
       }
     }
