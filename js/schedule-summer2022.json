@@ -222,8 +222,8 @@
           }
         ],
         "pairing" : {
-          "title" : "Number to LCD",
-          "url" : "https://codingdojo.org/kata/NumberToLCD"
+          "title" : "Mars Rover",
+          "url" : "https://sammancoaching.org/kata_descriptions/mars_rover.html"
         }
       }
     },
@@ -290,8 +290,8 @@
           }
         ],
         "mobbing" : {
-          "title" : "Pac-Man",
-          "url" : "https://codingdojo.org/kata/PacMan"
+          "title" : "RPG Combat",
+          "url" : "https://sammancoaching.org/kata_descriptions/rpg_combat.html"
         }
       }
     },
