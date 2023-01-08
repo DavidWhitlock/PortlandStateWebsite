@@ -156,6 +156,11 @@
             "title" : "Functional Programming in Java",
             "pdf" : "java8Lambdas-2x2",
             "screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
+          },
+          {
+            "title" : "Pair Programming",
+            "pdf" : "teaming-2x2",
+            "screencasts" : [ "aleESKtJ574" ]
           }
         ],
         "handouts" : [
@@ -274,6 +279,11 @@
       "topics" : {
         "due" : "Project 4",
         "slides" : [
+          {
+            "title" : "Ensemble and Mob Programming",
+            "pdf" : "teaming-2x2",
+            "screencasts" : [ "qlS6bFNyVLY" ]
+          },
           {
             "title" : "Dependency Injection",
             "pdf" : "di-2x2",
