@@ -275,6 +275,7 @@
     },
     {
       "week" : 7,
+      "comment" : "No class because snow closed campus",
       "screencasts" : [  ],
       "topics" : {
         "due" : "Project 4",
@@ -290,10 +291,6 @@
             "screencasts" : [ "GQD5UAUKGfc", "iRRFx0ehqoE" ]
           }
         ],
-        "mobbing" : {
-          "title" : "Bank OCR",
-          "url" : "http://codingdojo.org/kata/BankOCR/"
-        },
         "references" : [
           {
             "title" : "Video: Mob Programming",
@@ -325,8 +322,8 @@
           }
         ],
         "mobbing" : {
-          "title" : "RPN Calculator",
-          "url" : "http://codingdojo.org/kata/RPN/"
+          "title" : "Bank OCR",
+          "url" : "http://codingdojo.org/kata/BankOCR/"
         }
       }
     },
@@ -343,8 +340,8 @@
           }
         ],
         "mobbing" : {
-          "title" : "Minesweeper",
-          "url" : "http://codingdojo.org/kata/Minesweeper"
+          "title" : "RPN Calculator",
+          "url" : "http://codingdojo.org/kata/RPN/"
         }
       }
     },
@@ -362,6 +359,10 @@
           "title" : "your experiences mob programming",
           "quizId" : 182139,
           "courseId" : 65031
+        },
+        "mobbing" : {
+          "title" : "Minesweeper",
+          "url" : "http://codingdojo.org/kata/Minesweeper"
         }
       }
     },
