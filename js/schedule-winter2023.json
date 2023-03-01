@@ -315,12 +315,6 @@
             "screencasts" : [ "_bnqVoSyuj4" ]
           }
         ],
-        "projects" : [
-          {
-            "title" : "Project 6: A fully-featured Small Device Application",
-            "pdf" : "SmallDeviceApp"
-          }
-        ],
         "mobbing" : {
           "title" : "Bank OCR",
           "url" : "http://codingdojo.org/kata/BankOCR/"
@@ -337,6 +331,12 @@
             "title" : "Android UI Development",
             "pdf" : "android-2x2",
             "screencasts" : [ "K734VGX-6vk" ]
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 6: A fully-featured Small Device Application",
+            "pdf" : "SmallDeviceApp"
           }
         ],
         "mobbing" : {
