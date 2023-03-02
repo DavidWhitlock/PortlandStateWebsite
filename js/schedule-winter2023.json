@@ -355,11 +355,6 @@
             "quizId" : 182140,
             "courseId" : 65031
         },
-        "reflection" : {
-          "title" : "your experiences mob programming",
-          "quizId" : 182139,
-          "courseId" : 65031
-        },
         "mobbing" : {
           "title" : "Minesweeper",
           "url" : "http://codingdojo.org/kata/Minesweeper"
@@ -372,6 +367,11 @@
       "comment" : "Final Exam during class time",
       "topics" : {
         "due" : "Project 6",
+        "reflection" : {
+          "title" : "your experiences mob programming",
+          "quizId" : 182139,
+          "courseId" : 65031
+        },
         "survey" : {
             "name" : "End of term",
             "quizId" : 182141,
