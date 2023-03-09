@@ -276,7 +276,7 @@
     {
       "week" : 7,
       "comment" : "No class because snow closed campus",
-      "screencasts" : [  ],
+      "screencasts" : [ ],
       "topics" : {
         "due" : "Project 4",
         "slides" : [
@@ -323,7 +323,7 @@
     },
     {
       "week" : 9,
-      "screencasts" : [   ],
+      "screencasts" : [ "x2WQX_i9cmA", "jxV3gRMWli0"  ],
       "topics" : {
         "due" : "Project 5",
         "slides" : [
