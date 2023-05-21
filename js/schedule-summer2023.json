@@ -1,5 +1,5 @@
 {
-  "youTubeClassRecordingsListId" : "PLyM7S4CZk9WMWhXhjx7sLx6nGg-Azbjhj",
+  "youTubeClassRecordingsListId" : "PLyM7S4CZk9WM0bmytNdi92949ZKfJGIvT",
   "review" : {
     "comment" : "Long ago, we've began the class with an in-depth review of the Java Programming Language and Object-Oriented Programming.  More recenly, however, we start out with a condensed review of Java.  If you are new to Java or haven't worked with the language for a while, I invite you review the lecture notes and listen to the podcast from a while back.",
     "content" : [
@@ -91,8 +91,8 @@
       "topics" : {
         "quiz" : {
             "number" : 1,
-            "quizId" : 159889,
-            "courseId" : 49178
+            "quizId" : 196761,
+            "courseId" : 72410
         },
         "slides" : [
           { 
@@ -140,8 +140,8 @@
         "due" : "Project 1",
         "quiz" : {
             "number" : 2,
-            "quizId" : 159895,
-            "courseId" : 49178
+            "quizId" : 196756,
+            "courseId" : 72410
         },
         "slides" : [
           {
@@ -195,8 +195,8 @@
         "due" : "Project 2",
         "quiz" : {
             "number" : 3,
-            "quizId" : 159891,
-            "courseId" : 49178
+            "quizId" : 196757,
+            "courseId" : 72410
         },
         "slides" : [
           {
@@ -234,18 +234,18 @@
         "due" : [ "Project 3", "Java Koans" ],
         "quiz" : {
             "number" : 4,
-            "quizId" : 159883,
-            "courseId" : 49178
+            "quizId" : 196755,
+            "courseId" : 72410
         },
         "reflection" : {
           "title" : "your experiences pair programming",
-          "quizId" : 159893,
-          "courseId" : 49178
+          "quizId" : 196762,
+          "courseId" : 72410
         },
         "survey" : {
             "name" : "Midterm",
-            "quizId" : 159879,
-            "courseId" : 49178
+            "quizId" : 196765,
+            "courseId" : 72410
         },
         "slides" : [
           {
@@ -273,8 +273,8 @@
         "due" : "Project 4",
         "quiz" : {
             "number" : 5,
-            "quizId" : 159899,
-            "courseId" : 49178
+            "quizId" : 196759,
+            "courseId" : 72410
         },
         "projects" : [
           {
@@ -306,13 +306,13 @@
       "topics" : {
         "quiz" : {
             "number" : 6,
-            "quizId" : 159885,
-            "courseId" : 49178
+            "quizId" : 196760,
+            "courseId" : 72410
         },
         "reflection" : {
           "title" : "your experiences mob programming",
-          "quizId" : 159897,
-          "courseId" : 49178
+          "quizId" : 196763,
+          "courseId" : 72410
         },
         "slides" : [
           {
@@ -331,8 +331,8 @@
         "due" : "Project 5",
         "survey" : {
             "name" : "End of term",
-            "quizId" : 159887,
-            "courseId" : 49178
+            "quizId" : 196754,
+            "courseId" : 72410
         }
       }
     }
