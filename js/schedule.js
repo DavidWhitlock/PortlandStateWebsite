@@ -324,7 +324,7 @@ function pdf(ul, title, pdf, prefix) {
 
 
 function apiurl(ul, title, apiurl, prefix) {
-  var thisurl = "http://davidwhitlock.github.io/PortlandStateJava/api" + apiurl;
+  var thisurl = "https://davidwhitlock.github.io/PortlandStateJava/api" + apiurl;
   url(ul, title, thisurl, prefix);
 }
 
