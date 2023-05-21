@@ -173,8 +173,8 @@
           }
         ],
         "pairing" : {
-          "title" : "Foo Bar Qix",
-          "url" : "https://codingdojo.org/kata/FooBarQix"
+          "title" : "String Calculator",
+          "url" : "https://codingdojo.org/kata/StringCalculator"
          },
         "references" : [
           {
