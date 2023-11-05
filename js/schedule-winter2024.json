@@ -129,10 +129,6 @@
           {
             "title" : "Java coding conventions",
             "url" : "https://google.github.io/styleguide/javaguide.html"
-          },
-          {
-            "title" : "Continuous Integration with GitHub Actions",
-            "url" : "https://docs.github.com/en/actions/guides/building-and-testing-java-with-maven"
           }
         ]
       }
@@ -208,6 +204,11 @@
             "pdf" : "xml-2x2",
             "screencasts" : [ "u-UZIinVEHA", "e0L7wSxlgnY" ]
           },
+          {
+            "title" : "Building Java Projects with Maven",
+            "pdf" : "maven-2x2",
+            "screencasts" : "oLlOv8Ln0VE"
+          }
         ],
         "projects" : [
           {
@@ -218,7 +219,13 @@
         "pairing" : {
           "title" : "Diamond",
           "url" : "http://codingdojo.org/kata/Diamond"
-         }
+         },
+        "references" : [
+          {
+            "title" : "Continuous Integration with GitHub Actions",
+            "url" : "https://docs.github.com/en/actions/guides/building-and-testing-java-with-maven"
+          }
+        ]
       }
     },
     {
