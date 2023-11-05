@@ -36,11 +36,6 @@
           {
             "title" : "Source Code Management with Git",
             "pdf" : "git-2x2"
-          },
-          {
-            "title" : "Building Java Projects with Maven",
-            "pdf" : "maven-2x2",
-            "screencasts" : "oLlOv8Ln0VE"
           }
         ],
         "handouts" : [
