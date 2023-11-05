@@ -240,9 +240,9 @@
         },
         "slides" : [
           {
-            "title" : "Reflection",
-            "pdf" : "reflect-2x2",
-            "screencasts" : [ "bvFA8TbGe1w", "Gt5VbWk-QCs" ]
+            "title" : "Testing with Mock Objects",
+            "pdf" : "TestingWithMocks-2x2",
+            "screencasts" : [  ]
           },
         ],
         "pairing" : {
@@ -293,9 +293,9 @@
             "screencasts" : [ "qlS6bFNyVLY" ]
           },
           {
-            "title" : "Dependency Injection",
-            "pdf" : "di-2x2",
-            "screencasts" : [ "GQD5UAUKGfc", "iRRFx0ehqoE" ]
+            "title" : "Code Refactoring",
+            "pdf" : "refactoring-2x2",
+            "screencasts" : [  ]
           }
         ],
         "references" : [
