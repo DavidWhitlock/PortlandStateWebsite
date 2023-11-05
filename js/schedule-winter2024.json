@@ -102,7 +102,7 @@
             "title" : "Core Language APIs",
             "pdf" : "CoreLanguageAPIs-2x2",
             "screencasts" : [  ]
-          }
+          },
           { 
             "title" : "Java IO",
             "pdf" : "JavaIO-2x2",
