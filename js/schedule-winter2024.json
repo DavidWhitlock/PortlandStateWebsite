@@ -248,13 +248,7 @@
         "pairing" : {
           "title" : "Lags",
           "url" : "http://codingdojo.org/kata/Lags/"
-         },
-        "projects" : [
-          {
-            "title" : "Project 5: Client/Server",
-            "pdf" : "REST"
-          }
-        ]
+         }
       }
     },
     {
@@ -277,6 +271,12 @@
             "title" : "Foundations of the Web",
             "pdf" : "web-2x2",
             "screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 5: Client/Server",
+            "pdf" : "REST"
           }
         ]
       }
