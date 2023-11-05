@@ -1,7 +1,7 @@
 {
   "youTubeClassRecordingsListId" : "PLyM7S4CZk9WNDFrB1-ltSK8Xz24iYZzSW",
   "review" : {
-    "comment" : "Long ago, we began the class with an in-depth review of the Java Programming Language and Object-Oriented Programming.  More recenly, however, we start out with a condensed review of Java.  If you are new to Java or haven't worked with the language for a while, I invite you review the lecture notes and listen to the podcast from a while back.",
+    "comment" : "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
     "content" : [
       "<a href='pdf/javaLanguage-2x2.pdf' target='_blank'>The Java Programming Language</a> (<a href='podcasts/JavaReview1.m4a' target='_blank'>podcast</a>)",
       "<a href='pdf/oopInJava-2x2.pdf' target='_blank'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a' target='_blank'>part 1</a> and <a href='podcasts/JavaReview3.m4a' target='_blank'>part 2</a>)",
@@ -32,11 +32,6 @@
           {
             "title" : "Java Programming Language Review",
             "pdf" : "javaReview-2x2"
-          },
-          {
-            "title" : "Unit testing with JUnit",
-            "pdf" : "junit-2x2",
-            "screencasts" : "Y8pdXhxUk7o"
           },
           {
             "title" : "Building Java Projects with Maven",
@@ -98,6 +93,11 @@
             "courseId" : 65031
         },
         "slides" : [
+          {
+            "title" : "Unit testing with JUnit",
+            "pdf" : "junit-2x2",
+            "screencasts" : "Y8pdXhxUk7o"
+          },
           { 
             "title" : "Core Language APIs",
             "pdf" : "CoreLanguageAPIs-2x2",
