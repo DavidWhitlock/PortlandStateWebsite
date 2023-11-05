@@ -153,9 +153,9 @@
         },
         "slides" : [
           {
-            "title" : "The Core Java API (Part 2)",
-            "pdf" : "coreAPI-2x2",
-            "screencasts" : [ "InytCSemEJM", "fyYJA8FeU74" ]
+            "title" : "Java Collections API",
+            "pdf" : "JavaCollections-2x2",
+            "screencasts" : [ ]
           },
           {
             "title" : "Functional Programming in Java",
