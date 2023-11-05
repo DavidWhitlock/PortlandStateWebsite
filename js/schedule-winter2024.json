@@ -99,6 +99,11 @@
         },
         "slides" : [
           { 
+            "title" : "Java IO",
+            "pdf" : "JavaIO-2x2",
+            "screencasts" : [  ]
+          }
+          { 
             "title" : "Core Language APIs",
             "pdf" : "coreAPI-2x2",
             "screencasts" : [ "pOaj6yrGs4Y", "qbq21vjz4vc" ]
