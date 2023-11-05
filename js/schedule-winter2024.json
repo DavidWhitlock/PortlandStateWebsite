@@ -30,8 +30,12 @@
       "topics" : {
         "slides" : [
           {
-            "title" : "Java Programming Language Review",
+            "title" : "Java Programming Language Overview",
             "pdf" : "javaReview-2x2"
+          },
+          {
+            "title" : "Source Code Management with Git",
+            "pdf" : "git-2x2"
           },
           {
             "title" : "Building Java Projects with Maven",
@@ -75,10 +79,6 @@
           {
             "title" : "The CAT's Linux page",
             "url" : "https://cat.pdx.edu/platforms/linux"
-          },
-          {
-            "title" : "More Information",
-            "apiurl" : "docs/edu/pdx/cs410J/lang/package-summary.html#package_description"
           }
         ]
       }
@@ -133,10 +133,6 @@
           {
             "title" : "Continuous Integration with GitHub Actions",
             "url" : "https://docs.github.com/en/actions/guides/building-and-testing-java-with-maven"
-          },
-          {
-            "title" : "More information",
-            "apiurl" : "docs/edu/pdx/cs410J/core/package-summary.html#package_description"
           }
         ]
       }
