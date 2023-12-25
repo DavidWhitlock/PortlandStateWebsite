@@ -267,7 +267,7 @@ function lectureTopics(parent, hasPassed, topics) {
 }
 
 function dueQuiz(ul, dueQuiz, quizTitle) {
-    var link = "https://canvas.pdx.edu/courses/" + dueQuiz.courseId + "/quizzes/" + dueQuiz.quizId
+    var link = "https://canvas.pdx.edu/courses/" + dueQuiz.courseId + "/assignments/" + dueQuiz.quizId
 
     url(ul, quizTitle, link, null);
 }
