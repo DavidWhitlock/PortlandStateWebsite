@@ -31,11 +31,13 @@
         "slides" : [
           {
             "title" : "Java Programming Language Overview",
-            "pdf" : "javaReview-2x2"
+            "pdf" : "javaReview-2x2",
+            "screencasts" : [ "85H5syImmAw", "1gJax8JKmQk" ]
           },
           {
             "title" : "Source Code Management with Git",
-            "pdf" : "git-2x2"
+            "pdf" : "git-2x2",
+            "screencasts" : [  ]
           }
         ],
         "handouts" : [
