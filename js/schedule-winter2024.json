@@ -147,11 +147,6 @@
             "screencasts" : [ ]
           },
           {
-            "title" : "Functional Programming in Java",
-            "pdf" : "JavaLambdas-2x2",
-            "screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
-          },
-          {
             "title" : "Pair Programming",
             "pdf" : "teaming-2x2",
             "screencasts" : [ "aleESKtJ574" ]
@@ -241,6 +236,11 @@
             "pdf" : "TestingWithMocks-2x2",
             "screencasts" : [  ]
           },
+          {
+            "title" : "Functional Programming in Java",
+            "pdf" : "JavaLambdas-2x2",
+            "screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
+          }
         ],
         "pairing" : {
           "title" : "Lags",
@@ -295,6 +295,10 @@
             "screencasts" : [  ]
           }
         ],
+        "mobbing" : {
+          "title" : "Bank OCR",
+          "url" : "http://codingdojo.org/kata/BankOCR/"
+        },
         "references" : [
           {
             "title" : "Video: Mob Programming",
@@ -319,10 +323,12 @@
             "screencasts" : [ "_bnqVoSyuj4" ]
           }
         ],
-        "mobbing" : {
-          "title" : "Bank OCR",
-          "url" : "http://codingdojo.org/kata/BankOCR/"
-        }
+        "references" : [
+          {
+            "title" : "Gilded Rose Refactoring Kata",
+            "url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
+          }
+        ]
       }
     },
     {
