@@ -282,7 +282,10 @@ function kata(ul, kataType, kata) {
 function screencastsLinks(screencasts, youTubeListId) {
   var description = "";
   if (screencasts instanceof Array) {
-    if (screencasts.length > 0) {
+    if (screencasts.length == 1) {
+      description += " (" + screencastLink(screencasts, youTubeListId, "screencast") + "</a>)";
+
+    } else if (screencasts.length > 0) {
       description += " (screencast ";
 
       for (var j = 0; j < screencasts.length; j++) {
