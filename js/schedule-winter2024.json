@@ -98,12 +98,12 @@
           { 
             "title" : "Core Language APIs",
             "pdf" : "CoreLanguageAPIs-2x2",
-            "screencasts" : [  ]
+            "screencasts" : [ "0wyDpSMX8QM" ]
           },
           { 
             "title" : "Java IO",
             "pdf" : "JavaIO-2x2",
-            "screencasts" : [  ]
+            "screencasts" : [ "lq_E-aG7H9A"  ]
           }
         ],
         "handouts" : [
