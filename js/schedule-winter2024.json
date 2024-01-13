@@ -26,7 +26,7 @@
     {
       "week" : 1,
       "comment" : "We're going cover a lot on the first day. Make sure to eat a good dinner beforehand.",
-      "screencasts" : [  ],
+      "screencasts" : [ "kcimCMw2R3E" ],
       "topics" : {
         "slides" : [
           {
@@ -145,6 +145,11 @@
             "title" : "Java Collections API",
             "pdf" : "JavaCollections-2x2",
             "screencasts" : [ "56MGAhBVpMc", "7ALcUqJX05M" ]
+          },
+          {
+            "title" : "Working with Dates and Text Formatting ",
+            "pdf" : "DatesAndText-2x2",
+            "screencasts" : [  ]
           },
           {
             "title" : "Pair Programming",
