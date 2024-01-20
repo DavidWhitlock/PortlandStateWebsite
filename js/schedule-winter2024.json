@@ -259,11 +259,6 @@
             "quizId" : 211202,
             "courseId" : 82149
         },
-        "reflection" : {
-          "title" : "your experiences pair programming",
-          "quizId" : 815002,
-          "courseId" : 82149
-        },
         "slides" : [
           {
             "title" : "Foundations of the Web",
@@ -309,7 +304,12 @@
             "title" : "Video: Mob Programming",
             "url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
           }
-        ]
+        ],
+        "reflection" : {
+          "title" : "your experiences pair programming",
+          "quizId" : 815002,
+          "courseId" : 82149
+        }
       }
     },
     {
