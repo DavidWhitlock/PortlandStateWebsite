@@ -180,11 +180,6 @@
             "title" : "XML",
             "pdf" : "xml-2x2",
             "screencasts" : [ "u-UZIinVEHA", "e0L7wSxlgnY" ]
-          },
-          {
-            "title" : "Building Java Projects with Maven",
-            "pdf" : "maven-2x2",
-            "screencasts" : "oLlOv8Ln0VE"
           }
         ],
 	  "handouts" : [
@@ -235,6 +230,11 @@
             "title" : "Functional Programming in Java",
             "pdf" : "JavaLambdas-2x2",
             "screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
+          },
+          {
+            "title" : "Building Java Projects with Maven",
+            "pdf" : "maven-2x2",
+            "screencasts" : "oLlOv8Ln0VE"
           }
         ],
         "pairing" : {
@@ -285,24 +285,15 @@
         "due" : "Project 3",
         "slides" : [
           {
-            "title" : "Ensemble and Mob Programming",
-            "pdf" : "teaming-2x2",
-            "screencasts" : [ "qlS6bFNyVLY" ]
-          },
-          {
             "title" : "Code Refactoring",
             "pdf" : "refactoring-2x2",
             "screencasts" : [  ]
           }
         ],
-        "mobbing" : {
-          "title" : "Bank OCR",
-          "url" : "http://codingdojo.org/kata/BankOCR/"
-        },
         "references" : [
           {
-            "title" : "Video: Mob Programming",
-            "url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
+            "title" : "Gilded Rose Refactoring Kata",
+            "url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
           }
         ],
         "reflection" : {
@@ -327,12 +318,27 @@
             "title" : "Android Fundamentals",
             "pdf" : "android-2x2",
             "screencasts" : [ "_bnqVoSyuj4" ]
+          },
+          {
+            "title" : "Ensemble and Mob Programming",
+            "pdf" : "teaming-2x2",
+            "screencasts" : [ "qlS6bFNyVLY" ]
+          }
+        ],
+        "mobbing" : {
+          "title" : "Bank OCR",
+          "url" : "http://codingdojo.org/kata/BankOCR/"
+        },
+        "projects" : [
+          {
+            "title" : "Project 6: A fully-featured Small Device Application",
+            "pdf" : "SmallDeviceApp"
           }
         ],
         "references" : [
           {
-            "title" : "Gilded Rose Refactoring Kata",
-            "url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
+            "title" : "Video: Mob Programming",
+            "url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
           }
         ]
       }
@@ -347,12 +353,6 @@
             "title" : "Android UI Development",
             "pdf" : "android-2x2",
             "screencasts" : [ "K734VGX-6vk" ]
-          }
-        ],
-        "projects" : [
-          {
-            "title" : "Project 6: A fully-featured Small Device Application",
-            "pdf" : "SmallDeviceApp"
           }
         ],
         "mobbing" : {
