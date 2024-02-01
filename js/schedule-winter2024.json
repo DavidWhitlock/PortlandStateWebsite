@@ -188,12 +188,6 @@
             "pdf" : "pairing"
           }
 	  ],
-        "projects" : [
-          {
-            "title" : "Project 4: Working with XML",
-            "pdf" : "XML"
-          }
-        ],
         "pairing" : {
           "title" : "Leap Years",
           "url" : "http://codingdojo.org/kata/LeapYears"
@@ -235,6 +229,12 @@
             "title" : "Building Java Projects with Maven",
             "pdf" : "maven-2x2",
             "screencasts" : "oLlOv8Ln0VE"
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 4: Working with XML",
+            "pdf" : "XML"
           }
         ],
         "pairing" : {
