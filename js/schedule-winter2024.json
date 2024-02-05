@@ -231,6 +231,12 @@
             "screencasts" : "oLlOv8Ln0VE"
           }
         ],
+        "handouts" : [
+          {
+            "title" : "Continuous Integration",
+            "pdf" : "ContinuousIntegration"
+          }
+        ],
         "projects" : [
           {
             "title" : "Project 4: Working with XML",
