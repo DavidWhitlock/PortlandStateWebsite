@@ -257,7 +257,7 @@
     },
     {
       "week" : 6,
-      "screencasts" : [  ],
+      "screencasts" : [ "tT5W7qf6jzc" ],
       "topics" : {
         "due" : [ "Java Koans" ],
         "survey" : {
@@ -286,7 +286,7 @@
     },
     {
       "week" : 7,
-      "screencasts" : [ ],
+      "screencasts" : [  ],
       "topics" : {
         "due" : "Project 3",
         "slides" : [
