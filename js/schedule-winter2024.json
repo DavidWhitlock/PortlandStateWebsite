@@ -311,7 +311,7 @@
     },
     {
       "week" : 8,
-      "screencasts" : [   ],
+      "screencasts" : [ "AWAuOSgnNuU"  ],
       "topics" : {
         "due" : "Project 4",
         "quiz" : {
@@ -320,11 +320,6 @@
             "courseId" : 82149
         },
         "slides" : [
-          {
-            "title" : "Android Fundamentals",
-            "pdf" : "android-2x2",
-            "screencasts" : [ "_bnqVoSyuj4" ]
-          },
           {
             "title" : "Ensemble and Mob Programming",
             "pdf" : "teaming-2x2",
@@ -335,12 +330,6 @@
           "title" : "Bank OCR",
           "url" : "http://codingdojo.org/kata/BankOCR/"
         },
-        "projects" : [
-          {
-            "title" : "Project 6: A fully-featured Small Device Application",
-            "pdf" : "SmallDeviceApp"
-          }
-        ],
         "references" : [
           {
             "title" : "Video: Mob Programming",
@@ -356,9 +345,20 @@
         "due" : "Project 5",
         "slides" : [
           {
+            "title" : "Android Fundamentals",
+            "pdf" : "android-2x2",
+            "screencasts" : [ "_bnqVoSyuj4" ]
+          },
+          {
             "title" : "Android UI Development",
             "pdf" : "android-2x2",
             "screencasts" : [ "K734VGX-6vk" ]
+          }
+        ],
+        "projects" : [
+          {
+            "title" : "Project 6: A fully-featured Small Device Application",
+            "pdf" : "SmallDeviceApp"
           }
         ],
         "mobbing" : {
