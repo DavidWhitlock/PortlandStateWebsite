@@ -85,7 +85,7 @@
 	},
 	{
 	    "session" : 3,
-	    "comment" : "Exploring our first Java project and unit tests",
+	    "comment" : "Exploring our first Java project",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
@@ -140,29 +140,20 @@
 	},
 	{
 	    "session" : 5,
-	    "screencasts" : [ "_GHf9Wfcqjk", "e9KzOA2i8LI" ],
+	    "comment" : "Observe others Pair Programming",
+	    "screencasts" : [  ],
 	    "topics" : {
-		"quiz" : {
-		    "number" : 2,
-		    "quizId" : 814999,
-		    "courseId" : 82149
-		},
 		"slides" : [
+		    {
+			"title" : "Pair Programming",
+			"pdf" : "teaming-2x2",
+			"screencasts" : [ "aleESKtJ574" ]
+		    },
 		    { 
 			"title" : "Java IO",
 			"pdf" : "JavaIO-2x2",
 			"screencasts" : [ "lq_E-aG7H9A"  ]
 		    },
-		    {
-			"title" : "Java Collections API",
-			"pdf" : "JavaCollections-2x2",
-			"screencasts" : [ "56MGAhBVpMc", "7ALcUqJX05M" ]
-		    },
-		    {
-			"title" : "Working with Dates and Text Formatting ",
-			"pdf" : "DatesAndText-2x2",
-			"screencasts" : [ "H0WTCPoJ_68", "8BUN9-I0YJg" ]
-		    }
 		],
 		"handouts" : [
 		    {
@@ -174,16 +165,44 @@
 		    {
 			"title" : "Project 2: Working with files",
 			"pdf" : "TextFile"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Video: Introduction to Pair Programming",
+			"url" : "http://www.youtube.com/watch?v=rG_U12uqRhE"
 		    },
 		    {
-			"title" : "Project 3: Sorting and working with Dates",
-			"pdf" : "PrettyPrint"
+			"title" : "Code Katas",
+			"url" : "http://codekata.com/kata/codekata-how-it-started/"
 		    }
+
 		]
 	    }
 	},
 	{
-	    "session" : 5,
+	    "session" : 6,
+	    "comment" : "Your first Pair Programming experience.  Please attend in person.",
+	    "topics" : {
+		"quiz" : {
+		    "number" : 2,
+		    "quizId" : 814999,
+		    "courseId" : 82149
+		},
+		"handouts" : [
+		    {
+			"title" : "Pair and Mob Programming in this course",
+			"pdf" : "pairing"
+		    }
+		],
+		"pairing" : {
+		    "title" : "Leap Years",
+		    "url" : "http://codingdojo.org/kata/LeapYears"
+		}
+	    }
+	},
+	{
+	    "session" : 7,
 	    "comment" : "Our focus will be Pair Programming.  Please plan to attend in-person.",
 	    "screencasts" : [ "6D9YAkRcfJY" ],
 	    "topics" : {
@@ -195,34 +214,14 @@
 		},
 		"slides" : [
 		    {
-			"title" : "Pair Programming",
-			"pdf" : "teaming-2x2",
-			"screencasts" : [ "aleESKtJ574" ]
+			"title" : "Java Collections API",
+			"pdf" : "JavaCollections-2x2",
+			"screencasts" : [ "56MGAhBVpMc", "7ALcUqJX05M" ]
 		    },
 		    {
-			"title" : "XML",
-			"pdf" : "xml-2x2",
-			"screencasts" : [ "u-UZIinVEHA", "e0L7wSxlgnY" ]
-		    }
-		],
-		"handouts" : [
-		    {
-			"title" : "Pair and Mob Programming in this course",
-			"pdf" : "pairing"
-		    }
-		],
-		"pairing" : {
-		    "title" : "Leap Years",
-		    "url" : "http://codingdojo.org/kata/LeapYears"
-		},
-		"references" : [
-		    {
-			"title" : "Video: Introduction to Pair Programming",
-			"url" : "http://www.youtube.com/watch?v=rG_U12uqRhE"
-		    },
-		    {
-			"title" : "Code Katas",
-			"url" : "http://codekata.com/kata/codekata-how-it-started/"
+			"title" : "Working with Dates and Text Formatting ",
+			"pdf" : "DatesAndText-2x2",
+			"screencasts" : [ "H0WTCPoJ_68", "8BUN9-I0YJg" ]
 		    }
 		]
 	    }
