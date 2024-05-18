@@ -13,4 +13,4 @@ site/
 src/
 
 # Emacs backup files
-*.~*~
+*~*
