@@ -22,8 +22,10 @@
 	"July 24, 2024",
 	"July 29, 2024",
 	"July 31, 2024",
+	"August 5, 2024",
 	"August 7, 2024",
-	"August 14, 2024",
+	"August 12, 2024",
+	"August 14, 2024"
     ],
     "lectures" : [
 	{
@@ -393,7 +395,6 @@
 	    "comment" : "More deeply explore Android development",
 	    "screencasts" : [  ],
 	    "topics" : {
-		"due" : "Project 5",
 		"mobbing" : {
 		    "title" : "RPN Calculator",
 		    "url" : "http://codingdojo.org/kata/RPN/"
@@ -401,10 +402,11 @@
 	    }
 	},
 	{
-	    "session" : 17,
-	    "screencasts" : [ "K-HaoUrEYKg" ],
-	    "comment" : "Advanced Topics in Android Development",
+	    "session" : 14,
+	    "screencasts" : [  ],
+	    "comment" : "Our second Mob Programming activity. Attend in person or remotely",
 	    "topics" : {
+		"due" : "Project 4",
 		"quiz" : {
 		    "number" : 6,
 		    "quizId" : 815018,
@@ -417,11 +419,16 @@
 	    }
 	},
 	{
-	    "session" : 19,
+	    "session" : 15,
+	    "comment" : "Review course materials?",
+	    "screencasts" : [  ]
+	},
+	{
+	    "session" : 16,
 	    "screencasts" : [  ],
 	    "comment" : "Final Exam during class time",
 	    "topics" : {
-		"due" : "Project 6",
+		"due" : "Project 5",
 		"reflection" : {
 		    "title" : "your experiences mob programming",
 		    "quizId" : 815019,
