@@ -212,12 +212,6 @@
 	    "comment" : "Continuous Integration: Getting rapid feedback on your code",
 	    "screencasts" : [  ],
 	    "topics" : {
-		"due" : "Project 1",
-		"quiz" : {
-		    "number" : 3,
-		    "quizId" : 815001,
-		    "courseId" : 82149
-		},
 		"slides" : [
 		    {
 			"title" : "Java Collections API",
@@ -249,9 +243,10 @@
 	    "comment": "Our second Pair Programming activity.  Attend in person or remote.",
 	    "screencasts" : [ ],
 	    "topics" : {
+		"due" : "Project 1",
 		"quiz" : {
-		    "number" : 4,
-		    "quizId" : 815000,
+		    "number" : 3,
+		    "quizId" : 815001,
 		    "courseId" : 82149
 		},
 		"survey" : {
@@ -314,6 +309,11 @@
 	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : [ "Project 2" ],
+		"quiz" : {
+		    "number" : 4,
+		    "quizId" : 815000,
+		    "courseId" : 82149
+		},
 		"slides" : [
 		    {
 			"title" : "Code Refactoring",
@@ -365,7 +365,6 @@
 	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : "Project 3",
-		"due" : "Project 4",
 		"quiz" : {
 		    "number" : 5,
 		    "quizId" : 815003,
