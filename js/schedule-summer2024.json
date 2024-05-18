@@ -133,6 +133,10 @@
 		    {
 			"title" : "How to test your projects",
 			"pdf" : "testing"
+		    },
+		    {
+			"title" : "How to document your projects",
+			"pdf" : "documentation"
 		    }
 		],
 		"references" : [
@@ -159,12 +163,6 @@
 			"pdf" : "JavaIO-2x2",
 			"screencasts" : [ "lq_E-aG7H9A"  ]
 		    },
-		],
-		"handouts" : [
-		    {
-			"title" : "How to document your projects",
-			"pdf" : "documentation"
-		    }
 		],
 		"projects" : [
 		    {
@@ -391,14 +389,8 @@
 	},
 	{
 	    "session" : 13,
-	    "comment" : "More deeply explore Android development",
-	    "screencasts" : [  ],
-	    "topics" : {
-		"mobbing" : {
-		    "title" : "RPN Calculator",
-		    "url" : "http://codingdojo.org/kata/RPN/"
-		}
-	    }
+	    "comment" : "Explore Android development more deeply",
+	    "screencasts" : [  ]
 	},
 	{
 	    "session" : 14,
@@ -419,7 +411,7 @@
 	},
 	{
 	    "session" : 15,
-	    "comment" : "Review course materials?",
+	    "comment" : "Review course materials?  Random lecture topic?",
 	    "screencasts" : [  ]
 	},
 	{
