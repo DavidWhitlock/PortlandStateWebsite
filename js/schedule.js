@@ -73,7 +73,7 @@ function populateSchedule(schedule) {
     var hasPassed = hasDatePassed(meeting);
     var lecture = schedule.lectures[i];
 
-    var heading = " Week " + (i + 1) + (showDate ? ": " + meeting.format("MMM d, yyyy") : "");
+    var heading = " Session " + (i + 1) + (showDate ? ": " + meeting.format("EE, MMM d, yyyy") : "");
     var dl = lectureHeading(div, hasPassed, heading, lecture.screencasts, schedule.youTubeClassRecordingsListId);
 
     if (lecture.comment) {
@@ -170,7 +170,7 @@ function lectureContent(parent, hasPassed, content) {
 
 function workThatIsDue(parentUl, topics) {
   var ul = $(document.createElement("ul"));
-  li(parentUl, "Due before this week's class:").appendChild(ul);
+  li(parentUl, "Due before class:").appendChild(ul);
 
   if (topics.due) {
     if (topics.due instanceof Array) {
