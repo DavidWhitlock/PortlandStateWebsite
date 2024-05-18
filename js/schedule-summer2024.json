@@ -334,8 +334,35 @@
 	},
 	{
 	    "session" : 11,
+	    "comment" : "Preparing to build an Android application",
 	    "screencasts" : [   ],
 	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Android Fundamentals",
+			"pdf" : "android-2x2",
+			"screencasts" : [ "_bnqVoSyuj4" ]
+		    },
+		    {
+			"title" : "Android UI Development",
+			"pdf" : "android-2x2",
+			"screencasts" : [ "K734VGX-6vk" ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 6: A fully-featured Small Device Application",
+			"pdf" : "SmallDeviceApp"
+		    }
+		]
+	    }
+	},
+	{
+	    "session" : 12,
+	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"due" : "Project 3",
 		"due" : "Project 4",
 		"quiz" : {
 		    "number" : 5,
@@ -362,35 +389,11 @@
 	    }
 	},
 	{
-	    "session" : 12,
+	    "session" : 13,
+	    "comment" : "More deeply explore Android development",
 	    "screencasts" : [  ],
 	    "topics" : {
-		"due" : "Project 3",
-	    }
-	},
-	{
-	    "session" : 15,
-	    "screencasts" : [ "GjdkprZbT_w", "0N-PB0QRdqQ"  ],
-	    "topics" : {
 		"due" : "Project 5",
-		"slides" : [
-		    {
-			"title" : "Android Fundamentals",
-			"pdf" : "android-2x2",
-			"screencasts" : [ "_bnqVoSyuj4" ]
-		    },
-		    {
-			"title" : "Android UI Development",
-			"pdf" : "android-2x2",
-			"screencasts" : [ "K734VGX-6vk" ]
-		    }
-		],
-		"projects" : [
-		    {
-			"title" : "Project 6: A fully-featured Small Device Application",
-			"pdf" : "SmallDeviceApp"
-		    }
-		],
 		"mobbing" : {
 		    "title" : "RPN Calculator",
 		    "url" : "http://codingdojo.org/kata/RPN/"
