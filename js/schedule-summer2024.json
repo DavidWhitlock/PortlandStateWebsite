@@ -19,7 +19,9 @@
 	"July 15, 2024",
 	"July 17, 2024",
 	"July 22, 2024",
+	"July 24, 2024",
 	"July 29, 2024",
+	"July 31, 2024",
 	"August 7, 2024",
 	"August 14, 2024",
     ],
@@ -245,10 +247,14 @@
 	    "comment": "Our second Pair Programming activity.  Attend in person or remote.",
 	    "screencasts" : [ ],
 	    "topics" : {
-		"due" : [ "Project 2" ],
 		"quiz" : {
 		    "number" : 4,
 		    "quizId" : 815000,
+		    "courseId" : 82149
+		},
+		"survey" : {
+		    "name" : "Midterm",
+		    "quizId" : 211202,
 		    "courseId" : 82149
 		},
 		"slides" : [
@@ -272,9 +278,15 @@
 	},
 	{
 	    "session" : 9,
+	    "comment" : "Web Applications and REST in Java",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
+		    {
+			"title" : "Foundations of the Web",
+			"pdf" : "web-2x2",
+			"screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
+		    },
 		    {
 			"title" : "Testing with Mock Objects",
 			"pdf" : "TestingWithMocks-2x2",
@@ -285,42 +297,21 @@
 			"pdf" : "JavaLambdas-2x2",
 			"screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
 		    }
-		]
-	    }
-	},
-	{
-	    "session" : 9,
-	    "screencasts" : [ "tT5W7qf6jzc" ],
-	    "topics" : {
-		"survey" : {
-		    "name" : "Midterm",
-		    "quizId" : 211202,
-		    "courseId" : 82149
-		},
-		"slides" : [
-		    {
-			"title" : "Foundations of the Web",
-			"pdf" : "web-2x2",
-			"screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
-		    }
 		],
-		"pairing" : {
-		    "title" : "Lags",
-		    "url" : "http://codingdojo.org/kata/Lags/"
-		},
 		"projects" : [
 		    {
-			"title" : "Project 5: Client/Server",
+			"title" : "Project 4: Client/Server",
 			"pdf" : "REST"
 		    }
 		]
 	    }
 	},
 	{
-	    "session" : 11,
-	    "screencasts" : [ "Sxp7y1t7he0", "KNr5CJOsiFg" ],
+	    "session" : 10,
+	    "comment" : "Refactoring Code to go faster",
+	    "screencasts" : [  ],
 	    "topics" : {
-		"due" : "Project 3",
+		"due" : [ "Project 2" ],
 		"slides" : [
 		    {
 			"title" : "Code Refactoring",
@@ -328,22 +319,22 @@
 			"screencasts" : [ "Mk3bBSX4n8c", "8dLg2ed6o9w" ]
 		    }
 		],
+		"reflection" : {
+		    "title" : "your experiences pair programming",
+		    "quizId" : 815002,
+		    "courseId" : 82149
+		},
 		"references" : [
 		    {
 			"title" : "Gilded Rose Refactoring Kata",
 			"url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
 		    }
-		],
-		"reflection" : {
-		    "title" : "your experiences pair programming",
-		    "quizId" : 815002,
-		    "courseId" : 82149
-		}
+		]
 	    }
 	},
 	{
-	    "session" : 13,
-	    "screencasts" : [ "AWAuOSgnNuU"  ],
+	    "session" : 11,
+	    "screencasts" : [   ],
 	    "topics" : {
 		"due" : "Project 4",
 		"quiz" : {
@@ -368,6 +359,13 @@
 			"url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
 		    }
 		]
+	    }
+	},
+	{
+	    "session" : 12,
+	    "screencasts" : [  ],
+	    "topics" : {
+		"due" : "Project 3",
 	    }
 	},
 	{
