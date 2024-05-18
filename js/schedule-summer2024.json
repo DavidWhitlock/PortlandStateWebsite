@@ -30,11 +30,6 @@
 	    "topics" : {
 		"slides" : [
 		    {
-			"title" : "Java Programming Language Overview",
-			"pdf" : "javaReview-2x2",
-			"screencasts" : [ "85H5syImmAw", "1gJax8JKmQk" ]
-		    },
-		    {
 			"title" : "Source Code Management with Git",
 			"pdf" : "git-2x2",
 			"screencasts" : [ "TOApc6ze-IA", "qnVV0Mlhxrc" ]
@@ -46,32 +41,14 @@
 			"pdf" : "syllabus"
 		    }
 		],
-		"projects" : [
-		    {
-			"title" : "Project 1: Beginning a Java application",
-			"pdf" : "AppClasses"
-		    },
-		    {
-			"title" : "Java Koans",
-			"pdf" : "koans"
-		    }
-		],
 		"references" : [
 		    {
 			"title" : "Getting Started GitHub Repository",
 			"url" : "https://github.com/DavidWhitlock/PortlandStateJavaGettingStarted"
 		    },
 		    {
-			"title" : "Uncle Bob Martin on Test Driven Development",
-			"url" : "http://vimeo.com/43734265"
-		    },
-		    {
 			"title" : "GitHub student pack",
 			"url" : "https://education.github.com/pack"
-		    },
-		    {
-			"title" : "Jetbrains (IntelliJ) academic licenses",
-			"url" : "https://www.jetbrains.com/student"
 		    },
 		    {
 			"title" : "The CAT's Linux page",
@@ -82,6 +59,31 @@
 	},
 	{
 	    "session" : 2,
+	    "screencasts" : [  ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Java Programming Language Overview",
+			"pdf" : "javaReview-2x2",
+			"screencasts" : [ "85H5syImmAw", "1gJax8JKmQk" ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Java Koans",
+			"pdf" : "koans"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Jetbrains (IntelliJ) academic licenses",
+			"url" : "https://www.jetbrains.com/student"
+		    },
+		]
+	    }
+	},
+	{
+	    "session" : 3,
 	    "screencasts" : [  ],
 	    "topics" : {
 		"quiz" : {
@@ -106,7 +108,17 @@
 			"screencasts" : [ "lq_E-aG7H9A"  ]
 		    }
 		],
+		"projects" : [
+		    {
+			"title" : "Project 1: Beginning a Java application",
+			"pdf" : "AppClasses"
+		    }
+		],
 		"references" : [
+		    {
+			"title" : "Uncle Bob Martin on Test Driven Development",
+			"url" : "http://vimeo.com/43734265"
+		    },
 		    {
 			"title" : "Java coding conventions",
 			"url" : "https://google.github.io/styleguide/javaguide.html"
@@ -115,7 +127,7 @@
 	    }
 	},
 	{
-	    "session" : 3,
+	    "session" : 5,
 	    "comment" : "In this week's class, we'll experience Test Driven Development.",
 	    "screencasts" : [ "_GHf9Wfcqjk", "e9KzOA2i8LI" ],
 	    "topics" : {
@@ -159,7 +171,7 @@
 	    }
 	},
 	{
-	    "session" : 4,
+	    "session" : 5,
 	    "comment" : "Our focus will be Pair Programming.  Please plan to attend in-person.",
 	    "screencasts" : [ "6D9YAkRcfJY" ],
 	    "topics" : {
@@ -204,7 +216,7 @@
 	    }
 	},
 	{
-	    "session" : 5,
+	    "session" : 7,
 	    "screencasts" : [ "WOZOYXIlyB4" ],
 	    "topics" : {
 		"due" : [ "Project 2" ],
@@ -255,7 +267,7 @@
 	    }
 	},
 	{
-	    "session" : 6,
+	    "session" : 9,
 	    "screencasts" : [ "tT5W7qf6jzc" ],
 	    "topics" : {
 		"due" : [ "Java Koans" ],
@@ -284,7 +296,7 @@
 	    }
 	},
 	{
-	    "session" : 7,
+	    "session" : 11,
 	    "screencasts" : [ "Sxp7y1t7he0", "KNr5CJOsiFg" ],
 	    "topics" : {
 		"due" : "Project 3",
@@ -309,7 +321,7 @@
 	    }
 	},
 	{
-	    "session" : 8,
+	    "session" : 13,
 	    "screencasts" : [ "AWAuOSgnNuU"  ],
 	    "topics" : {
 		"due" : "Project 4",
@@ -338,7 +350,7 @@
 	    }
 	},
 	{
-	    "session" : 9,
+	    "session" : 15,
 	    "screencasts" : [ "GjdkprZbT_w", "0N-PB0QRdqQ"  ],
 	    "topics" : {
 		"due" : "Project 5",
@@ -367,7 +379,7 @@
 	    }
 	},
 	{
-	    "session" : 10,
+	    "session" : 17,
 	    "screencasts" : [ "K-HaoUrEYKg" ],
 	    "comment" : "Advanced Topics in Android Development",
 	    "topics" : {
@@ -383,7 +395,7 @@
 	    }
 	},
 	{
-	    "session" : 11,
+	    "session" : 19,
 	    "screencasts" : [  ],
 	    "comment" : "Final Exam during class time",
 	    "topics" : {
