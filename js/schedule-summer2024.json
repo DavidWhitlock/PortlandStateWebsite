@@ -25,7 +25,7 @@
     "lectures" : [
 	{
 	    "session" : 1,
-	    "comment" : "We're going cover a lot on the first day. Make sure to eat a good dinner beforehand.",
+	    "comment" : "Course intro: create a GitHub repository for your code",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
@@ -59,6 +59,7 @@
 	},
 	{
 	    "session" : 2,
+	    "comment" : "Use Koans to learn about the Java programming language",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
@@ -84,13 +85,9 @@
 	},
 	{
 	    "session" : 3,
+	    "comment" : "Exploring our first Java project and unit tests",
 	    "screencasts" : [  ],
 	    "topics" : {
-		"quiz" : {
-		    "number" : 1,
-		    "quizId" : 814998,
-		    "courseId" : 82149
-		},
 		"slides" : [
 		    {
 			"title" : "Unit testing with JUnit",
@@ -101,11 +98,6 @@
 			"title" : "Core Language APIs",
 			"pdf" : "CoreLanguageAPIs-2x2",
 			"screencasts" : [ "0wyDpSMX8QM" ]
-		    },
-		    { 
-			"title" : "Java IO",
-			"pdf" : "JavaIO-2x2",
-			"screencasts" : [ "lq_E-aG7H9A"  ]
 		    }
 		],
 		"projects" : [
@@ -116,10 +108,6 @@
 		],
 		"references" : [
 		    {
-			"title" : "Uncle Bob Martin on Test Driven Development",
-			"url" : "http://vimeo.com/43734265"
-		    },
-		    {
 			"title" : "Java coding conventions",
 			"url" : "https://google.github.io/styleguide/javaguide.html"
 		    }
@@ -127,8 +115,31 @@
 	    }
 	},
 	{
+	    "session" : 4,
+	    "comment" : "Test Driven Development with the \"Student\" program",
+	    "screencasts" : [ ],
+	    "topics" : {
+		"quiz" : {
+		    "number" : 1,
+		    "quizId" : 814998,
+		    "courseId" : 82149
+		},
+		"handouts" : [
+		    {
+			"title" : "How to test your projects",
+			"pdf" : "testing"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Uncle Bob Martin on Test Driven Development",
+			"url" : "http://vimeo.com/43734265"
+		    }
+		]
+	    }
+	},
+	{
 	    "session" : 5,
-	    "comment" : "In this week's class, we'll experience Test Driven Development.",
 	    "screencasts" : [ "_GHf9Wfcqjk", "e9KzOA2i8LI" ],
 	    "topics" : {
 		"quiz" : {
@@ -137,6 +148,11 @@
 		    "courseId" : 82149
 		},
 		"slides" : [
+		    { 
+			"title" : "Java IO",
+			"pdf" : "JavaIO-2x2",
+			"screencasts" : [ "lq_E-aG7H9A"  ]
+		    },
 		    {
 			"title" : "Java Collections API",
 			"pdf" : "JavaCollections-2x2",
@@ -149,10 +165,6 @@
 		    }
 		],
 		"handouts" : [
-		    {
-			"title" : "How to test your projects",
-			"pdf" : "testing"
-		    },
 		    {
 			"title" : "How to document your projects",
 			"pdf" : "documentation"
