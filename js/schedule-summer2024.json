@@ -17,6 +17,7 @@
 	"July 8, 2024",
 	"July 10, 2024",
 	"July 15, 2024",
+	"July 17, 2024",
 	"July 22, 2024",
 	"July 29, 2024",
 	"August 7, 2024",
@@ -184,6 +185,7 @@
 	    "session" : 6,
 	    "comment" : "Your first Pair Programming experience.  Please attend in person.",
 	    "topics" : {
+		"due" : [ "Java Koans" ],
 		"quiz" : {
 		    "number" : 2,
 		    "quizId" : 814999,
@@ -203,8 +205,8 @@
 	},
 	{
 	    "session" : 7,
-	    "comment" : "Our focus will be Pair Programming.  Please plan to attend in-person.",
-	    "screencasts" : [ "6D9YAkRcfJY" ],
+	    "comment" : "Continuous Integration: Getting rapid feedback on your code",
+	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : "Project 1",
 		"quiz" : {
@@ -223,12 +225,25 @@
 			"pdf" : "DatesAndText-2x2",
 			"screencasts" : [ "H0WTCPoJ_68", "8BUN9-I0YJg" ]
 		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 3: Sorting and working with Dates",
+			"pdf" : "PrettyPrint"
+		    }
+		],
+		"handouts" : [
+		    {
+			"title" : "Continuous Integration",
+			"pdf" : "ContinuousIntegration"
+		    }
 		]
 	    }
 	},
 	{
-	    "session" : 7,
-	    "screencasts" : [ "WOZOYXIlyB4" ],
+	    "session" : 8,
+	    "comment": "Our second Pair Programming activity.  Attend in person or remote.",
+	    "screencasts" : [ ],
 	    "topics" : {
 		"due" : [ "Project 2" ],
 		"quiz" : {
@@ -238,31 +253,9 @@
 		},
 		"slides" : [
 		    {
-			"title" : "Testing with Mock Objects",
-			"pdf" : "TestingWithMocks-2x2",
-			"screencasts" : [ "ZqWnuoI1jzQ" ]
-		    },
-		    {
-			"title" : "Functional Programming in Java",
-			"pdf" : "JavaLambdas-2x2",
-			"screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
-		    },
-		    {
 			"title" : "Building Java Projects with Maven",
 			"pdf" : "maven-2x2",
 			"screencasts" : "oLlOv8Ln0VE"
-		    }
-		],
-		"handouts" : [
-		    {
-			"title" : "Continuous Integration",
-			"pdf" : "ContinuousIntegration"
-		    }
-		],
-		"projects" : [
-		    {
-			"title" : "Project 4: Working with XML",
-			"pdf" : "XML"
 		    }
 		],
 		"pairing" : {
@@ -279,9 +272,26 @@
 	},
 	{
 	    "session" : 9,
+	    "screencasts" : [  ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Testing with Mock Objects",
+			"pdf" : "TestingWithMocks-2x2",
+			"screencasts" : [ "ZqWnuoI1jzQ" ]
+		    },
+		    {
+			"title" : "Functional Programming in Java",
+			"pdf" : "JavaLambdas-2x2",
+			"screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
+		    }
+		]
+	    }
+	},
+	{
+	    "session" : 9,
 	    "screencasts" : [ "tT5W7qf6jzc" ],
 	    "topics" : {
-		"due" : [ "Java Koans" ],
 		"survey" : {
 		    "name" : "Midterm",
 		    "quizId" : 211202,
