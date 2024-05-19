@@ -241,6 +241,10 @@
 		],
 		"references" : [
 		    {
+			"title" : "Continuous Integration with GitHub Actions",
+			"url" : "https://docs.github.com/en/actions/guides/building-and-testing-java-with-maven"
+		    },
+		    {
 			"title" : "Gilded Rose Refactoring Kata",
 			"url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
 		    }
@@ -278,13 +282,7 @@
 		"pairing" : {
 		    "title" : "Diamond",
 		    "url" : "http://codingdojo.org/kata/Diamond"
-		},
-		"references" : [
-		    {
-			"title" : "Continuous Integration with GitHub Actions",
-			"url" : "https://docs.github.com/en/actions/guides/building-and-testing-java-with-maven"
-		    }
-		]
+		}
 	    }
 	},
 	{
