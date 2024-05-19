@@ -159,7 +159,7 @@
 			"screencasts" : [ "aleESKtJ574" ]
 		    },
 		    { 
-			"title" : "Java IO",
+			"title" : "Java I/O",
 			"pdf" : "JavaIO-2x2",
 			"screencasts" : [ "lq_E-aG7H9A"  ]
 		    },
@@ -207,10 +207,15 @@
 	},
 	{
 	    "session" : 7,
-	    "comment" : "Continuous Integration: Getting rapid feedback on your code",
+	    "comment" : "Going fast with Continuous Integration and Code Refactoring",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
+		    {
+			"title" : "Code Refactoring",
+			"pdf" : "refactoring-2x2",
+			"screencasts" : [ "Mk3bBSX4n8c", "8dLg2ed6o9w" ]
+		    },
 		    {
 			"title" : "Java Collections API",
 			"pdf" : "JavaCollections-2x2",
@@ -232,6 +237,12 @@
 		    {
 			"title" : "Continuous Integration",
 			"pdf" : "ContinuousIntegration"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Gilded Rose Refactoring Kata",
+			"url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
 		    }
 		]
 	    }
@@ -303,7 +314,7 @@
 	},
 	{
 	    "session" : 10,
-	    "comment" : "Refactoring Code to go faster",
+	    "comment" : "Refactoring the REST API example program",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : [ "Project 2" ],
@@ -312,24 +323,11 @@
 		    "quizId" : 815000,
 		    "courseId" : 82149
 		},
-		"slides" : [
-		    {
-			"title" : "Code Refactoring",
-			"pdf" : "refactoring-2x2",
-			"screencasts" : [ "Mk3bBSX4n8c", "8dLg2ed6o9w" ]
-		    }
-		],
 		"reflection" : {
 		    "title" : "your experiences pair programming",
 		    "quizId" : 815002,
 		    "courseId" : 82149
-		},
-		"references" : [
-		    {
-			"title" : "Gilded Rose Refactoring Kata",
-			"url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
-		    }
-		]
+		}
 	    }
 	},
 	{
