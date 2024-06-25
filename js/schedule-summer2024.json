@@ -1,5 +1,5 @@
 {
-    "youTubeClassRecordingsListId" : "PLyM7S4CZk9WPKHgd6CP71kZu_KVyK7Qrn",
+    "youTubeClassRecordingsListId" : "PLyM7S4CZk9WPOpAgHDteAYsdDeocEEkJN",
     "review" : {
 	"comment" : "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
 	"content" : [
@@ -31,7 +31,7 @@
 	{
 	    "session" : 1,
 	    "comment" : "Course intro: create a GitHub repository for your code",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "FcKWq9lp5Ac" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -105,6 +105,16 @@
 			"screencasts" : [ "0wyDpSMX8QM" ]
 		    }
 		],
+		"handouts" : [
+		    {
+			"title" : "How to test your projects",
+			"pdf" : "testing"
+		    },
+		    {
+			"title" : "How to document your projects",
+			"pdf" : "documentation"
+		    }
+		],
 		"projects" : [
 		    {
 			"title" : "Project 1: Beginning a Java application",
@@ -129,16 +139,6 @@
 		    "quizId" : 814998,
 		    "courseId" : 82149
 		},
-		"handouts" : [
-		    {
-			"title" : "How to test your projects",
-			"pdf" : "testing"
-		    },
-		    {
-			"title" : "How to document your projects",
-			"pdf" : "documentation"
-		    }
-		],
 		"references" : [
 		    {
 			"title" : "Uncle Bob Martin on Test Driven Development",
