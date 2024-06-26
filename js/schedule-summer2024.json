@@ -64,7 +64,7 @@
 	},
 	{
 	    "session" : 2,
-	    "comment" : "Use Koans to learn about the Java programming language",
+	    "comment" : "Explore the Java programming language with Koans",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
@@ -90,7 +90,7 @@
 	},
 	{
 	    "session" : 3,
-	    "comment" : "Exploring our first Java project",
+	    "comment" : "Test Driven Development with the \"Student\" program",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
@@ -98,7 +98,33 @@
 			"title" : "Unit testing with JUnit",
 			"pdf" : "junit-2x2",
 			"screencasts" : "Y8pdXhxUk7o"
-		    },
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 1: Beginning a Java application",
+			"pdf" : "AppClasses"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Uncle Bob Martin on Test Driven Development",
+			"url" : "http://vimeo.com/43734265"
+		    }
+		]
+	    }
+	},
+	{
+	    "session" : 4,
+	    "comment" : "Exploring our first Java project and more TDD",
+	    "screencasts" : [ ],
+	    "topics" : {
+		"quiz" : {
+		    "number" : 1,
+		    "quizId" : 814998,
+		    "courseId" : 82149
+		},
+		"slides" : [
 		    { 
 			"title" : "Core Language APIs",
 			"pdf" : "CoreLanguageAPIs-2x2",
@@ -115,34 +141,10 @@
 			"pdf" : "documentation"
 		    }
 		],
-		"projects" : [
-		    {
-			"title" : "Project 1: Beginning a Java application",
-			"pdf" : "AppClasses"
-		    }
-		],
 		"references" : [
 		    {
 			"title" : "Java coding conventions",
 			"url" : "https://google.github.io/styleguide/javaguide.html"
-		    }
-		]
-	    }
-	},
-	{
-	    "session" : 4,
-	    "comment" : "Test Driven Development with the \"Student\" program",
-	    "screencasts" : [ ],
-	    "topics" : {
-		"quiz" : {
-		    "number" : 1,
-		    "quizId" : 814998,
-		    "courseId" : 82149
-		},
-		"references" : [
-		    {
-			"title" : "Uncle Bob Martin on Test Driven Development",
-			"url" : "http://vimeo.com/43734265"
 		    }
 		]
 	    }
