@@ -100,12 +100,6 @@
 			"screencasts" : "Y8pdXhxUk7o"
 		    }
 		],
-		"projects" : [
-		    {
-			"title" : "Project 1: Beginning a Java application",
-			"pdf" : "AppClasses"
-		    }
-		],
 		"references" : [
 		    {
 			"title" : "Uncle Bob Martin on Test Driven Development",
@@ -129,6 +123,12 @@
 			"title" : "Core Language APIs",
 			"pdf" : "CoreLanguageAPIs-2x2",
 			"screencasts" : [ "0wyDpSMX8QM" ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 1: Beginning a Java application",
+			"pdf" : "AppClasses"
 		    }
 		],
 		"handouts" : [
