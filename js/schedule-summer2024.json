@@ -116,7 +116,7 @@
 	},
 	{
 	    "session" : 4,
-	    "comment" : "Exploring our first Java project and more TDD",
+	    "comment" : "Exploring the first phase of our project and more TDD",
 	    "screencasts" : [ ],
 	    "topics" : {
 		"quiz" : {
