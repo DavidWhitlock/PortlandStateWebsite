@@ -210,7 +210,7 @@
 	},
 	{
 	    "session" : 7,
-	    "comment" : "Going fast with Continuous Integration and Code Refactoring",
+	    "comment" : "Going fast with Code Refactoring.",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
@@ -236,17 +236,7 @@
 			"pdf" : "PrettyPrint"
 		    }
 		],
-		"handouts" : [
-		    {
-			"title" : "Continuous Integration",
-			"pdf" : "ContinuousIntegration"
-		    }
-		],
 		"references" : [
-		    {
-			"title" : "Continuous Integration with GitHub Actions",
-			"url" : "https://docs.github.com/en/actions/guides/building-and-testing-java-with-maven"
-		    },
 		    {
 			"title" : "Gilded Rose Refactoring Kata",
 			"url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
@@ -256,7 +246,7 @@
 	},
 	{
 	    "session" : 8,
-	    "comment": "Our second Pair Programming activity.  Attend in person or remotely.",
+	    "comment": "Going fast with Continuous Integration.  Our second Pair Programming activity.  Attend in person or remotely.",
 	    "screencasts" : [ ],
 	    "topics" : {
 		"due" : "Project 1",
@@ -282,10 +272,22 @@
 			"screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
 		    }
 		],
+		"handouts" : [
+		    {
+			"title" : "Continuous Integration",
+			"pdf" : "ContinuousIntegration"
+		    }
+		],
 		"pairing" : {
 		    "title" : "Diamond",
 		    "url" : "http://codingdojo.org/kata/Diamond"
-		}
+		},
+		"references" : [
+		    {
+			"title" : "Continuous Integration with GitHub Actions",
+			"url" : "https://docs.github.com/en/actions/guides/building-and-testing-java-with-maven"
+		    }
+		]
 	    }
 	},
 	{
