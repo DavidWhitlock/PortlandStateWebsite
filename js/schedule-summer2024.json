@@ -110,7 +110,7 @@
 	},
 	{
 	    "session" : 4,
-	    "comment" : "Exploring the first phase of our project and more TDD",
+	    "comment" : "Explore the first phase of our project and more TDD",
 	    "screencasts" : [ "EFwSW_7lgZ8" ],
 	    "topics" : {
 		"quiz" : {
@@ -187,7 +187,7 @@
 	},
 	{
 	    "session" : 6,
-	    "comment" : "Your first Pair Programming experience.  Please attend in person.",
+	    "comment" : "Your first Pair Programming experience.  Please attend in person.  Bring an HDMI adapter!",
 	    "screencasts" : [ "PqpL_nToNIY" ],
 	    "topics" : {
 		"due" : [ "Java Koans" ],
@@ -210,8 +210,8 @@
 	},
 	{
 	    "session" : 7,
-	    "comment" : "Refactoring code to go faster with less friction.",
-	    "screencasts" : [  ],
+	    "comment" : "Refactor code to go faster with less friction.",
+	    "screencasts" : [ "rcTceAeSUDw" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -317,7 +317,7 @@
 	},
 	{
 	    "session" : 10,
-	    "comment" : "Refactoring the REST API example program",
+	    "comment" : "Refactor the REST API example program",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : [ "Project 2" ],
@@ -335,7 +335,7 @@
 	},
 	{
 	    "session" : 11,
-	    "comment" : "Preparing to build an Android application",
+	    "comment" : "Prepare to build an Android application.  Observe others Mob Programming.",
 	    "screencasts" : [   ],
 	    "topics" : {
 		"slides" : [
