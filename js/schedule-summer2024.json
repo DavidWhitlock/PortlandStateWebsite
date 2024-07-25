@@ -115,7 +115,7 @@
 	    "topics" : {
 		"quiz" : {
 		    "number" : 1,
-		    "quizId" : 814998,
+		    "quizId" : 897985,
 		    "courseId" : 82149
 		},
 		"slides" : [
@@ -193,8 +193,8 @@
 		"due" : [ "Java Koans" ],
 		"quiz" : {
 		    "number" : 2,
-		    "quizId" : 814999,
-		    "courseId" : 82149
+		    "quizId" : 897986,
+		    "courseId" : 88746
 		},
 		"handouts" : [
 		    {
@@ -252,13 +252,13 @@
 		"due" : "Project 1",
 		"quiz" : {
 		    "number" : 3,
-		    "quizId" : 815001,
-		    "courseId" : 82149
+		    "quizId" : 897987,
+		    "courseId" : 88746
 		},
 		"survey" : {
 		    "name" : "Midterm",
-		    "quizId" : 211202,
-		    "courseId" : 82149
+		    "quizId" : 229218,
+		    "courseId" : 88746
 		},
 		"slides" : [
 		    {
@@ -323,13 +323,13 @@
 		"due" : [ "Project 2" ],
 		"quiz" : {
 		    "number" : 4,
-		    "quizId" : 815000,
-		    "courseId" : 82149
+		    "quizId" : 897988,
+		    "courseId" : 88746
 		},
 		"reflection" : {
 		    "title" : "your experiences pair programming",
-		    "quizId" : 815002,
-		    "courseId" : 82149
+		    "quizId" : 897992,
+		    "courseId" : 88746
 		}
 	    }
 	},
@@ -366,8 +366,8 @@
 		"due" : "Project 3",
 		"quiz" : {
 		    "number" : 5,
-		    "quizId" : 815003,
-		    "courseId" : 82149
+		    "quizId" : 897989,
+		    "courseId" : 88746
 		},
 		"slides" : [
 		    {
@@ -401,8 +401,8 @@
 		"due" : "Project 4",
 		"quiz" : {
 		    "number" : 6,
-		    "quizId" : 815018,
-		    "courseId" : 82149
+		    "quizId" : 897990,
+		    "courseId" : 88746
 		},
 		"mobbing" : {
 		    "title" : "Minesweeper",
@@ -412,7 +412,7 @@
 	},
 	{
 	    "session" : 15,
-	    "comment" : "Review course materials?  Random lecture topic?",
+	    "comment" : "Review course materials?  Random lecture topic?  Try some AI-assisted coding?",
 	    "screencasts" : [  ]
 	},
 	{
@@ -423,13 +423,13 @@
 		"due" : "Project 5",
 		"reflection" : {
 		    "title" : "your experiences mob programming",
-		    "quizId" : 815019,
-		    "courseId" : 82149
+		    "quizId" : 897991,
+		    "courseId" : 88746
 		},
 		"survey" : {
 		    "name" : "End of term",
-		    "quizId" : 211200,
-		    "courseId" : 82149
+		    "quizId" : 229220,
+		    "courseId" : 88746
 		}
 	    }
 	}
