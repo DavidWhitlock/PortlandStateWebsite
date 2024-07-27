@@ -345,18 +345,17 @@
 			"screencasts" : [ "_bnqVoSyuj4" ]
 		    },
 		    {
-			"title" : "Android UI Development",
-			"pdf" : "android-2x2",
-			"screencasts" : [ "K734VGX-6vk" ]
+			"title" : "Ensemble and Mob Programming",
+			"pdf" : "teaming-2x2",
+			"screencasts" : [ "qlS6bFNyVLY" ]
 		    }
 		],
-		"projects" : [
+		"references" : [
 		    {
-			"title" : "Project 5: A fully-featured Small Device Application",
-			"pdf" : "SmallDeviceApp"
+			"title" : "Video: Mob Programming",
+			"url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
 		    }
-		]
-	    }
+		]	    }
 	},
 	{
 	    "session" : 12,
@@ -371,21 +370,21 @@
 		},
 		"slides" : [
 		    {
-			"title" : "Ensemble and Mob Programming",
-			"pdf" : "teaming-2x2",
-			"screencasts" : [ "qlS6bFNyVLY" ]
+			"title" : "Android UI Development",
+			"pdf" : "android-2x2",
+			"screencasts" : [ "K734VGX-6vk" ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 5: A fully-featured Small Device Application",
+			"pdf" : "SmallDeviceApp"
 		    }
 		],
 		"mobbing" : {
 		    "title" : "Bank OCR",
 		    "url" : "http://codingdojo.org/kata/BankOCR/"
-		},
-		"references" : [
-		    {
-			"title" : "Video: Mob Programming",
-			"url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
-		    }
-		]
+		}
 	    }
 	},
 	{
