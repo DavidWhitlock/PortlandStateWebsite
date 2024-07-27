@@ -368,6 +368,17 @@
 		    "quizId" : 897989,
 		    "courseId" : 88746
 		},
+		"mobbing" : {
+		    "title" : "Bank OCR",
+		    "url" : "http://codingdojo.org/kata/BankOCR/"
+		}
+	    }
+	},
+	{
+	    "session" : 13,
+	    "comment" : "Explore Android development more deeply",
+	    "screencasts" : [  ],
+	    "topics" : {
 		"slides" : [
 		    {
 			"title" : "Android UI Development",
@@ -380,17 +391,8 @@
 			"title" : "Project 5: A fully-featured Small Device Application",
 			"pdf" : "SmallDeviceApp"
 		    }
-		],
-		"mobbing" : {
-		    "title" : "Bank OCR",
-		    "url" : "http://codingdojo.org/kata/BankOCR/"
-		}
+		]
 	    }
-	},
-	{
-	    "session" : 13,
-	    "comment" : "Explore Android development more deeply",
-	    "screencasts" : [  ]
 	},
 	{
 	    "session" : 14,
