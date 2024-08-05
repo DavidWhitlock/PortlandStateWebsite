@@ -360,7 +360,7 @@
 	{
 	    "session" : 12,
 	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "x35l_tvEX6M", "H824shvZGH0" ],
 	    "topics" : {
 		"due" : "Project 3",
 		"quiz" : {
@@ -396,7 +396,7 @@
 	},
 	{
 	    "session" : 14,
-	    "screencasts" : [ "x35l_tvEX6M", "H824shvZGH0" ],
+	    "screencasts" : [  ],
 	    "comment" : "Our second Mob Programming activity. Attend in person or remotely",
 	    "topics" : {
 		"due" : "Project 4",
