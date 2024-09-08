@@ -268,11 +268,6 @@
 		    "quizId" : 897987,
 		    "courseId" : 88746
 		},
-		"survey" : {
-		    "name" : "Midterm",
-		    "quizId" : 229218,
-		    "courseId" : 88746
-		},
 		"slides" : [
 		    {
 			"title" : "Functional Programming in Java",
@@ -309,6 +304,19 @@
         {
             "session" : 10,
             "comment" : "Our third Pair Programming activity.  Attend in person or remote.",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"due" : "Project 2"
+		"quiz" : {
+		    "number" : 4,
+		    "quizId" : 897988,
+		    "courseId" : 88746
+		}
+            },
+            "pairing" : {
+                "title" : "Choose a kata",
+                "url" : "???"
+            }
         },
 	{
 	    "session" : 11,
@@ -331,8 +339,26 @@
 	    }
 	},
         {
-            "session" : 13",
-            "comment" : "Web Applications and REST in Java.  Observe others Mob Programming."
+            "session" : 12,
+            "comment" : "More Refactoring",
+	    "screencasts" : [   ],
+	    "topics" : {
+		"due" : "Project 3",
+		"survey" : {
+		    "name" : "Midterm",
+		    "quizId" : 229218,
+		    "courseId" : 88746
+		},
+		"reflection" : {
+		    "title" : "your experiences pair programming",
+		    "quizId" : 897992,
+		    "courseId" : 88746
+		},
+            }
+        }
+        {
+            "session" : 13,
+            "comment" : "Web Applications and REST in Java.  Observe others Mob Programming.",
 	    "screencasts" : [   ],
 	    "topics" : {
 		"slides" : [
@@ -355,7 +381,7 @@
 		],
 		"projects" : [
 		    {
-			"title" : "Project 4: Client/Server",
+			"title" : "Project 5: Client/Server",
 			"pdf" : "REST"
 		    }
 		],
@@ -372,12 +398,7 @@
 	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
 	    "screencasts" : [  ],
 	    "topics" : {
-		"due" : "Project 3",
-		"quiz" : {
-		    "number" : 5,
-		    "quizId" : 897989,
-		    "courseId" : 88746
-		},
+		"due" : "Project 4",
 		"mobbing" : {
 		    "title" : "Bank OCR",
 		    "url" : "http://codingdojo.org/kata/BankOCR/"
@@ -389,17 +410,6 @@
 	    "comment" : "Refactor the REST API example program",
 	    "screencasts" : [  ],
 	    "topics" : {
-		"due" : [ "Project 2" ],
-		"quiz" : {
-		    "number" : 4,
-		    "quizId" : 897988,
-		    "courseId" : 88746
-		},
-		"reflection" : {
-		    "title" : "your experiences pair programming",
-		    "quizId" : 897992,
-		    "courseId" : 88746
-		}
 	    }
 	},
 	{
@@ -408,11 +418,6 @@
 	    "comment" : "Our second Mob Programming activity. Attend in person or remotely",
 	    "topics" : {
 		"due" : "Project 4",
-		"quiz" : {
-		    "number" : 6,
-		    "quizId" : 897990,
-		    "courseId" : 88746
-		},
 		"mobbing" : {
 		    "title" : "Minesweeper",
 		    "url" : "http://codingdojo.org/kata/Minesweeper"
@@ -445,6 +450,11 @@
 			"screencasts" : [ "K734VGX-6vk" ]
 		    }
                 ],
+		"quiz" : {
+		    "number" : 5,
+		    "quizId" : 897989,
+		    "courseId" : 88746
+		},
 		"projects" : [
 		    {
 			"title" : "Project 6: A fully-featured Small Device Application",
@@ -474,6 +484,11 @@
 	    "comment" : "Final Exam during class time",
 	    "topics" : {
 		"due" : "Project 5",
+		"quiz" : {
+		    "number" : 6,
+		    "quizId" : 897990,
+		    "courseId" : 88746
+		},
 		"reflection" : {
 		    "title" : "your experiences mob programming",
 		    "quizId" : 897991,
