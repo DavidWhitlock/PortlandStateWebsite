@@ -3,8 +3,8 @@
     "review" : {
 	"comment" : "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
 	"content" : [
-	    "<a href='pdf/javaLanguage-2x2.pdf' target='_blank'>The Java Programming Language</a> (<a href='podcasts/JavaReview1.m4a' target='_blank'>podcast</a>)",
-	    "<a href='pdf/oopInJava-2x2.pdf' target='_blank'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a' target='_blank'>part 1</a> and <a href='podcasts/JavaReview3.m4a' target='_blank'>part 2</a>)",
+	    "<a href='pdf/javaLanguage-2x2.pdf' target='_blank'>The Java Programming Language</a> (podcast <a href='podcasts/JavaReview1.m4a' target='_blank'>Part 1</a>)",
+	    "<a href='pdf/oopInJava-2x2.pdf' target='_blank'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a' target='_blank'>Part 1</a> and <a href='podcasts/JavaReview3.m4a' target='_blank'>Part 2</a>)",
 	    "Try out <a href='pdf/Student.pdf' target='_blank'>Project 0</a>: Implementing a simple class",
 	    "Download and install <a href='http://www.jetbrains.com/idea/' target='_blank'>IntelliJ Idea</a>, the recommended IDE for this course.  Use the trial license until your <a href='https://www.jetbrains.com/student' target='_blank'>academic license</a> is approved."
 	]
