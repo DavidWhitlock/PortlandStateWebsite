@@ -417,7 +417,6 @@
 	    "screencasts" : [  ],
 	    "comment" : "Our second Mob Programming activity. Attend in person or remotely",
 	    "topics" : {
-		"due" : "Project 4",
 		"mobbing" : {
 		    "title" : "Minesweeper",
 		    "url" : "http://codingdojo.org/kata/Minesweeper"
