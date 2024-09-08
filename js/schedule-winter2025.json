@@ -353,9 +353,9 @@
 		    "title" : "your experiences pair programming",
 		    "quizId" : 897992,
 		    "courseId" : 88746
-		},
+		}
             }
-        }
+        },
         {
             "session" : 13,
             "comment" : "Web Applications and REST in Java.  Observe others Mob Programming.",
