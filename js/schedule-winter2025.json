@@ -217,14 +217,14 @@
 	},
 	{
 	    "session" : 7,
-	    "comment" : "Refactor code to go faster with less friction.",
+	    "comment" : "Fast feedback with Continuous Integration.",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
-			"title" : "Code Refactoring",
-			"pdf" : "refactoring-2x2",
-			"screencasts" : [ "Mk3bBSX4n8c", "8dLg2ed6o9w" ]
+			"title" : "Building Java Projects with Maven",
+			"pdf" : "maven-2x2",
+			"screencasts" : "oLlOv8Ln0VE"
 		    },
 		    {
 			"title" : "Java Collections API",
@@ -245,15 +245,21 @@
 		],
 		"references" : [
 		    {
-			"title" : "Gilded Rose Refactoring Kata",
-			"url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
+			"title" : "Continuous Integration with GitHub Actions",
+			"url" : "https://docs.github.com/en/actions/guides/building-and-testing-java-with-maven"
+		    }
+		],
+		"handouts" : [
+		    {
+			"title" : "Continuous Integration",
+			"pdf" : "ContinuousIntegration"
 		    }
 		]
 	    }
 	},
 	{
 	    "session" : 8,
-	    "comment": "Fast feedback with Continuous Integration.  Our second Pair Programming activity.  Attend in person or remotely.",
+	    "comment": "Our second Pair Programming activity.  Please attend in person.",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : "Project 1",
@@ -269,40 +275,72 @@
 		},
 		"slides" : [
 		    {
-			"title" : "Building Java Projects with Maven",
-			"pdf" : "maven-2x2",
-			"screencasts" : "oLlOv8Ln0VE"
-		    },
-		    {
 			"title" : "Functional Programming in Java",
 			"pdf" : "JavaLambdas-2x2",
 			"screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
 		    }
 		],
-		"handouts" : [
-		    {
-			"title" : "Continuous Integration",
-			"pdf" : "ContinuousIntegration"
-		    }
-		],
 		"pairing" : {
 		    "title" : "Diamond",
 		    "url" : "http://codingdojo.org/kata/Diamond"
-		},
+		}
+	    }
+	},
+        {
+            "session" : 9,
+            "comment" : "What are we doing this week?  Intro to XML?",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "XML",
+			"pdf" : "XML-2x2",
+			"screencasts" : [  ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 4: XML",
+			"pdf" : "XML"
+		    }
+		]
+	    }
+        },
+        {
+            "session" : 10,
+            "comment" : "Our third Pair Programming activity.  Attend in person or remote.",
+        },
+	{
+	    "session" : 11,
+	    "comment" : "Refactor code to go faster with less friction.",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Code Refactoring",
+			"pdf" : "refactoring-2x2",
+			"screencasts" : [ "Mk3bBSX4n8c", "8dLg2ed6o9w" ]
+		    }
+		],
 		"references" : [
 		    {
-			"title" : "Continuous Integration with GitHub Actions",
-			"url" : "https://docs.github.com/en/actions/guides/building-and-testing-java-with-maven"
+			"title" : "Gilded Rose Refactoring Kata",
+			"url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
 		    }
 		]
 	    }
 	},
-	{
-	    "session" : 9,
-	    "comment" : "Web Applications and REST in Java",
-	    "screencasts" : [  ],
+        {
+            "session" : 13",
+            "comment" : "Web Applications and REST in Java.  Observe others Mob Programming."
+	    "screencasts" : [   ],
 	    "topics" : {
 		"slides" : [
+		    {
+			"title" : "Ensemble and Mob Programming",
+			"pdf" : "teaming-2x2",
+			"screencasts" : [ "qlS6bFNyVLY" ]
+		    },
 		    {
 			"title" : "Foundations of the Web",
 			"pdf" : "web-2x2",
@@ -313,17 +351,41 @@
 			"pdf" : "TestingWithMocks-2x2",
 			"screencasts" : [ "ZqWnuoI1jzQ" ]
 		    }
+
 		],
 		"projects" : [
 		    {
 			"title" : "Project 4: Client/Server",
 			"pdf" : "REST"
 		    }
-		]
+		],
+		"references" : [
+		    {
+			"title" : "Video: Mob Programming",
+			"url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
+		    }
+		]	    
+           }
+        },
+	{
+	    "session" : 14,
+	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"due" : "Project 3",
+		"quiz" : {
+		    "number" : 5,
+		    "quizId" : 897989,
+		    "courseId" : 88746
+		},
+		"mobbing" : {
+		    "title" : "Bank OCR",
+		    "url" : "http://codingdojo.org/kata/BankOCR/"
+		}
 	    }
 	},
 	{
-	    "session" : 10,
+	    "session" : 15,
 	    "comment" : "Refactor the REST API example program",
 	    "screencasts" : [  ],
 	    "topics" : {
@@ -341,68 +403,7 @@
 	    }
 	},
 	{
-	    "session" : 11,
-	    "comment" : "Prepare to build an Android application.  Observe others Mob Programming.",
-	    "screencasts" : [   ],
-	    "topics" : {
-		"slides" : [
-		    {
-			"title" : "Android Fundamentals",
-			"pdf" : "android-2x2",
-			"screencasts" : [ "_bnqVoSyuj4" ]
-		    },
-		    {
-			"title" : "Ensemble and Mob Programming",
-			"pdf" : "teaming-2x2",
-			"screencasts" : [ "qlS6bFNyVLY" ]
-		    }
-		],
-		"references" : [
-		    {
-			"title" : "Video: Mob Programming",
-			"url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
-		    }
-		]	    }
-	},
-	{
-	    "session" : 12,
-	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
-	    "screencasts" : [  ],
-	    "topics" : {
-		"due" : "Project 3",
-		"quiz" : {
-		    "number" : 5,
-		    "quizId" : 897989,
-		    "courseId" : 88746
-		},
-		"mobbing" : {
-		    "title" : "Bank OCR",
-		    "url" : "http://codingdojo.org/kata/BankOCR/"
-		}
-	    }
-	},
-	{
-	    "session" : 13,
-	    "comment" : "Explore Android development more deeply",
-	    "screencasts" : [  ],
-	    "topics" : {
-		"slides" : [
-		    {
-			"title" : "Android UI Development",
-			"pdf" : "android-2x2",
-			"screencasts" : [ "K734VGX-6vk" ]
-		    }
-		],
-		"projects" : [
-		    {
-			"title" : "Project 5: A fully-featured Small Device Application",
-			"pdf" : "SmallDeviceApp"
-		    }
-		]
-	    }
-	},
-	{
-	    "session" : 14,
+	    "session" : 16,
 	    "screencasts" : [  ],
 	    "comment" : "Our second Mob Programming activity. Attend in person or remotely",
 	    "topics" : {
@@ -419,12 +420,56 @@
 	    }
 	},
 	{
-	    "session" : 15,
+	    "session" : 17,
+	    "comment" : "Prepare to build an Android application.",
+	    "screencasts" : [   ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Android Fundamentals",
+			"pdf" : "android-2x2",
+			"screencasts" : [ "_bnqVoSyuj4" ]
+		    }
+		]
+           }
+	},
+	{
+	    "session" : 18,
+	    "comment" : "Explore Android development.",
+	    "screencasts" : [   ],
+            "topics" : {
+                "slides" : [
+		    {
+			"title" : "Android UI Development",
+			"pdf" : "android-2x2",
+			"screencasts" : [ "K734VGX-6vk" ]
+		    }
+                ],
+		"projects" : [
+		    {
+			"title" : "Project 6: A fully-featured Small Device Application",
+			"pdf" : "SmallDeviceApp"
+		    }
+		]
+            }
+        },
+	{
+	    "session" : 19,
+	    "comment" : "Refactor and evolve an Android app.",
+	    "screencasts" : [   ],
+        },
+	{
+	    "session" : 20,
+	    "comment" : "More Android development.",
+	    "screencasts" : [   ],
+        },
+	{
+	    "session" : 21,
 	    "comment" : "Review course materials?  Random lecture topic?  Try some AI-assisted coding?",
 	    "screencasts" : [  ]
 	},
 	{
-	    "session" : 16,
+	    "session" : 22,
 	    "screencasts" : [  ],
 	    "comment" : "Final Exam during class time",
 	    "topics" : {
