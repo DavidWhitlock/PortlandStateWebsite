@@ -91,7 +91,7 @@
 		    {
 			"title" : "Jetbrains (IntelliJ) academic licenses",
 			"url" : "https://www.jetbrains.com/student"
-		    },
+		    }
 		]
 	    }
 	},
@@ -171,7 +171,7 @@
 			"title" : "Java I/O",
 			"pdf" : "JavaIO-2x2",
 			"screencasts" : [ "lq_E-aG7H9A"  ]
-		    },
+		    }
 		],
 		"projects" : [
 		    {
@@ -306,7 +306,7 @@
             "comment" : "Our third Pair Programming activity.  Attend in person or remote.",
 	    "screencasts" : [  ],
 	    "topics" : {
-		"due" : "Project 2"
+		"due" : "Project 2",
 		"quiz" : {
 		    "number" : 4,
 		    "quizId" : 897988,
@@ -353,9 +353,9 @@
 		    "title" : "your experiences pair programming",
 		    "quizId" : 897992,
 		    "courseId" : 88746
-		},
+		}
             }
-        }
+        },
         {
             "session" : 13,
             "comment" : "Web Applications and REST in Java.  Observe others Mob Programming.",
@@ -466,12 +466,12 @@
 	{
 	    "session" : 19,
 	    "comment" : "Refactor and evolve an Android app.",
-	    "screencasts" : [   ],
+	    "screencasts" : [   ]
         },
 	{
 	    "session" : 20,
 	    "comment" : "More Android development.",
-	    "screencasts" : [   ],
+	    "screencasts" : [   ]
         },
 	{
 	    "session" : 21,
