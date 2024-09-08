@@ -313,8 +313,8 @@
 		    "courseId" : 88746
 		},
                 "pairing" : {
-                        "title" : "Choose a kata",
-                        "url" : "???"
+                        "title" : "Lags",
+                        "url" : "https://codingdojo.org/kata/Lags"
                 }
             }
         },
