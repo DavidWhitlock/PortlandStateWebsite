@@ -1,0 +1,445 @@
+{
+    "youTubeClassRecordingsListId" : "PLyM7S4CZk9WPOpAgHDteAYsdDeocEEkJN",
+    "review" : {
+	"comment" : "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
+	"content" : [
+	    "<a href='pdf/javaLanguage-2x2.pdf' target='_blank'>The Java Programming Language</a> (<a href='podcasts/JavaReview1.m4a' target='_blank'>podcast</a>)",
+	    "<a href='pdf/oopInJava-2x2.pdf' target='_blank'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a' target='_blank'>part 1</a> and <a href='podcasts/JavaReview3.m4a' target='_blank'>part 2</a>)",
+	    "Try out <a href='pdf/Student.pdf' target='_blank'>Project 0</a>: Implementing a simple class",
+	    "Download and install <a href='http://www.jetbrains.com/idea/' target='_blank'>IntelliJ Idea</a>, the recommended IDE for this course.  Use the trial license until your <a href='https://www.jetbrains.com/student' target='_blank'>academic license</a> is approved."
+	]
+    },
+    "meetings" : [
+	"January 6, 2025",
+	"January 8, 2025",
+	"January 13, 2025",
+	"January 15, 2025",
+	"January 20, 2025",
+	"Jaunary 22, 2025",
+	"January 27, 2025",
+	"January 28, 2025",
+	"February 3, 2025",
+	"February 5, 2025",
+	"February 10, 2025",
+	"February 12, 2025",
+	"February 17, 2025",
+	"February 19, 2025",
+	"February 24, 2025",
+	"February 26, 2025",
+        "March 3, 2025",
+        "March 5, 2025",
+        "March 10, 2025",
+        "March 12, 2025",
+        "March 17, 2025",
+        "March 19, 2025"
+
+    ],
+    "lectures" : [
+	{
+	    "session" : 1,
+	    "comment" : "Course intro: create a GitHub repository for your code",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Source Code Management with Git",
+			"pdf" : "git-2x2",
+			"screencasts" : [ "TOApc6ze-IA", "qnVV0Mlhxrc" ]
+		    }
+		],
+		"handouts" : [
+		    {
+			"title" : "Course syllabus",
+			"pdf" : "syllabus"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Getting Started GitHub Repository",
+			"url" : "https://github.com/JoyOfCodingPDX/GettingStarted"
+		    },
+		    {
+			"title" : "GitHub student pack",
+			"url" : "https://education.github.com/pack"
+		    },
+		    {
+			"title" : "The CAT's Linux page",
+			"url" : "https://cat.pdx.edu/platforms/linux"
+		    }
+		]
+	    }
+	},
+	{
+	    "session" : 2,
+	    "comment" : "Explore the Java programming language with Koans",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Java Programming Language Overview",
+			"pdf" : "javaReview-2x2",
+			"screencasts" : [ "85H5syImmAw", "1gJax8JKmQk" ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Java Koans",
+			"pdf" : "koans"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Jetbrains (IntelliJ) academic licenses",
+			"url" : "https://www.jetbrains.com/student"
+		    },
+		]
+	    }
+	},
+	{
+	    "session" : 3,
+	    "comment" : "Test Driven Development with the \"Student\" program",
+	    "screencasts" : [   ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Unit testing with JUnit",
+			"pdf" : "junit-2x2",
+			"screencasts" : "Y8pdXhxUk7o"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Uncle Bob Martin on Test Driven Development",
+			"url" : "http://vimeo.com/43734265"
+		    }
+		]
+	    }
+	},
+	{
+	    "session" : 4,
+	    "comment" : "Explore the first phase of our project and more TDD",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"quiz" : {
+		    "number" : 1,
+		    "quizId" : 897985,
+		    "courseId" : 82149
+		},
+		"slides" : [
+		    { 
+			"title" : "Core Language APIs",
+			"pdf" : "CoreLanguageAPIs-2x2",
+			"screencasts" : [ "0wyDpSMX8QM" ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 1: Beginning a Java application",
+			"pdf" : "AppClasses"
+		    }
+		],
+		"handouts" : [
+		    {
+			"title" : "How to test your projects",
+			"pdf" : "testing"
+		    },
+		    {
+			"title" : "How to document your projects",
+			"pdf" : "documentation"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Java coding conventions",
+			"url" : "https://google.github.io/styleguide/javaguide.html"
+		    }
+		]
+	    }
+	},
+	{
+	    "session" : 5,
+	    "comment" : "Observe others Pair Programming",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Pair Programming",
+			"pdf" : "teaming-2x2",
+			"screencasts" : [ "aleESKtJ574" ]
+		    },
+		    { 
+			"title" : "Java I/O",
+			"pdf" : "JavaIO-2x2",
+			"screencasts" : [ "lq_E-aG7H9A"  ]
+		    },
+		],
+		"projects" : [
+		    {
+			"title" : "Project 2: Working with files",
+			"pdf" : "TextFile"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Video: Introduction to Pair Programming",
+			"url" : "http://www.youtube.com/watch?v=rG_U12uqRhE"
+		    },
+		    {
+			"title" : "Code Katas",
+			"url" : "http://codekata.com/kata/codekata-how-it-started/"
+		    }
+
+		]
+	    }
+	},
+	{
+	    "session" : 6,
+	    "comment" : "Your first Pair Programming experience.  Please attend in person.  Bring an HDMI adapter!",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"due" : [ "Java Koans" ],
+		"quiz" : {
+		    "number" : 2,
+		    "quizId" : 897986,
+		    "courseId" : 88746
+		},
+		"handouts" : [
+		    {
+			"title" : "Pair and Mob Programming in this course",
+			"pdf" : "pairing"
+		    }
+		],
+		"pairing" : {
+		    "title" : "Leap Years",
+		    "url" : "http://codingdojo.org/kata/LeapYears"
+		}
+	    }
+	},
+	{
+	    "session" : 7,
+	    "comment" : "Refactor code to go faster with less friction.",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Code Refactoring",
+			"pdf" : "refactoring-2x2",
+			"screencasts" : [ "Mk3bBSX4n8c", "8dLg2ed6o9w" ]
+		    },
+		    {
+			"title" : "Java Collections API",
+			"pdf" : "JavaCollections-2x2",
+			"screencasts" : [ "56MGAhBVpMc", "7ALcUqJX05M" ]
+		    },
+		    {
+			"title" : "Working with Dates and Text Formatting ",
+			"pdf" : "DatesAndText-2x2",
+			"screencasts" : [ "H0WTCPoJ_68", "8BUN9-I0YJg" ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 3: Sorting and working with Dates",
+			"pdf" : "PrettyPrint"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Gilded Rose Refactoring Kata",
+			"url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
+		    }
+		]
+	    }
+	},
+	{
+	    "session" : 8,
+	    "comment": "Fast feedback with Continuous Integration.  Our second Pair Programming activity.  Attend in person or remotely.",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"due" : "Project 1",
+		"quiz" : {
+		    "number" : 3,
+		    "quizId" : 897987,
+		    "courseId" : 88746
+		},
+		"survey" : {
+		    "name" : "Midterm",
+		    "quizId" : 229218,
+		    "courseId" : 88746
+		},
+		"slides" : [
+		    {
+			"title" : "Building Java Projects with Maven",
+			"pdf" : "maven-2x2",
+			"screencasts" : "oLlOv8Ln0VE"
+		    },
+		    {
+			"title" : "Functional Programming in Java",
+			"pdf" : "JavaLambdas-2x2",
+			"screencasts" : [ "PbyuikclRUw", "LfMHOD78whw" ]
+		    }
+		],
+		"handouts" : [
+		    {
+			"title" : "Continuous Integration",
+			"pdf" : "ContinuousIntegration"
+		    }
+		],
+		"pairing" : {
+		    "title" : "Diamond",
+		    "url" : "http://codingdojo.org/kata/Diamond"
+		},
+		"references" : [
+		    {
+			"title" : "Continuous Integration with GitHub Actions",
+			"url" : "https://docs.github.com/en/actions/guides/building-and-testing-java-with-maven"
+		    }
+		]
+	    }
+	},
+	{
+	    "session" : 9,
+	    "comment" : "Web Applications and REST in Java",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Foundations of the Web",
+			"pdf" : "web-2x2",
+			"screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
+		    },
+		    {
+			"title" : "Testing with Mock Objects",
+			"pdf" : "TestingWithMocks-2x2",
+			"screencasts" : [ "ZqWnuoI1jzQ" ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 4: Client/Server",
+			"pdf" : "REST"
+		    }
+		]
+	    }
+	},
+	{
+	    "session" : 10,
+	    "comment" : "Refactor the REST API example program",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"due" : [ "Project 2" ],
+		"quiz" : {
+		    "number" : 4,
+		    "quizId" : 897988,
+		    "courseId" : 88746
+		},
+		"reflection" : {
+		    "title" : "your experiences pair programming",
+		    "quizId" : 897992,
+		    "courseId" : 88746
+		}
+	    }
+	},
+	{
+	    "session" : 11,
+	    "comment" : "Prepare to build an Android application.  Observe others Mob Programming.",
+	    "screencasts" : [   ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Android Fundamentals",
+			"pdf" : "android-2x2",
+			"screencasts" : [ "_bnqVoSyuj4" ]
+		    },
+		    {
+			"title" : "Ensemble and Mob Programming",
+			"pdf" : "teaming-2x2",
+			"screencasts" : [ "qlS6bFNyVLY" ]
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Video: Mob Programming",
+			"url" : "https://www.youtube.com/watch?v=p_pvslS4gEI"
+		    }
+		]	    }
+	},
+	{
+	    "session" : 12,
+	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"due" : "Project 3",
+		"quiz" : {
+		    "number" : 5,
+		    "quizId" : 897989,
+		    "courseId" : 88746
+		},
+		"mobbing" : {
+		    "title" : "Bank OCR",
+		    "url" : "http://codingdojo.org/kata/BankOCR/"
+		}
+	    }
+	},
+	{
+	    "session" : 13,
+	    "comment" : "Explore Android development more deeply",
+	    "screencasts" : [  ],
+	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Android UI Development",
+			"pdf" : "android-2x2",
+			"screencasts" : [ "K734VGX-6vk" ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 5: A fully-featured Small Device Application",
+			"pdf" : "SmallDeviceApp"
+		    }
+		]
+	    }
+	},
+	{
+	    "session" : 14,
+	    "screencasts" : [  ],
+	    "comment" : "Our second Mob Programming activity. Attend in person or remotely",
+	    "topics" : {
+		"due" : "Project 4",
+		"quiz" : {
+		    "number" : 6,
+		    "quizId" : 897990,
+		    "courseId" : 88746
+		},
+		"mobbing" : {
+		    "title" : "Minesweeper",
+		    "url" : "http://codingdojo.org/kata/Minesweeper"
+		}
+	    }
+	},
+	{
+	    "session" : 15,
+	    "comment" : "Review course materials?  Random lecture topic?  Try some AI-assisted coding?",
+	    "screencasts" : [  ]
+	},
+	{
+	    "session" : 16,
+	    "screencasts" : [  ],
+	    "comment" : "Final Exam during class time",
+	    "topics" : {
+		"due" : "Project 5",
+		"reflection" : {
+		    "title" : "your experiences mob programming",
+		    "quizId" : 897991,
+		    "courseId" : 88746
+		},
+		"survey" : {
+		    "name" : "End of term",
+		    "quizId" : 229220,
+		    "courseId" : 88746
+		}
+	    }
+	}
+    ]
+}
