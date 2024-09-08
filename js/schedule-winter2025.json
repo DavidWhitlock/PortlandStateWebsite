@@ -448,6 +448,7 @@
 	    "comment" : "Our third Mob Programming activity.  Attend in person or remote.",
 	    "screencasts" : [   ],
             "topics" : {
+		"due" : "Project 5",
                 "slides" : [
 		    {
 			"title" : "Android UI Development",
@@ -487,7 +488,7 @@
 	    "screencasts" : [  ],
 	    "comment" : "Final Exam during class time",
 	    "topics" : {
-		"due" : "Project 5",
+		"due" : "Project 6",
 		"quiz" : {
 		    "number" : 6,
 		    "quizId" : 897990,
