@@ -415,7 +415,7 @@
 	{
 	    "session" : 16,
 	    "screencasts" : [  ],
-	    "comment" : "Our second Mob Programming activity. Attend in person or remotely",
+	    "comment" : "Our second Mob Programming activity.",
 	    "topics" : {
 		"mobbing" : {
 		    "title" : "Bank OCR",
