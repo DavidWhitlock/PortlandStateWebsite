@@ -475,18 +475,18 @@
         },
 	{
 	    "session" : 20,
-	    "comment" : "More Android development.",
+	    "comment" : "Review course materials?  Random lecture topic?  Try some AI-assisted coding?",
 	    "screencasts" : [   ]
         },
 	{
 	    "session" : 21,
-	    "comment" : "Review course materials?  Random lecture topic?  Try some AI-assisted coding?",
+	    "comment" : "Final Exam during class time.",
 	    "screencasts" : [  ]
 	},
 	{
 	    "session" : 22,
 	    "screencasts" : [  ],
-	    "comment" : "Final Exam during class time",
+	    "comment" : "No class.  All remaining coursework is due.",
 	    "topics" : {
 		"due" : "Project 6",
 		"quiz" : {
