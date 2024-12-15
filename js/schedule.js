@@ -189,7 +189,7 @@ function workThatIsDue(parentUl, topics) {
   }
 
   if (topics.survey) {
-    dueQuiz(ul, topics.survey, topics.survey.name + " Survey");
+    dueSurvey(ul, topics.survey, topics.survey.name + " Survey");
   }
 
   if (topics.reflection) {
@@ -264,6 +264,12 @@ function lectureTopics(parent, hasPassed, topics) {
       }
     }
   }
+}
+
+function dueSurvey(ul, dueSurvey, surveyTitle) {
+    var link = "https://canvas.pdx.edu/courses/" + dueSurvey.courseId + "/quizzes/" + dueSurvey.quizId
+
+    url(ul, surveyTitle, link, null);
 }
 
 function dueQuiz(ul, dueQuiz, quizTitle) {
