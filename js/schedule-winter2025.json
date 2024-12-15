@@ -122,8 +122,8 @@
 	    "topics" : {
 		"quiz" : {
 		    "number" : 1,
-		    "quizId" : 897985,
-		    "courseId" : 82149
+		    "quizId" : 977661,
+		    "courseId" : 97121
 		},
 		"slides" : [
 		    { 
@@ -200,8 +200,8 @@
 		"due" : [ "Java Koans" ],
 		"quiz" : {
 		    "number" : 2,
-		    "quizId" : 897986,
-		    "courseId" : 88746
+		    "quizId" : 977662,
+		    "courseId" : 97121
 		},
 		"handouts" : [
 		    {
@@ -265,8 +265,8 @@
 		"due" : "Project 1",
 		"quiz" : {
 		    "number" : 3,
-		    "quizId" : 897987,
-		    "courseId" : 88746
+		    "quizId" : 977663,
+		    "courseId" : 97121
 		},
 		"slides" : [
 		    {
@@ -309,8 +309,8 @@
 		"due" : "Project 2",
 		"quiz" : {
 		    "number" : 4,
-		    "quizId" : 897988,
-		    "courseId" : 88746
+		    "quizId" : 977664,
+		    "courseId" : 97121
 		},
                 "pairing" : {
                         "title" : "Lags",
@@ -346,13 +346,13 @@
 		"due" : "Project 3",
 		"survey" : {
 		    "name" : "Midterm",
-		    "quizId" : 229218,
-		    "courseId" : 88746
+		    "quizId" : 242132,
+		    "courseId" : 97121
 		},
 		"reflection" : {
 		    "title" : "your experiences pair programming",
-		    "quizId" : 897992,
-		    "courseId" : 88746
+		    "quizId" : 977668,
+		    "courseId" : 97121
 		}
             }
         },
@@ -458,8 +458,8 @@
                 ],
 		"quiz" : {
 		    "number" : 5,
-		    "quizId" : 897989,
-		    "courseId" : 88746
+		    "quizId" : 977665,
+		    "courseId" : 97121
 		},
 		"mobbing" : {
 		    "title" : "Minesweeper",
@@ -476,7 +476,14 @@
 	{
 	    "session" : 20,
 	    "comment" : "Review course materials?  Random lecture topic?  Try some AI-assisted coding?",
-	    "screencasts" : [   ]
+	    "screencasts" : [   ],
+            "topics" : {
+		"reflection" : {
+		    "title" : "your experiences mob programming",
+		    "quizId" : 977667,
+		    "courseId" : 97121
+		}
+	    }
         },
 	{
 	    "session" : 21,
@@ -491,18 +498,13 @@
 		"due" : "Project 6",
 		"quiz" : {
 		    "number" : 6,
-		    "quizId" : 897990,
-		    "courseId" : 88746
-		},
-		"reflection" : {
-		    "title" : "your experiences mob programming",
-		    "quizId" : 897991,
-		    "courseId" : 88746
+		    "quizId" : 977666,
+		    "courseId" : 97121
 		},
 		"survey" : {
 		    "name" : "End of term",
-		    "quizId" : 229220,
-		    "courseId" : 88746
+		    "quizId" : 242131,
+		    "courseId" : 97121
 		}
 	    }
 	}
