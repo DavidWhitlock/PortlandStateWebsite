@@ -1,5 +1,5 @@
 {
-    "youTubeClassRecordingsListId" : "PLyM7S4CZk9WPOpAgHDteAYsdDeocEEkJN",
+    "youTubeClassRecordingsListId" : "PLyM7S4CZk9WOU3NFlN-e0Y6JaY6DZ7yef",
     "review" : {
 	"comment" : "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
 	"content" : [
@@ -229,7 +229,7 @@
 		    {
 			"title" : "Java Collections API",
 			"pdf" : "JavaCollections-2x2",
-			"screencasts" : [ "56MGAhBVpMc", "7ALcUqJX05M" ]
+			"screencasts" : [ "nnerOle7WsE", "1y_RTG1thDM" ]
 		    },
 		    {
 			"title" : "Working with Dates and Text Formatting ",
