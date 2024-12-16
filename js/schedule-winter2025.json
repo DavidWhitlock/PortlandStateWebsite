@@ -104,7 +104,7 @@
 		    {
 			"title" : "Unit testing with JUnit",
 			"pdf" : "junit-2x2",
-			"screencasts" : "Y8pdXhxUk7o"
+			"screencasts" : "d93I54OQPGM"
 		    }
 		],
 		"references" : [
@@ -165,7 +165,7 @@
 		    {
 			"title" : "Pair Programming",
 			"pdf" : "teaming-2x2",
-			"screencasts" : [ "aleESKtJ574" ]
+			"screencasts" : [ "stMu80MxCXs" ]
 		    },
 		    { 
 			"title" : "Java I/O",
@@ -375,7 +375,7 @@
 		    {
 			"title" : "Testing with Mock Objects",
 			"pdf" : "TestingWithMocks-2x2",
-			"screencasts" : [ "ZqWnuoI1jzQ" ]
+			"screencasts" : [ "zx48GZjOnL8" ]
 		    }
 
 		],
