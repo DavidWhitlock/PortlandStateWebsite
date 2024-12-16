@@ -315,7 +315,7 @@ function screencastsLinks(screencasts, youTubeListId) {
 function slideHtml(ul, title, pdf, screencasts) {
   var description = "<a href='pdf/" + pdf +".pdf' target='_blank'>" + title + "</a>";
 
-  var youTubeLecturesListId = "PLyM7S4CZk9WM44EpqzX48-MOZ1344jPPa";
+  var youTubeLecturesListId = "PLyM7S4CZk9WM030UQyGVpVQJTcm6AP2no";
   description += screencastsLinks(screencasts, youTubeLecturesListId);
 
   li(ul, description);
