@@ -283,10 +283,15 @@
 	},
         {
             "session" : 9,
-            "comment" : "What are we doing this week?  Intro to XML?",
+	    "comment" : "Refactor code to go faster with less friction.",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
+		    {
+			"title" : "Code Refactoring",
+			"pdf" : "refactoring-2x2",
+			"screencasts" : [ "xsUSZmbSPUg", "DxTr3KanbAo" ]
+		    },
 		    {
 			"title" : "XML",
 			"pdf" : "XML-2x2",
@@ -297,6 +302,12 @@
 		    {
 			"title" : "Project 4: XML",
 			"pdf" : "XML"
+		    }
+		],
+		"references" : [
+		    {
+			"title" : "Gilded Rose Refactoring Kata",
+			"url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
 		    }
 		]
 	    }
@@ -320,29 +331,32 @@
         },
 	{
 	    "session" : 11,
-	    "comment" : "Refactor code to go faster with less friction.",
-	    "screencasts" : [  ],
-	    "topics" : {
-		"slides" : [
-		    {
-			"title" : "Code Refactoring",
-			"pdf" : "refactoring-2x2",
-			"screencasts" : [ "xsUSZmbSPUg", "DxTr3KanbAo" ]
-		    }
-		],
-		"references" : [
-		    {
-			"title" : "Gilded Rose Refactoring Kata",
-			"url" : "https://github.com/emilybache/GildedRose-Refactoring-Kata"
-		    }
-		]
-	    }
+            "comment" : "More Refactoring",
+	    "screencasts" : [  ]
 	},
         {
             "session" : 12,
-            "comment" : "More Refactoring",
+            "comment" : "Web Applications and REST in Java.",
 	    "screencasts" : [   ],
 	    "topics" : {
+		"slides" : [
+		    {
+			"title" : "Foundations of the Web",
+			"pdf" : "web-2x2",
+			"screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
+		    },
+		    {
+			"title" : "Testing with Mock Objects",
+			"pdf" : "TestingWithMocks-2x2",
+			"screencasts" : [ "zx48GZjOnL8" ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 5: Client/Server",
+			"pdf" : "REST"
+		    }
+		],
 		"due" : "Project 3",
 		"survey" : {
 		    "name" : "Midterm",
@@ -358,7 +372,7 @@
         },
         {
             "session" : 13,
-            "comment" : "Web Applications and REST in Java.  Observe others Mob Programming.",
+            "comment" : "Observe others Mob Programming.",
 	    "screencasts" : [   ],
 	    "topics" : {
 		"slides" : [
@@ -366,23 +380,6 @@
 			"title" : "Ensemble and Mob Programming",
 			"pdf" : "teaming-2x2",
 			"screencasts" : [ "qlS6bFNyVLY" ]
-		    },
-		    {
-			"title" : "Foundations of the Web",
-			"pdf" : "web-2x2",
-			"screencasts" : [ "QdxfEJvAPUg", "JdjkneCw2Kc" ]
-		    },
-		    {
-			"title" : "Testing with Mock Objects",
-			"pdf" : "TestingWithMocks-2x2",
-			"screencasts" : [ "zx48GZjOnL8" ]
-		    }
-
-		],
-		"projects" : [
-		    {
-			"title" : "Project 5: Client/Server",
-			"pdf" : "REST"
 		    }
 		],
 		"references" : [
