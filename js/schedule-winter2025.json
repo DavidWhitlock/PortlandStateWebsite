@@ -44,7 +44,7 @@
 		    {
 			"title" : "Source Code Management with Git",
 			"pdf" : "git-2x2",
-			"screencasts" : [ "TOApc6ze-IA", "qnVV0Mlhxrc" ]
+			"screencasts" : [ "KcLWl5QDShI", "g8_RRbqZe_k" ]
 		    }
 		],
 		"handouts" : [
@@ -78,7 +78,7 @@
 		    {
 			"title" : "Java Programming Language Overview",
 			"pdf" : "javaReview-2x2",
-			"screencasts" : [ "85H5syImmAw", "1gJax8JKmQk" ]
+			"screencasts" : [ "hCADpQ5Pydw", "uvwz1eoO-Ag" ]
 		    }
 		],
 		"projects" : [
@@ -129,7 +129,7 @@
 		    { 
 			"title" : "Core Language APIs",
 			"pdf" : "CoreLanguageAPIs-2x2",
-			"screencasts" : [ "0wyDpSMX8QM" ]
+			"screencasts" : [ "5W3LTQcIUOM" ]
 		    }
 		],
 		"projects" : [
@@ -170,7 +170,7 @@
 		    { 
 			"title" : "Java I/O",
 			"pdf" : "JavaIO-2x2",
-			"screencasts" : [ "lq_E-aG7H9A"  ]
+			"screencasts" : [ "dJ2H2ZKGaOk"  ]
 		    }
 		],
 		"projects" : [
@@ -234,7 +234,7 @@
 		    {
 			"title" : "Working with Dates and Text Formatting ",
 			"pdf" : "DatesAndText-2x2",
-			"screencasts" : [ "H0WTCPoJ_68", "8BUN9-I0YJg" ]
+			"screencasts" : [ "46xYlgWpEw0", "g7Y5GSnkUXM" ]
 		    }
 		],
 		"projects" : [
@@ -290,7 +290,7 @@
 		    {
 			"title" : "XML",
 			"pdf" : "XML-2x2",
-                        "screencasts" : [ "u-UZIinVEHA", "e0L7wSxlgnY" ]
+                        "screencasts" : [ "KA4cxjeLlZg", "e0L7wSxlgnY" ]
 		    }
 		],
 		"projects" : [
@@ -327,7 +327,7 @@
 		    {
 			"title" : "Code Refactoring",
 			"pdf" : "refactoring-2x2",
-			"screencasts" : [ "Mk3bBSX4n8c", "8dLg2ed6o9w" ]
+			"screencasts" : [ "xsUSZmbSPUg", "DxTr3KanbAo" ]
 		    }
 		],
 		"references" : [
@@ -432,7 +432,7 @@
 		    {
 			"title" : "Android Fundamentals",
 			"pdf" : "android-2x2",
-			"screencasts" : [ "_bnqVoSyuj4" ]
+			"screencasts" : [ "oWmGxV-UgFA" ]
 		    }
 		],
 		"projects" : [
