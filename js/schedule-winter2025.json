@@ -117,7 +117,7 @@
 	},
 	{
 	    "session" : 4,
-	    "comment" : "Explore the first phase of our project and more TDD",
+	    "comment" : "Observe others Pair Programming, explore the first phase of our project, and more TDD",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"quiz" : {
@@ -126,6 +126,11 @@
 		    "courseId" : 97121
 		},
 		"slides" : [
+		    {
+			"title" : "Pair Programming",
+			"pdf" : "teaming-2x2",
+			"screencasts" : [ "stMu80MxCXs" ]
+		    },
 		    { 
 			"title" : "Core Language APIs",
 			"pdf" : "CoreLanguageAPIs-2x2",
@@ -150,6 +155,14 @@
 		],
 		"references" : [
 		    {
+			"title" : "Video: Introduction to Pair Programming",
+			"url" : "http://www.youtube.com/watch?v=rG_U12uqRhE"
+		    },
+		    {
+			"title" : "Code Katas",
+			"url" : "http://codekata.com/kata/codekata-how-it-started/"
+		    },
+		    {
 			"title" : "Java coding conventions",
 			"url" : "https://google.github.io/styleguide/javaguide.html"
 		    }
@@ -158,39 +171,7 @@
 	},
 	{
 	    "session" : 5,
-	    "comment" : "Observe others Pair Programming",
-	    "screencasts" : [  ],
-	    "topics" : {
-		"slides" : [
-		    {
-			"title" : "Pair Programming",
-			"pdf" : "teaming-2x2",
-			"screencasts" : [ "stMu80MxCXs" ]
-		    },
-		    { 
-			"title" : "Java I/O",
-			"pdf" : "JavaIO-2x2",
-			"screencasts" : [ "dJ2H2ZKGaOk"  ]
-		    }
-		],
-		"projects" : [
-		    {
-			"title" : "Project 2: Working with files",
-			"pdf" : "TextFile"
-		    }
-		],
-		"references" : [
-		    {
-			"title" : "Video: Introduction to Pair Programming",
-			"url" : "http://www.youtube.com/watch?v=rG_U12uqRhE"
-		    },
-		    {
-			"title" : "Code Katas",
-			"url" : "http://codekata.com/kata/codekata-how-it-started/"
-		    }
-
-		]
-	    }
+	    "comment" : "No class.  Martin Luther King, Jr. holiday."
 	},
 	{
 	    "session" : 6,
@@ -203,6 +184,19 @@
 		    "quizId" : 977662,
 		    "courseId" : 97121
 		},
+		"slides" : [
+		    { 
+			"title" : "Java I/O",
+			"pdf" : "JavaIO-2x2",
+			"screencasts" : [ "dJ2H2ZKGaOk"  ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 2: Working with files",
+			"pdf" : "TextFile"
+		    }
+		],
 		"handouts" : [
 		    {
 			"title" : "Pair and Mob Programming in this course",
