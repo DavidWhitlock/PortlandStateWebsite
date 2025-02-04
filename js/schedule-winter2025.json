@@ -278,24 +278,13 @@
         {
             "session" : 9,
 	    "comment" : "Refactor code to go faster with less friction.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "a5DDy5zMQTM" ],
 	    "topics" : {
 		"slides" : [
 		    {
 			"title" : "Code Refactoring",
 			"pdf" : "refactoring-2x2",
 			"screencasts" : [ "xsUSZmbSPUg", "DxTr3KanbAo" ]
-		    },
-		    {
-			"title" : "XML",
-			"pdf" : "XML-2x2",
-                        "screencasts" : [ "KA4cxjeLlZg", "e0L7wSxlgnY" ]
-		    }
-		],
-		"projects" : [
-		    {
-			"title" : "Project 4: XML",
-			"pdf" : "XML"
 		    }
 		],
 		"references" : [
@@ -317,6 +306,19 @@
 		    "quizId" : 977664,
 		    "courseId" : 97121
 		},
+		"slides" : [
+		    {
+			"title" : "XML",
+			"pdf" : "XML-2x2",
+                        "screencasts" : [ "KA4cxjeLlZg", "e0L7wSxlgnY" ]
+		    }
+		],
+		"projects" : [
+		    {
+			"title" : "Project 4: XML",
+			"pdf" : "XML"
+		    }
+		],
                 "pairing" : {
                         "title" : "Lags",
                         "url" : "https://codingdojo.org/kata/Lags"
