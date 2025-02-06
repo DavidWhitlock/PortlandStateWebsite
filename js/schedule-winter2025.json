@@ -298,7 +298,7 @@
         {
             "session" : 10,
             "comment" : "Our third Pair Programming activity.  Attend in person or remote.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "7l8CidFQBa0" ],
 	    "topics" : {
 		"due" : "Project 2",
 		"quiz" : {
