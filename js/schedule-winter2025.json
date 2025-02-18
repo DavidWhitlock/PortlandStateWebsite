@@ -333,7 +333,7 @@
         {
             "session" : 12,
             "comment" : "Web Applications and REST in Java.",
-	    "screencasts" : [ "xp5yMVbRpjU"  ],
+	    "screencasts" : [ "xp5yMVbRpjU", "Vpdxj0eUwCY"  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -369,7 +369,7 @@
         {
             "session" : 13,
             "comment" : "Observe others Mob Programming.",
-	    "screencasts" : [   ],
+	    "screencasts" : [ "bTfcNzBeyGw" ],
 	    "topics" : {
 		"slides" : [
 		    {
