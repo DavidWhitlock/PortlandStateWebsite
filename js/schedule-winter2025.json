@@ -469,7 +469,7 @@
 	{
 	    "session" : 20,
 	    "comment" : "Review course materials?  Random lecture topic?  Try some AI-assisted coding?",
-	    "screencasts" : [   ],
+	    "screencasts" : [ "j9NhiKWs0os"  ],
             "topics" : {
 		"reflection" : {
 		    "title" : "your experiences mob programming",
