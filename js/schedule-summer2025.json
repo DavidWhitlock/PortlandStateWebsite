@@ -3,8 +3,8 @@
     "review" : {
 	"comment" : "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
 	"content" : [
-	    "<a href='pdf/javaLanguage-2x2.pdf' target='_blank'>The Java Programming Language</a> (<a href='podcasts/JavaReview1.m4a' target='_blank'>podcast</a>)",
-	    "<a href='pdf/oopInJava-2x2.pdf' target='_blank'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a' target='_blank'>part 1</a> and <a href='podcasts/JavaReview3.m4a' target='_blank'>part 2</a>)",
+	    "<a href='pdf/javaLanguage-2x2.pdf' target='_blank'>The Java Programming Language</a> (podcast <a href='podcasts/JavaReview1.m4a' target='_blank'>Part 1</a>)",
+	    "<a href='pdf/oopInJava-2x2.pdf' target='_blank'>Object Oriented Programming</a> in Java (podcast <a href='podcasts/JavaReview2.m4a' target='_blank'>Part 1</a> and <a href='podcasts/JavaReview3.m4a' target='_blank'>Part 2</a>)",
 	    "Try out <a href='pdf/Student.pdf' target='_blank'>Project 0</a>: Implementing a simple class",
 	    "Download and install <a href='http://www.jetbrains.com/idea/' target='_blank'>IntelliJ Idea</a>, the recommended IDE for this course.  Use the trial license until your <a href='https://www.jetbrains.com/student' target='_blank'>academic license</a> is approved."
 	]
@@ -37,7 +37,7 @@
 		    {
 			"title" : "Source Code Management with Git",
 			"pdf" : "git-2x2",
-			"screencasts" : [ "TOApc6ze-IA", "qnVV0Mlhxrc" ]
+			"screencasts" : [ "KcLWl5QDShI", "g8_RRbqZe_k" ]
 		    }
 		],
 		"handouts" : [
@@ -71,7 +71,7 @@
 		    {
 			"title" : "Java Programming Language Overview",
 			"pdf" : "javaReview-2x2",
-			"screencasts" : [ "85H5syImmAw", "1gJax8JKmQk" ]
+			"screencasts" : [ "hCADpQ5Pydw", "uvwz1eoO-Ag" ]
 		    }
 		],
 		"projects" : [
@@ -84,7 +84,7 @@
 		    {
 			"title" : "Jetbrains (IntelliJ) academic licenses",
 			"url" : "https://www.jetbrains.com/student"
-		    },
+		    }
 		]
 	    }
 	},
@@ -97,7 +97,7 @@
 		    {
 			"title" : "Unit testing with JUnit",
 			"pdf" : "junit-2x2",
-			"screencasts" : "Y8pdXhxUk7o"
+			"screencasts" : "d93I54OQPGM"
 		    }
 		],
 		"references" : [
@@ -122,7 +122,7 @@
 		    { 
 			"title" : "Core Language APIs",
 			"pdf" : "CoreLanguageAPIs-2x2",
-			"screencasts" : [ "0wyDpSMX8QM" ]
+			"screencasts" : [ "5W3LTQcIUOM" ]
 		    }
 		],
 		"projects" : [
@@ -158,13 +158,13 @@
 		    {
 			"title" : "Pair Programming",
 			"pdf" : "teaming-2x2",
-			"screencasts" : [ "aleESKtJ574" ]
+			"screencasts" : [ "qlS6bFNyVLY" ]
 		    },
 		    { 
 			"title" : "Java I/O",
 			"pdf" : "JavaIO-2x2",
-			"screencasts" : [ "lq_E-aG7H9A"  ]
-		    },
+			"screencasts" : [ "dJ2H2ZKGaOk"  ]
+		    }
 		],
 		"projects" : [
 		    {
@@ -210,24 +210,24 @@
 	},
 	{
 	    "session" : 7,
-	    "comment" : "Refactor code to go faster with less friction.",
+	    "comment" : "Fast feedback with Continuous Integration.",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
 			"title" : "Code Refactoring",
 			"pdf" : "refactoring-2x2",
-			"screencasts" : [ "Mk3bBSX4n8c", "8dLg2ed6o9w" ]
+			"screencasts" : [ "xsUSZmbSPUg", "DxTr3KanbAo" ]
 		    },
 		    {
 			"title" : "Java Collections API",
 			"pdf" : "JavaCollections-2x2",
-			"screencasts" : [ "56MGAhBVpMc", "7ALcUqJX05M" ]
+			"screencasts" : [ "nnerOle7WsE", "1y_RTG1thDM" ]
 		    },
 		    {
 			"title" : "Working with Dates and Text Formatting ",
 			"pdf" : "DatesAndText-2x2",
-			"screencasts" : [ "H0WTCPoJ_68", "8BUN9-I0YJg" ]
+			"screencasts" : [ "46xYlgWpEw0", "g7Y5GSnkUXM" ]
 		    }
 		],
 		"projects" : [
@@ -304,7 +304,7 @@
 		    {
 			"title" : "Testing with Mock Objects",
 			"pdf" : "TestingWithMocks-2x2",
-			"screencasts" : [ "ZqWnuoI1jzQ" ]
+			"screencasts" : [ "zx48GZjOnL8" ]
 		    }
 		],
 		"projects" : [
@@ -342,7 +342,7 @@
 		    {
 			"title" : "Android Fundamentals",
 			"pdf" : "android-2x2",
-			"screencasts" : [ "_bnqVoSyuj4" ]
+			"screencasts" : [ "oWmGxV-UgFA" ]
 		    },
 		    {
 			"title" : "Ensemble and Mob Programming",
@@ -392,7 +392,7 @@
 			"pdf" : "SmallDeviceApp"
 		    }
 		]
-	    }
+           }
 	},
 	{
 	    "session" : 14,
@@ -410,7 +410,7 @@
 		    "url" : "http://codingdojo.org/kata/Minesweeper"
 		}
 	    }
-	},
+        },
 	{
 	    "session" : 15,
 	    "comment" : "Android Lab.  Let's focus on the final project.",
