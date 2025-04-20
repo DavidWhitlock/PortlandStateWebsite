@@ -210,7 +210,7 @@
 	},
 	{
 	    "session" : 7,
-	    "comment" : "Fast feedback with Continuous Integration.",
+	    "comment" : "Refactor code to go faster with less friction.",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
