@@ -10,28 +10,28 @@
 	]
     },
     "meetings" : [
-	"June 24, 2024",
-	"June 26, 2024",
-	"July 1, 2024",
-	"July 3, 2024",
-	"July 8, 2024",
-	"July 10, 2024",
-	"July 15, 2024",
-	"July 17, 2024",
-	"July 22, 2024",
-	"July 24, 2024",
-	"July 29, 2024",
-	"July 31, 2024",
-	"August 5, 2024",
-	"August 7, 2024",
-	"August 12, 2024",
-	"August 14, 2024"
+	"June 23, 2025",
+	"June 25, 2025",
+	"June 30, 2025",
+	"July 2, 2025",
+	"July 7, 2025",
+	"July 9, 2025",
+	"July 14, 2025",
+	"July 16, 2025",
+	"July 21, 2025",
+	"July 23, 2025",
+	"July 28, 2025",
+	"July 30, 2025",
+	"August 4, 2025",
+	"August 6, 2025",
+	"August 11, 2025",
+	"August 13, 2025"
     ],
     "lectures" : [
 	{
 	    "session" : 1,
 	    "comment" : "Course intro: create a GitHub repository for your code",
-	    "screencasts" : [ "FcKWq9lp5Ac" ],
+	    "screencasts" : [ ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -65,7 +65,7 @@
 	{
 	    "session" : 2,
 	    "comment" : "Explore the Java programming language with Koans",
-	    "screencasts" : [ "3QZKfK4in58" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -91,7 +91,7 @@
 	{
 	    "session" : 3,
 	    "comment" : "Test Driven Development with the \"Student\" program",
-	    "screencasts" : [ "MHDKTaXxn6Q"  ],
+	    "screencasts" : [   ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -111,7 +111,7 @@
 	{
 	    "session" : 4,
 	    "comment" : "Explore the first phase of our project and more TDD",
-	    "screencasts" : [ "EFwSW_7lgZ8" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"quiz" : {
 		    "number" : 1,
@@ -152,7 +152,7 @@
 	{
 	    "session" : 5,
 	    "comment" : "Observe others Pair Programming",
-	    "screencasts" : [ "aKheWOQur7Y" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -188,7 +188,7 @@
 	{
 	    "session" : 6,
 	    "comment" : "Your first Pair Programming experience.  Please attend in person.  Bring an HDMI adapter!",
-	    "screencasts" : [ "PqpL_nToNIY" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : [ "Java Koans" ],
 		"quiz" : {
@@ -211,7 +211,7 @@
 	{
 	    "session" : 7,
 	    "comment" : "Refactor code to go faster with less friction.",
-	    "screencasts" : [ "rcTceAeSUDw" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -247,7 +247,7 @@
 	{
 	    "session" : 8,
 	    "comment": "Fast feedback with Continuous Integration.  Our second Pair Programming activity.  Attend in person or remotely.",
-	    "screencasts" : [ "qVt4nZDCCfw" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : "Project 1",
 		"quiz" : {
@@ -293,7 +293,7 @@
 	{
 	    "session" : 9,
 	    "comment" : "Web Applications and REST in Java",
-	    "screencasts" : [ "0T3vbv1CzpA" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -318,7 +318,7 @@
 	{
 	    "session" : 10,
 	    "comment" : "Refactor the REST API example program",
-	    "screencasts" : [ "2jsKrKjPdV8" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : [ "Project 2" ],
 		"quiz" : {
@@ -336,7 +336,7 @@
 	{
 	    "session" : 11,
 	    "comment" : "Prepare to build an Android application.  Observe others Mob Programming.",
-	    "screencasts" : [ "6DVKVewL7Tk"  ],
+	    "screencasts" : [   ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -360,7 +360,7 @@
 	{
 	    "session" : 12,
 	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
-	    "screencasts" : [ "x35l_tvEX6M", "H824shvZGH0" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : "Project 3",
 		"quiz" : {
@@ -377,7 +377,7 @@
 	{
 	    "session" : 13,
 	    "comment" : "Explore Android development more deeply",
-	    "screencasts" : [ "78WtXGBAxA8" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -396,7 +396,7 @@
 	},
 	{
 	    "session" : 14,
-	    "screencasts" : [ "NwJMt1tPvgU" ],
+	    "screencasts" : [  ],
 	    "comment" : "Our second Mob Programming activity. Attend in person or remotely",
 	    "topics" : {
 		"due" : "Project 4",
