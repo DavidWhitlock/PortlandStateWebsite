@@ -115,8 +115,8 @@
 	    "topics" : {
 		"quiz" : {
 		    "number" : 1,
-		    "quizId" : 897985,
-		    "courseId" : 82149
+		    "quizId" : 1063092,
+		    "courseId" : 103317
 		},
 		"slides" : [
 		    { 
@@ -193,8 +193,8 @@
 		"due" : [ "Java Koans" ],
 		"quiz" : {
 		    "number" : 2,
-		    "quizId" : 897986,
-		    "courseId" : 88746
+		    "quizId" : 1063093,
+		    "courseId" : 103317
 		},
 		"handouts" : [
 		    {
@@ -252,13 +252,13 @@
 		"due" : "Project 1",
 		"quiz" : {
 		    "number" : 3,
-		    "quizId" : 897987,
-		    "courseId" : 88746
+		    "quizId" : 1063094,
+		    "courseId" : 103317
 		},
 		"survey" : {
 		    "name" : "Midterm",
-		    "quizId" : 229218,
-		    "courseId" : 88746
+		    "quizId" : 254610,
+		    "courseId" : 103317
 		},
 		"slides" : [
 		    {
@@ -323,13 +323,13 @@
 		"due" : [ "Project 2" ],
 		"quiz" : {
 		    "number" : 4,
-		    "quizId" : 897988,
-		    "courseId" : 88746
+		    "quizId" : 1063095,
+		    "courseId" : 103317
 		},
 		"reflection" : {
 		    "title" : "your experiences pair programming",
-		    "quizId" : 897992,
-		    "courseId" : 88746
+		    "quizId" : 1063099,
+		    "courseId" : 103317
 		}
 	    }
 	},
@@ -365,8 +365,8 @@
 		"due" : "Project 3",
 		"quiz" : {
 		    "number" : 5,
-		    "quizId" : 897989,
-		    "courseId" : 88746
+		    "quizId" : 1063096,
+		    "courseId" : 103317
 		},
 		"mobbing" : {
 		    "title" : "RPN Calculator",
@@ -402,8 +402,8 @@
 		"due" : "Project 4",
 		"quiz" : {
 		    "number" : 6,
-		    "quizId" : 897990,
-		    "courseId" : 88746
+		    "quizId" : 1063097,
+		    "courseId" : 103317
 		},
 		"mobbing" : {
 		    "title" : "Minesweeper",
@@ -424,13 +424,13 @@
 		"due" : "Project 5",
 		"reflection" : {
 		    "title" : "your experiences mob programming",
-		    "quizId" : 897991,
-		    "courseId" : 88746
+		    "quizId" : 1063098,
+		    "courseId" : 103317
 		},
 		"survey" : {
 		    "name" : "End of term",
-		    "quizId" : 229220,
-		    "courseId" : 88746
+		    "quizId" : 254608,
+		    "courseId" : 103317
 		}
 	    }
 	}
