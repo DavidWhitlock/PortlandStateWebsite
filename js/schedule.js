@@ -81,7 +81,7 @@ function populateSchedule(schedule) {
     }
 
     if (lecture.topics) {
-      lectureTopics(dl, hasPassed, lecture.topics);
+      lectureTopics(dl, hasPassed, lecture.topics, schedule.canvasCourseId);
 
     } else if (lecture.content) {
       lectureContent(dl, hasPassed, lecture.content);
@@ -168,7 +168,7 @@ function lectureContent(parent, hasPassed, content) {
 
 }
 
-function workThatIsDue(parentUl, topics) {
+function workThatIsDue(parentUl, topics, canvasCourseId) {
   var ul = $(document.createElement("ul"));
   li(parentUl, "Due before class:").appendChild(ul);
 
@@ -185,14 +185,17 @@ function workThatIsDue(parentUl, topics) {
   }
 
   if (topics.quiz) {
+    topics.quiz.courseId = canvasCourseId;
     dueQuiz(ul, topics.quiz, "Quiz " + topics.quiz.number);
   }
 
   if (topics.survey) {
+    topics.survey.courseId = canvasCourseId;
     dueSurvey(ul, topics.survey, topics.survey.name + " Survey");
   }
 
   if (topics.reflection) {
+    topics.survey.courseId = canvasCourseId;
     dueQuiz(ul, topics.reflection, "Reflections on " + topics.reflection.title);
   }
 
@@ -205,7 +208,7 @@ function hasWorkThatIsDue(topics) {
 /**
  * Outputs HTML for the topics of a lecture
  */
-function lectureTopics(parent, hasPassed, topics) {
+function lectureTopics(parent, hasPassed, topics, canvasCourseId) {
   var ul = $(document.createElement("ul"));
   if (hasPassed) {
     ul.hide();
@@ -213,7 +216,7 @@ function lectureTopics(parent, hasPassed, topics) {
   parent.appendChild(ul);
 
   if (hasWorkThatIsDue(topics)) {
-    workThatIsDue(ul, topics);
+    workThatIsDue(ul, topics, canvasCourseId);
   }
 
   if (topics.slides) {

@@ -1,5 +1,6 @@
 {
     "youTubeClassRecordingsListId" : "PLyM7S4CZk9WMaVVeHoaVPYgmLZB1HtY5M",
+    "canvasCourseId" : 103317,
     "review" : {
 	"comment" : "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
 	"content" : [
@@ -115,8 +116,7 @@
 	    "topics" : {
 		"quiz" : {
 		    "number" : 1,
-		    "quizId" : 1063092,
-		    "courseId" : 103317
+		    "quizId" : 1063092
 		},
 		"slides" : [
 		    { 
@@ -193,8 +193,7 @@
 		"due" : [ "Java Koans" ],
 		"quiz" : {
 		    "number" : 2,
-		    "quizId" : 1063093,
-		    "courseId" : 103317
+		    "quizId" : 1063093
 		},
 		"handouts" : [
 		    {
@@ -252,13 +251,11 @@
 		"due" : "Project 1",
 		"quiz" : {
 		    "number" : 3,
-		    "quizId" : 1063094,
-		    "courseId" : 103317
+		    "quizId" : 1063094
 		},
 		"survey" : {
 		    "name" : "Midterm",
-		    "quizId" : 254610,
-		    "courseId" : 103317
+		    "quizId" : 254610
 		},
 		"slides" : [
 		    {
@@ -323,13 +320,11 @@
 		"due" : [ "Project 2" ],
 		"quiz" : {
 		    "number" : 4,
-		    "quizId" : 1063095,
-		    "courseId" : 103317
+		    "quizId" : 1063095
 		},
 		"reflection" : {
 		    "title" : "your experiences pair programming",
-		    "quizId" : 1063099,
-		    "courseId" : 103317
+		    "quizId" : 1063099
 		}
 	    }
 	},
@@ -365,8 +360,7 @@
 		"due" : "Project 3",
 		"quiz" : {
 		    "number" : 5,
-		    "quizId" : 1063096,
-		    "courseId" : 103317
+		    "quizId" : 1063096
 		},
 		"mobbing" : {
 		    "title" : "RPN Calculator",
@@ -402,8 +396,7 @@
 		"due" : "Project 4",
 		"quiz" : {
 		    "number" : 6,
-		    "quizId" : 1063097,
-		    "courseId" : 103317
+		    "quizId" : 1063097
 		},
 		"mobbing" : {
 		    "title" : "Minesweeper",
@@ -424,13 +417,11 @@
 		"due" : "Project 5",
 		"reflection" : {
 		    "title" : "your experiences mob programming",
-		    "quizId" : 1063098,
-		    "courseId" : 103317
+		    "quizId" : 1063098
 		},
 		"survey" : {
 		    "name" : "End of term",
-		    "quizId" : 254608,
-		    "courseId" : 103317
+		    "quizId" : 254608
 		}
 	    }
 	}
