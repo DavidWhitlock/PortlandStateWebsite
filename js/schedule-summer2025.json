@@ -1,5 +1,5 @@
 {
-    "youTubeClassRecordingsListId" : "PLyM7S4CZk9WPOpAgHDteAYsdDeocEEkJN",
+    "youTubeClassRecordingsListId" : "PLyM7S4CZk9WMaVVeHoaVPYgmLZB1HtY5M",
     "review" : {
 	"comment" : "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
 	"content" : [
@@ -397,7 +397,7 @@
 	{
 	    "session" : 14,
 	    "screencasts" : [  ],
-	    "comment" : "Our second Mob Programming activity. Attend in person or remotely",
+	    "comment" : "Our second Mob Programming activity. Attend in person or remotely.",
 	    "topics" : {
 		"due" : "Project 4",
 		"quiz" : {
@@ -419,7 +419,7 @@
 	{
 	    "session" : 16,
 	    "screencasts" : [  ],
-	    "comment" : "Final Exam during class time",
+	    "comment" : "Final Exam during class time.  Please attend in person.",
 	    "topics" : {
 		"due" : "Project 5",
 		"reflection" : {
