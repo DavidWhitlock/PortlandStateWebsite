@@ -195,7 +195,7 @@ function workThatIsDue(parentUl, topics, canvasCourseId) {
   }
 
   if (topics.reflection) {
-    topics.survey.courseId = canvasCourseId;
+    topics.reflection.courseId = canvasCourseId;
     dueQuiz(ul, topics.reflection, "Reflections on " + topics.reflection.title);
   }
 
