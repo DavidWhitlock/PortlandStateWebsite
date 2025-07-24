@@ -315,7 +315,7 @@
 	{
 	    "session" : 10,
 	    "comment" : "Refactor the REST API example program",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "DrHrn5v7EAk" ],
 	    "topics" : {
 		"due" : [ "Project 2" ],
 		"quiz" : {
