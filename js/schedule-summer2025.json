@@ -331,7 +331,7 @@
 	{
 	    "session" : 11,
 	    "comment" : "Prepare to build an Android application.  Observe others Mob Programming.",
-	    "screencasts" : [   ],
+	    "screencasts" : [ "moF28hCu59k" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -355,7 +355,7 @@
 	{
 	    "session" : 12,
 	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "e1eXE4YYbHQ" ],
 	    "topics" : {
 		"due" : "Project 3",
 		"quiz" : {
