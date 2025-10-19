@@ -39,7 +39,7 @@
 	{
 	    "session" : 1,
 	    "comment" : "Course intro: create a GitHub repository for your code",
-	    "screencasts" : [ "HwwJnI0eZow"  ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -73,7 +73,7 @@
 	{
 	    "session" : 2,
 	    "comment" : "Explore the Java programming language with Koans",
-	    "screencasts" : [ "KEiT57jXayE" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -99,7 +99,7 @@
 	{
 	    "session" : 3,
 	    "comment" : "Test Driven Development with the \"Student\" program",
-	    "screencasts" : [ "K0Uxr96VFLw"  ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -119,12 +119,11 @@
 	{
 	    "session" : 4,
 	    "comment" : "Observe others Pair Programming, explore the first phase of our project, and more TDD",
-	    "screencasts" : [ "fUkgrPDOEB8", "guLyZQeo6Wk", "Gkg6Qmw3IlE" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"quiz" : {
 		    "number" : 1,
-		    "quizId" : 977661,
-		    "courseId" : 97121
+		    "quizId" : 977661
 		},
 		"slides" : [
 		    {
@@ -177,13 +176,12 @@
 	{
 	    "session" : 6,
 	    "comment" : "Your first Pair Programming experience.  Please attend in person.  Bring an HDMI adapter!",
-	    "screencasts" : [ "syBetjj269Y" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : [ "Java Koans" ],
 		"quiz" : {
 		    "number" : 2,
-		    "quizId" : 977662,
-		    "courseId" : 97121
+		    "quizId" : 977662
 		},
 		"slides" : [
 		    { 
@@ -213,7 +211,7 @@
 	{
 	    "session" : 7,
 	    "comment" : "Fast feedback with Continuous Integration.",
-	    "screencasts" : [ "w6eZjEkhq8M" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -255,13 +253,12 @@
 	{
 	    "session" : 8,
 	    "comment": "Our second Pair Programming activity.  Please attend in person.",
-	    "screencasts" : [ "O7BZc1Y4dSA" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : "Project 1",
 		"quiz" : {
 		    "number" : 3,
-		    "quizId" : 977663,
-		    "courseId" : 97121
+		    "quizId" : 977663
 		},
 		"slides" : [
 		    {
@@ -279,7 +276,7 @@
         {
             "session" : 9,
 	    "comment" : "Refactor code to go faster with less friction.",
-	    "screencasts" : [ "a5DDy5zMQTM" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -299,13 +296,12 @@
         {
             "session" : 10,
             "comment" : "Our third Pair Programming activity.  Attend in person or remote.",
-	    "screencasts" : [ "7l8CidFQBa0" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : "Project 2",
 		"quiz" : {
 		    "number" : 4,
-		    "quizId" : 977664,
-		    "courseId" : 97121
+		    "quizId" : 977664
 		},
 		"slides" : [
 		    {
@@ -329,12 +325,12 @@
 	{
 	    "session" : 11,
             "comment" : "More Refactoring",
-	    "screencasts" : [ "2GCPnTFx7OE" ]
+	    "screencasts" : [  ]
 	},
         {
             "session" : 12,
             "comment" : "Web Applications and REST in Java.",
-	    "screencasts" : [ "xp5yMVbRpjU", "Vpdxj0eUwCY"  ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -357,20 +353,18 @@
 		"due" : "Project 3",
 		"survey" : {
 		    "name" : "Midterm",
-		    "quizId" : 242132,
-		    "courseId" : 97121
+		    "quizId" : 242132
 		},
 		"reflection" : {
 		    "title" : "your experiences pair programming",
-		    "quizId" : 977668,
-		    "courseId" : 97121
+		    "quizId" : 977668
 		}
             }
         },
         {
             "session" : 13,
             "comment" : "Observe others Mob Programming.",
-	    "screencasts" : [ "bTfcNzBeyGw" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -390,7 +384,7 @@
 	{
 	    "session" : 14,
 	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
-	    "screencasts" : [ "mKdIklkHEDg" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : "Project 4",
 		"mobbing" : {
@@ -402,13 +396,13 @@
 	{
 	    "session" : 15,
 	    "comment" : "Refactor the REST API example program",
-	    "screencasts" : [ "Q43GTRUvXnk" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 	    }
 	},
 	{
 	    "session" : 16,
-	    "screencasts" : [ "qhhUX7nvaOA" ],
+	    "screencasts" : [  ],
 	    "comment" : "Our second Mob Programming activity.  Please attend in person.",
 	    "topics" : {
 		"mobbing" : {
@@ -420,7 +414,7 @@
 	{
 	    "session" : 17,
 	    "comment" : "Prepare to build an Android application.",
-	    "screencasts" : [ "6DVKVewL7Tk", "oJPDbQhJy3I" ],
+	    "screencasts" : [  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -440,7 +434,7 @@
 	{
 	    "session" : 18,
 	    "comment" : "Our third Mob Programming activity.  Attend in person or remote.",
-	    "screencasts" : [ "EXEP2MMKEt4" ],
+	    "screencasts" : [  ],
             "topics" : {
 		"due" : "Project 5",
                 "slides" : [
@@ -452,8 +446,7 @@
                 ],
 		"quiz" : {
 		    "number" : 5,
-		    "quizId" : 977665,
-		    "courseId" : 97121
+		    "quizId" : 977665
 		},
 		"mobbing" : {
 		    "title" : "Minesweeper",
@@ -465,17 +458,16 @@
 	{
 	    "session" : 19,
 	    "comment" : "Refactor and evolve an Android app.",
-	    "screencasts" : [ "NV9Dv1QzNZE"  ]
+	    "screencasts" : [  ]
         },
 	{
 	    "session" : 20,
 	    "comment" : "Review course materials?  Random lecture topic?  Try some AI-assisted coding?",
-	    "screencasts" : [ "j9NhiKWs0os"  ],
+	    "screencasts" : [  ],
             "topics" : {
 		"reflection" : {
 		    "title" : "your experiences mob programming",
-		    "quizId" : 977667,
-		    "courseId" : 97121
+		    "quizId" : 977667
 		}
 	    }
         },
@@ -492,13 +484,11 @@
 		"due" : "Project 6",
 		"quiz" : {
 		    "number" : 6,
-		    "quizId" : 977666,
-		    "courseId" : 97121
+		    "quizId" : 977666
 		},
 		"survey" : {
 		    "name" : "End of term",
-		    "quizId" : 242131,
-		    "courseId" : 97121
+		    "quizId" : 242131
 		}
 	    }
 	}
