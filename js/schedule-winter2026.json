@@ -1,6 +1,6 @@
 {
     "youTubeClassRecordingsListId" : "PLyM7S4CZk9WPpqgReDX8fuWTA9UNH7nCL",
-    "canvasCourseId" : 103317,
+    "canvasCourseId" : 109243,
     "review" : {
 	"comment" : "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
 	"content" : [
@@ -123,7 +123,7 @@
 	    "topics" : {
 		"quiz" : {
 		    "number" : 1,
-		    "quizId" : 977661
+		    "quizId" : 1132846
 		},
 		"slides" : [
 		    {
@@ -181,7 +181,7 @@
 		"due" : [ "Java Koans" ],
 		"quiz" : {
 		    "number" : 2,
-		    "quizId" : 977662
+		    "quizId" : 1132847
 		},
 		"slides" : [
 		    { 
@@ -258,7 +258,7 @@
 		"due" : "Project 1",
 		"quiz" : {
 		    "number" : 3,
-		    "quizId" : 977663
+		    "quizId" : 1132848
 		},
 		"slides" : [
 		    {
@@ -301,7 +301,7 @@
 		"due" : "Project 2",
 		"quiz" : {
 		    "number" : 4,
-		    "quizId" : 977664
+		    "quizId" : 1132849
 		},
 		"slides" : [
 		    {
@@ -353,11 +353,11 @@
 		"due" : "Project 3",
 		"survey" : {
 		    "name" : "Midterm",
-		    "quizId" : 242132
+		    "quizId" : 265668
 		},
 		"reflection" : {
 		    "title" : "your experiences pair programming",
-		    "quizId" : 977668
+		    "quizId" : 1132853
 		}
             }
         },
@@ -446,7 +446,7 @@
                 ],
 		"quiz" : {
 		    "number" : 5,
-		    "quizId" : 977665
+		    "quizId" : 1132850
 		},
 		"mobbing" : {
 		    "title" : "Minesweeper",
@@ -467,7 +467,7 @@
             "topics" : {
 		"reflection" : {
 		    "title" : "your experiences mob programming",
-		    "quizId" : 977667
+		    "quizId" : 1132852
 		}
 	    }
         },
@@ -484,11 +484,11 @@
 		"due" : "Project 6",
 		"quiz" : {
 		    "number" : 6,
-		    "quizId" : 977666
+		    "quizId" : 1132851
 		},
 		"survey" : {
 		    "name" : "End of term",
-		    "quizId" : 242131
+		    "quizId" : 265667
 		}
 	    }
 	}
