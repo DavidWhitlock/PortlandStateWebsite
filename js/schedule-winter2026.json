@@ -305,15 +305,15 @@
 		},
 		"slides" : [
 		    {
-			"title" : "XML",
-			"pdf" : "XML-2x2",
-                        "screencasts" : [ "KA4cxjeLlZg", "e0L7wSxlgnY" ]
+			"title" : "Relational Databases with Java",
+			"pdf" : "jdbc-2x2",
+                        "screencasts" : [  ]
 		    }
 		],
 		"projects" : [
 		    {
-			"title" : "Project 4: XML",
-			"pdf" : "XML"
+			"title" : "Project 4: JDBC",
+			"pdf" : "RDB"
 		    }
 		],
                 "pairing" : {
