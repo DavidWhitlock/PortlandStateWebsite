@@ -176,7 +176,7 @@
 	{
 	    "session" : 6,
 	    "comment" : "Your first Pair Programming experience.  Please attend in person.  Bring an HDMI adapter!",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "75yt7nFG0LM" ],
 	    "topics" : {
 		"due" : [ "Java Koans" ],
 		"quiz" : {
