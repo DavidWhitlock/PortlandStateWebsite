@@ -39,7 +39,7 @@
 	{
 	    "session" : 1,
 	    "comment" : "Course intro: create a GitHub repository for your code",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "hrTXP5iukPA" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -73,7 +73,7 @@
 	{
 	    "session" : 2,
 	    "comment" : "Explore the Java programming language with Koans",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "3BMz_3sdqho" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -99,7 +99,7 @@
 	{
 	    "session" : 3,
 	    "comment" : "Test Driven Development with the \"Student\" program",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "2Kh-PgTlyO0" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -119,7 +119,7 @@
 	{
 	    "session" : 4,
 	    "comment" : "Observe others Pair Programming, explore the first phase of our project, and more TDD",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "VQyUdqFYCtU", "aRS0t6Lc7eM" ],
 	    "topics" : {
 		"quiz" : {
 		    "number" : 1,
@@ -176,7 +176,7 @@
 	{
 	    "session" : 6,
 	    "comment" : "Your first Pair Programming experience.  Please attend in person.  Bring an HDMI adapter!",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "75yt7nFG0LM" ],
 	    "topics" : {
 		"due" : [ "Java Koans" ],
 		"quiz" : {
@@ -211,7 +211,7 @@
 	{
 	    "session" : 7,
 	    "comment" : "Fast feedback with Continuous Integration.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "YFFxbAPgZ0M" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -253,7 +253,7 @@
 	{
 	    "session" : 8,
 	    "comment": "Our second Pair Programming activity.  Please attend in person.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "pcv5egP2X70" ],
 	    "topics" : {
 		"due" : "Project 1",
 		"quiz" : {
@@ -276,7 +276,7 @@
         {
             "session" : 9,
 	    "comment" : "Refactor code to go faster with less friction.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "XD2rye6ty3A" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -296,7 +296,7 @@
         {
             "session" : 10,
             "comment" : "Our third Pair Programming activity.  Attend in person or remote.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "PE5UgpapUFM" ],
 	    "topics" : {
 		"due" : "Project 2",
 		"quiz" : {
@@ -305,15 +305,15 @@
 		},
 		"slides" : [
 		    {
-			"title" : "XML",
-			"pdf" : "XML-2x2",
-                        "screencasts" : [ "KA4cxjeLlZg", "e0L7wSxlgnY" ]
+			"title" : "Relational Databases with Java",
+			"pdf" : "jdbc-2x2",
+                        "screencasts" : [ "PaNr0tau3nE", "dBF0CtTtHss" ]
 		    }
 		],
 		"projects" : [
 		    {
-			"title" : "Project 4: XML",
-			"pdf" : "XML"
+			"title" : "Project 4: JDBC",
+			"pdf" : "RDB"
 		    }
 		],
                 "pairing" : {
@@ -325,12 +325,12 @@
 	{
 	    "session" : 11,
             "comment" : "More Refactoring",
-	    "screencasts" : [  ]
+	    "screencasts" : [ "_SVM7ZqwH9E" ]
 	},
         {
             "session" : 12,
             "comment" : "Web Applications and REST in Java.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "_hb4iNdS12M" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -364,7 +364,7 @@
         {
             "session" : 13,
             "comment" : "Observe others Mob Programming.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "QntFfzBtgcw" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -384,7 +384,7 @@
 	{
 	    "session" : 14,
 	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "R8TwGwfvloM" ],
 	    "topics" : {
 		"due" : "Project 4",
 		"mobbing" : {
@@ -396,13 +396,13 @@
 	{
 	    "session" : 15,
 	    "comment" : "Refactor the REST API example program",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "ThL2H004WPM", "0PpYUbSDd4w" ],
 	    "topics" : {
 	    }
 	},
 	{
 	    "session" : 16,
-	    "screencasts" : [  ],
+	    "screencasts" : [ "ymJw5F1ADm4" ],
 	    "comment" : "Our second Mob Programming activity.  Please attend in person.",
 	    "topics" : {
 		"mobbing" : {
@@ -414,7 +414,7 @@
 	{
 	    "session" : 17,
 	    "comment" : "Prepare to build an Android application.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "FTUVO_Z35QQ" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -458,7 +458,7 @@
 	{
 	    "session" : 19,
 	    "comment" : "Refactor and evolve an Android app.",
-	    "screencasts" : [  ]
+	    "screencasts" : [ "eBKReFi73Tc" ]
         },
 	{
 	    "session" : 20,
