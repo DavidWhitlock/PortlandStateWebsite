@@ -1,6 +1,6 @@
 {
     "youTubeClassRecordingsListId" : "PLJN1zsuR_A8g",
-    "canvasCourseId" : 103317,
+    "canvasCourseId" : 117053,
     "review" : {
 	"comment" : "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
 	"content" : [
@@ -116,7 +116,7 @@
 	    "topics" : {
 		"quiz" : {
 		    "number" : 1,
-		    "quizId" : 0
+		    "quizId" : 1224040
 		},
 		"slides" : [
 		    { 
@@ -193,7 +193,7 @@
 		"due" : [ "Java Koans" ],
 		"quiz" : {
 		    "number" : 2,
-		    "quizId" : 0
+		    "quizId" : 1224041
 		},
 		"handouts" : [
 		    {
@@ -251,11 +251,11 @@
 		"due" : "Project 1",
 		"quiz" : {
 		    "number" : 3,
-		    "quizId" : 0
+		    "quizId" : 1224042
 		},
 		"survey" : {
 		    "name" : "Midterm",
-		    "quizId" : 0
+		    "quizId" : 279313
 		},
 		"slides" : [
 		    {
@@ -320,11 +320,11 @@
 		"due" : [ "Project 2" ],
 		"quiz" : {
 		    "number" : 4,
-		    "quizId" : 0
+		    "quizId" : 1224043
 		},
 		"reflection" : {
 		    "title" : "your experiences pair programming",
-		    "quizId" : 0
+		    "quizId" : 1224047
 		}
 	    }
 	},
@@ -360,7 +360,7 @@
 		"due" : "Project 3",
 		"quiz" : {
 		    "number" : 5,
-		    "quizId" : 0
+		    "quizId" : 1224044
 		},
 		"mobbing" : {
 		    "title" : "RPN Calculator",
@@ -396,7 +396,7 @@
 		"due" : "Project 4",
 		"quiz" : {
 		    "number" : 6,
-		    "quizId" : 0
+		    "quizId" : 1224045
 		},
 		"mobbing" : {
 		    "title" : "Minesweeper",
@@ -417,11 +417,11 @@
 		"due" : "Project 5",
 		"reflection" : {
 		    "title" : "your experiences mob programming",
-		    "quizId" : 0
+		    "quizId" : 1224046
 		},
 		"survey" : {
 		    "name" : "End of term",
-		    "quizId" : 0
+		    "quizId" : 279312
 		}
 	    }
 	}
