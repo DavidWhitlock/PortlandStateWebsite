@@ -290,7 +290,7 @@
 	{
 	    "session" : 9,
 	    "comment" : "Web Applications and REST in Java",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "3A4BzschXa8" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -354,7 +354,7 @@
 	},
 	{
 	    "session" : 12,
-	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
+	    "comment" : "Our first Mob Programming activity.  Please attend in person.  Bring an HDMI adapter!",
 	    "screencasts" : [  ],
 	    "topics" : {
 		"due" : "Project 3",
