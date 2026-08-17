@@ -1,6 +1,6 @@
 {
-    "youTubeClassRecordingsListId" : "PLyM7S4CZk9WMaVVeHoaVPYgmLZB1HtY5M",
-    "canvasCourseId" : 103317,
+    "youTubeClassRecordingsListId" : "PLJN1zsuR_A8g",
+    "canvasCourseId" : 117053,
     "review" : {
 	"comment" : "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
 	"content" : [
@@ -32,7 +32,7 @@
 	{
 	    "session" : 1,
 	    "comment" : "Course intro: create a GitHub repository for your code",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "x8s_RSWP08w" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -66,7 +66,7 @@
 	{
 	    "session" : 2,
 	    "comment" : "Explore the Java programming language with Koans",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "2eWD9c40dMs" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -92,7 +92,7 @@
 	{
 	    "session" : 3,
 	    "comment" : "Test Driven Development with the \"Student\" program",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "68XGCnuq_YI" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -112,11 +112,11 @@
 	{
 	    "session" : 4,
 	    "comment" : "Explore the first phase of our project and more TDD",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "FmcvEi7EM4c", "wtQKSZrH_Nk" ],
 	    "topics" : {
 		"quiz" : {
 		    "number" : 1,
-		    "quizId" : 0
+		    "quizId" : 1224040
 		},
 		"slides" : [
 		    { 
@@ -152,7 +152,7 @@
 	{
 	    "session" : 5,
 	    "comment" : "Observe others Pair Programming",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "Nijn25OAaNA" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -188,12 +188,12 @@
 	{
 	    "session" : 6,
 	    "comment" : "Your first Pair Programming experience.  Please attend in person.  Bring an HDMI adapter!",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "4KchlDOY_qk" ],
 	    "topics" : {
 		"due" : [ "Java Koans" ],
 		"quiz" : {
 		    "number" : 2,
-		    "quizId" : 0
+		    "quizId" : 1224041
 		},
 		"handouts" : [
 		    {
@@ -210,7 +210,7 @@
 	{
 	    "session" : 7,
 	    "comment" : "Refactor code to go faster with less friction.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "jmZbff-zbr4" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -246,16 +246,16 @@
 	{
 	    "session" : 8,
 	    "comment": "Fast feedback with Continuous Integration.  Our second Pair Programming activity.  Attend in person or remotely.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "8FHWnCKcEzM" ],
 	    "topics" : {
 		"due" : "Project 1",
 		"quiz" : {
 		    "number" : 3,
-		    "quizId" : 0
+		    "quizId" : 1224042
 		},
 		"survey" : {
 		    "name" : "Midterm",
-		    "quizId" : 0
+		    "quizId" : 279313
 		},
 		"slides" : [
 		    {
@@ -290,7 +290,7 @@
 	{
 	    "session" : 9,
 	    "comment" : "Web Applications and REST in Java",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "3A4BzschXa8" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -315,23 +315,23 @@
 	{
 	    "session" : 10,
 	    "comment" : "Refactor the REST API example program",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "iYwW0G1g68k" ],
 	    "topics" : {
 		"due" : [ "Project 2" ],
 		"quiz" : {
 		    "number" : 4,
-		    "quizId" : 0
+		    "quizId" : 1224043
 		},
 		"reflection" : {
 		    "title" : "your experiences pair programming",
-		    "quizId" : 0
+		    "quizId" : 1224047
 		}
 	    }
 	},
 	{
 	    "session" : 11,
 	    "comment" : "Prepare to build an Android application.  Observe others Mob Programming.",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "IGaUk18y_Uo"  ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -354,13 +354,13 @@
 	},
 	{
 	    "session" : 12,
-	    "comment" : "Our first Mob Programming activity.  Please attend in person.",
-	    "screencasts" : [  ],
+	    "comment" : "Our first Mob Programming activity.  Please attend in person.  Bring an HDMI adapter!",
+	    "screencasts" : [ "x4v5GZB9jN4" ],
 	    "topics" : {
 		"due" : "Project 3",
 		"quiz" : {
 		    "number" : 5,
-		    "quizId" : 0
+		    "quizId" : 1224044
 		},
 		"mobbing" : {
 		    "title" : "RPN Calculator",
@@ -396,7 +396,7 @@
 		"due" : "Project 4",
 		"quiz" : {
 		    "number" : 6,
-		    "quizId" : 0
+		    "quizId" : 1224045
 		},
 		"mobbing" : {
 		    "title" : "Minesweeper",
@@ -417,11 +417,11 @@
 		"due" : "Project 5",
 		"reflection" : {
 		    "title" : "your experiences mob programming",
-		    "quizId" : 0
+		    "quizId" : 1224046
 		},
 		"survey" : {
 		    "name" : "End of term",
-		    "quizId" : 0
+		    "quizId" : 279312
 		}
 	    }
 	}
