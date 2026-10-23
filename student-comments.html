@@ -45,7 +45,8 @@
   </div>
 
   <div class="row">
-    <nav class="column left comments-navigation" aria-label="Academic terms">
+    <nav class="column left comments-navigation" aria-label="Student comments">
+      <p><a id="summary-link" href="#summary">Student Comments Summary</a></p>
       <h3>Terms</h3>
       <ul id="term-navigation"></ul>
     </nav>
@@ -98,6 +99,7 @@
     ];
 
     const navigation = document.getElementById("term-navigation");
+    const summaryLink = document.getElementById("summary-link");
     const frame = document.getElementById("comments-frame");
     const termById = new Map(terms.map(([name, id]) => [id, name]));
 
@@ -110,22 +112,30 @@
       navigation.appendChild(item);
     }
 
-    function showTerm() {
+    function showComments() {
       const id = window.location.hash.slice(1);
-      const selectedId = termById.has(id) ? id : terms[0][1];
-      const selectedName = termById.get(selectedId);
+      const selectedId = termById.has(id) ? id : null;
 
-      frame.src = `comments-${selectedId}.html`;
-      frame.title = `Student comments for ${selectedName}`;
+      if (selectedId === null) {
+        frame.src = "student-comments-summary.html";
+        frame.title = "Recent student comments summary";
+        summaryLink.setAttribute("aria-current", "page");
+      } else {
+        const selectedName = termById.get(selectedId);
+
+        frame.src = `comments-${selectedId}.html`;
+        frame.title = `Student comments for ${selectedName}`;
+        summaryLink.removeAttribute("aria-current");
+      }
 
       for (const link of navigation.querySelectorAll("a")) {
-        const isSelected = link.hash === `#${selectedId}`;
+        const isSelected = selectedId !== null && link.hash === `#${selectedId}`;
         link.toggleAttribute("aria-current", isSelected);
       }
     }
 
-    window.addEventListener("hashchange", showTerm);
-    showTerm();
+    window.addEventListener("hashchange", showComments);
+    showComments();
   </script>
 </body>
 </html>
