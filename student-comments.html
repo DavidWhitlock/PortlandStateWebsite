@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Comments | The Joy of Coding</title>
+  <link href="css/3col.css" rel="stylesheet" type="text/css">
+  <style>
+    .comments-navigation {
+      width: 20%;
+    }
+
+    .comments-main {
+      width: 80%;
+    }
+
+    .comments-navigation ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .comments-navigation li {
+      margin-bottom: 0.4em;
+    }
+
+    .comments-navigation a[aria-current="page"] {
+      font-weight: bold;
+    }
+
+    #comments-frame {
+      border: 0;
+      height: 85vh;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>Student Comments</h1>
+  </div>
+
+  <div class="row">
+    <nav class="column left comments-navigation" aria-label="Academic terms">
+      <h3>Terms</h3>
+      <ul id="term-navigation"></ul>
+    </nav>
+
+    <main class="column middle comments-main">
+      <iframe id="comments-frame" name="comments-frame" title="Student comments"></iframe>
+    </main>
+  </div>
+
+  <script>
+    const terms = [
+      ["Summer 2026", "summer2026"],
+      ["Winter 2026", "winter2026"],
+      ["Summer 2025", "summer2025"],
+      ["Winter 2025", "winter2025"],
+      ["Summer 2024", "summer2024"],
+      ["Winter 2023", "winter2023"],
+      ["Summer 2022", "summer2022"],
+      ["Winter 2022", "winter2022"],
+      ["Summer 2021", "summer2021"],
+      ["Summer 2020", "summer2020"],
+      ["Winter 2020", "winter2020"],
+      ["Summer 2019", "summer2019"],
+      ["Summer 2018", "summer2018"],
+      ["Summer 2017", "summer2017"],
+      ["Summer 2016", "summer2016"],
+      ["Summer 2015", "summer2015"],
+      ["Summer 2014", "summer2014"],
+      ["Summer 2013", "summer2013"],
+      ["Summer 2012", "summer2012"],
+      ["Summer 2011", "summer2011"],
+      ["Summer 2010", "summer2010"],
+      ["Summer 2009", "summer2009"],
+      ["Summer 2008", "summer2008"],
+      ["Summer 2007", "summer2007"],
+      ["Winter 2007", "winter2007"],
+      ["Summer 2006", "summer2006"],
+      ["Spring 2006", "spring2006"],
+      ["Fall 2005", "fall2005"],
+      ["Spring 2005", "spring2005"],
+      ["Fall 2004", "fall2004"],
+      ["Summer 2004", "summer2004"],
+      ["Fall 2003", "fall2003"],
+      ["Spring 2003", "spring2003"],
+      ["Fall 2002", "fall2002"],
+      ["Spring 2002", "spring2002"],
+      ["Fall 2001", "fall2001"],
+      ["Spring 2001", "spring2001"],
+      ["Fall 2000", "fall2000"]
+    ];
+
+    const navigation = document.getElementById("term-navigation");
+    const frame = document.getElementById("comments-frame");
+    const termById = new Map(terms.map(([name, id]) => [id, name]));
+
+    for (const [name, id] of terms) {
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = `#${id}`;
+      link.textContent = name;
+      item.appendChild(link);
+      navigation.appendChild(item);
+    }
+
+    function showTerm() {
+      const id = window.location.hash.slice(1);
+      const selectedId = termById.has(id) ? id : terms[0][1];
+      const selectedName = termById.get(selectedId);
+
+      frame.src = `comments-${selectedId}.html`;
+      frame.title = `Student comments for ${selectedName}`;
+
+      for (const link of navigation.querySelectorAll("a")) {
+        const isSelected = link.hash === `#${selectedId}`;
+        link.toggleAttribute("aria-current", isSelected);
+      }
+    }
+
+    window.addEventListener("hashchange", showTerm);
+    showTerm();
+  </script>
+</body>
+</html>
