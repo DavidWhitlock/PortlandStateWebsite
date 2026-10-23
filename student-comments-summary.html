@@ -4,14 +4,133 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Recent Student Comments | The Joy of Coding</title>
+  <style>
+    .preparedness-chart {
+      border-collapse: collapse;
+    }
+
+    .preparedness-chart th,
+    .preparedness-chart td {
+      padding: 0.2em 0.4em;
+      text-align: left;
+    }
+
+    .stacked-bar {
+      border: 1px solid #666;
+      display: flex;
+      height: 1.25em;
+      min-width: 16em;
+    }
+
+    .very-good {
+      background-color: #2e7d32;
+    }
+
+    .good {
+      background-color: #7cb342;
+    }
+
+    .fair {
+      background-color: #fbc02d;
+    }
+
+    .poor {
+      background-color: #ef6c00;
+    }
+
+    .very-poor {
+      background-color: #c62828;
+    }
+
+    .chart-legend {
+      list-style: none;
+      margin: 0.5em 0;
+      padding: 0;
+    }
+
+    .chart-legend li {
+      display: inline-block;
+      margin-right: 1em;
+    }
+
+    .chart-key {
+      display: inline-block;
+      height: 1em;
+      margin-right: 0.25em;
+      vertical-align: text-bottom;
+      width: 1em;
+    }
+  </style>
 </head>
 <body>
   <h1>Recent Student Comments</h1>
+
+  <i>This summary was generated using Artificial Intelligence.</i>
 
   <p>Over the last five years, students have described "The Joy of Coding" as a demanding but rewarding course. They recommend arriving with some familiarity with Java, object-oriented programming, Git, and an IDE, while noting that the course materials help students build the necessary skills. The most frequent advice is to plan for the significant project workload, start early, work steadily, and ask for help before falling behind, especially during the accelerated summer term.</p>
 
   <p>Students value the opportunity to develop software incrementally while practicing test-driven development, unit and integration testing, refactoring, documentation, and version control. Many also identify pair and mob programming as valuable experience in communicating ideas and learning from classmates. Building toward REST services, web applications, and Android applications gives the work a practical focus and helps students gain confidence in applying these techniques beyond the course.</p>
 
- <i>This summary was generated using Artificial Intelligence.</i>
+  <h2>Preparation for Course Work</h2>
+  <figure>
+    <figcaption>Percentage of respondents to "How well prepared were you for the work in this class?" Each bar represents 100% of the respondents for that term.</figcaption>
+    <ul class="chart-legend" aria-label="Chart legend">
+      <li><span class="chart-key very-good"></span>Very good</li>
+      <li><span class="chart-key good"></span>Good</li>
+      <li><span class="chart-key fair"></span>Fair</li>
+      <li><span class="chart-key poor"></span>Poor</li>
+      <li><span class="chart-key very-poor"></span>Very poor</li>
+    </ul>
+    <table class="preparedness-chart">
+      <tbody>
+        <tr>
+          <th scope="row">All Recent Terms</th>
+          <td><div class="stacked-bar" role="img" aria-label="21.6% very good, 44.3% good, 25.1% fair, 9.0% poor, and 0% very poor"><span class="very-good" style="flex: 36"></span><span class="good" style="flex: 74"></span><span class="fair" style="flex: 42"></span><span class="poor" style="flex: 15"></span></div></td>
+          <td>n=167</td>
+        </tr>
+        <tr>
+          <th scope="row">Summer 2026</th>
+          <td><div class="stacked-bar" role="img" aria-label="12.5% very good, 50.0% good, 37.5% fair, 0% poor, and 0% very poor"><span class="very-good" style="flex: 1"></span><span class="good" style="flex: 4"></span><span class="fair" style="flex: 3"></span></div></td>
+          <td>n=8</td>
+        </tr>
+        <tr>
+          <th scope="row">Winter 2026</th>
+          <td><div class="stacked-bar" role="img" aria-label="33.3% very good, 33.3% good, 26.7% fair, 6.7% poor, and 0% very poor"><span class="very-good" style="flex: 5"></span><span class="good" style="flex: 5"></span><span class="fair" style="flex: 4"></span><span class="poor" style="flex: 1"></span></div></td>
+          <td>n=15</td>
+        </tr>
+        <tr>
+          <th scope="row">Summer 2025</th>
+          <td><div class="stacked-bar" role="img" aria-label="8.3% very good, 41.7% good, 41.7% fair, 8.3% poor, and 0% very poor"><span class="very-good" style="flex: 2"></span><span class="good" style="flex: 10"></span><span class="fair" style="flex: 10"></span><span class="poor" style="flex: 2"></span></div></td>
+          <td>n=24</td>
+        </tr>
+        <tr>
+          <th scope="row">Winter 2025</th>
+          <td><div class="stacked-bar" role="img" aria-label="13.0% very good, 52.2% good, 30.4% fair, 4.3% poor, and 0% very poor"><span class="very-good" style="flex: 3"></span><span class="good" style="flex: 12"></span><span class="fair" style="flex: 7"></span><span class="poor" style="flex: 1"></span></div></td>
+          <td>n=23</td>
+        </tr>
+        <tr>
+          <th scope="row">Summer 2024</th>
+          <td><div class="stacked-bar" role="img" aria-label="31.8% very good, 45.5% good, 9.1% fair, 13.6% poor, and 0% very poor"><span class="very-good" style="flex: 7"></span><span class="good" style="flex: 10"></span><span class="fair" style="flex: 2"></span><span class="poor" style="flex: 3"></span></div></td>
+          <td>n=22</td>
+        </tr>
+        <tr>
+          <th scope="row">Winter 2023</th>
+          <td><div class="stacked-bar" role="img" aria-label="24.1% very good, 37.9% good, 24.1% fair, 13.8% poor, and 0% very poor"><span class="very-good" style="flex: 7"></span><span class="good" style="flex: 11"></span><span class="fair" style="flex: 7"></span><span class="poor" style="flex: 4"></span></div></td>
+          <td>n=29</td>
+        </tr>
+        <tr>
+          <th scope="row">Summer 2022</th>
+          <td><div class="stacked-bar" role="img" aria-label="31.0% very good, 34.5% good, 24.1% fair, 10.3% poor, and 0% very poor"><span class="very-good" style="flex: 9"></span><span class="good" style="flex: 10"></span><span class="fair" style="flex: 7"></span><span class="poor" style="flex: 3"></span></div></td>
+          <td>n=29</td>
+        </tr>
+        <tr>
+          <th scope="row">Winter 2022</th>
+          <td><div class="stacked-bar" role="img" aria-label="11.8% very good, 70.6% good, 11.8% fair, 5.9% poor, and 0% very poor"><span class="very-good" style="flex: 2"></span><span class="good" style="flex: 12"></span><span class="fair" style="flex: 2"></span><span class="poor" style="flex: 1"></span></div></td>
+          <td>n=17</td>
+        </tr>
+      </tbody>
+    </table>
+  </figure>
+
 </body>
 </html>
