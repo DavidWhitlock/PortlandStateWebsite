@@ -331,18 +331,16 @@
         },
         "slides": [
           {
-            "title": "Relational Databases with Java",
-            "pdf": "jdbc-2x2",
+            "title": "AI-Assisted Coding",
+            "pdf": "CodingWithAI-2x2",
             "screencasts": [
-              "PaNr0tau3nE",
-              "dBF0CtTtHss"
             ]
           }
         ],
         "projects": [
           {
-            "title": "Project 4: JDBC",
-            "pdf": "RDB"
+            "title": "Project 4: Coding with AI",
+            "pdf": "AI"
           }
         ],
         "pairing": {
