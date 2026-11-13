@@ -132,7 +132,11 @@
 
       for (const link of navigation.querySelectorAll("a")) {
         const isSelected = selectedId !== null && link.hash === `#${selectedId}`;
-        link.toggleAttribute("aria-current", isSelected);
+        if (isSelected) {
+          link.setAttribute("aria-current", "page");
+        } else {
+          link.removeAttribute("aria-current");
+        }
       }
     }
 
