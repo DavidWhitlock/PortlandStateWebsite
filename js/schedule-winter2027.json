@@ -303,6 +303,43 @@
     },
     {
       "session": 9,
+      "comment": "Coding with an AI assistant",
+      "screencasts": [],
+      "topics": {
+        "slides": [
+          {
+            "title": "AI-Assisted Coding",
+            "pdf": "CodingWithAI-2x2",
+            "screencasts": [
+            ]
+          }
+        ],
+        "projects": [
+          {
+            "title": "Project 4: Coding with AI",
+            "pdf": "AIAssisted"
+          }
+        ]
+      }
+    },
+    {
+      "session": 10,
+      "comment": "Our third Pair Programming activity.  Attend in person or remote.",
+      "screencasts": [],
+      "topics": {
+        "due": "Project 2",
+        "quiz": {
+          "number": 4,
+          "quizId": 0
+        },
+        "pairing": {
+          "title": "Lags",
+          "url": "https://codingdojo.org/kata/Lags"
+        }
+      }
+    },
+    {
+      "session": 11,
       "comment": "Refactor code to go faster with less friction.",
       "screencasts": [],
       "topics": {
@@ -322,42 +359,6 @@
             "url": "https://github.com/emilybache/GildedRose-Refactoring-Kata"
           }
         ]
-      }
-    },
-    {
-      "session": 10,
-      "comment": "Our third Pair Programming activity.  Attend in person or remote.",
-      "screencasts": [],
-      "topics": {
-        "due": "Project 2",
-        "quiz": {
-          "number": 4,
-          "quizId": 0
-        },
-        "slides": [
-          {
-            "title": "AI-Assisted Coding",
-            "pdf": "CodingWithAI-2x2",
-            "screencasts": [
-            ]
-          }
-        ],
-        "projects": [
-          {
-            "title": "Project 4: Coding with AI",
-            "pdf": "AI"
-          }
-        ],
-        "pairing": {
-          "title": "Lags",
-          "url": "https://codingdojo.org/kata/Lags"
-        }
-      }
-    },
-    {
-      "session": 11,
-      "comment": "More Refactoring",
-      "screencasts": []
     },
     {
       "session": 12,
