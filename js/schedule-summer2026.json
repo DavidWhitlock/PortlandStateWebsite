@@ -371,7 +371,7 @@
 	{
 	    "session" : 13,
 	    "comment" : "Explore Android development more deeply",
-	    "screencasts" : [  ],
+	    "screencasts" : [ "2KPC06-s_uM" ],
 	    "topics" : {
 		"slides" : [
 		    {
@@ -406,7 +406,7 @@
         },
 	{
 	    "session" : 15,
-	    "comment" : "Android Lab.  Let's focus on the final project.",
+	    "comment" : "Android Lab to work on final project?  Ask me anything?  Coding with AI?",
 	    "screencasts" : [  ]
 	},
 	{
