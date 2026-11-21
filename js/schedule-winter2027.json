@@ -431,6 +431,10 @@
         "mobbing": {
           "title": "RPN Calculator",
           "url": "http://codingdojo.org/kata/RPN"
+        },
+        "reflection": {
+          "title": "your experiences coding with AI",
+          "quizId": 1288139
         }
       }
     },
