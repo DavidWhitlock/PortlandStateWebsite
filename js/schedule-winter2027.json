@@ -1,5 +1,5 @@
 {
-  "youTubeClassRecordingsListId": 0,
+  "youTubeClassRecordingsListId": "PLdkt9C42DXBg",
   "canvasCourseId": 0,
   "review": {
     "comment": "If you would like a deep dive into the Java programming language or Object-Oriented Programming, you can check out the lecture notes and listen to the following podcast from a while back.",
@@ -303,7 +303,7 @@
     },
     {
       "session": 9,
-      "comment": "Coding with an AI assistant",
+      "comment": "Coding with an AI assistant.",
       "screencasts": [],
       "topics": {
         "slides": [
